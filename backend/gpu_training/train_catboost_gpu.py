@@ -110,8 +110,8 @@ def smape(actual: pd.Series | np.ndarray, predicted: pd.Series | np.ndarray) -> 
 
 
 def metric_payload(actual: pd.Series | np.ndarray, predicted: pd.Series | np.ndarray, model_name: str) -> dict[str, Any]:
-    actual_series = pd.Series(actual)
-    predicted_series = pd.Series(predicted)
+    actual_series = pd.Series(actual).reset_index(drop=True)
+    predicted_series = pd.Series(predicted).reset_index(drop=True)
     return {
         "modelo": model_name,
         "mae": round(mae(actual_series, predicted_series), 2),

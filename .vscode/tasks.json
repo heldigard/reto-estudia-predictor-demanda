@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend API (Windows VS Code via WSL)",
+      "type": "shell",
+      "command": "wsl.exe",
+      "args": [
+        "bash",
+        "-lc",
+        "cd /mnt/wsl/PHYSICALDRIVE2p1/RetoEstudia && source backend/.venv/bin/activate && python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8001 --reload"
+      ],
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "Uvicorn running on"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": false
+      }
+    },
+    {
+      "label": "Frontend Static Server (Windows VS Code via WSL)",
+      "type": "shell",
+      "command": "wsl.exe",
+      "args": [
+        "bash",
+        "-lc",
+        "cd /mnt/wsl/PHYSICALDRIVE2p1/RetoEstudia && python3 -m http.server 4173 --directory frontend"
+      ],
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "Serving HTTP on"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": false
+      }
+    },
+    {
+      "label": "Frontend + Backend (Windows VS Code via WSL)",
+      "dependsOrder": "parallel",
+      "dependsOn": [
+        "Backend API (Windows VS Code via WSL)",
+        "Frontend Static Server (Windows VS Code via WSL)"
+      ]
+    }
+  ]
+}

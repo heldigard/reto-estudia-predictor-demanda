@@ -65,6 +65,12 @@ Ejecutar pipeline formal de limpieza + EDA + entrenamiento:
 backend/.venv/bin/python backend/scripts/run_training_pipeline.py
 ```
 
+Entrenar el modelo GPU y exportar el registry que el backend puede mezclar con los clásicos:
+
+```bash
+backend/.venv/bin/python backend/scripts/train_gpu_model.py
+```
+
 Salidas principales:
 
 - `backend/data/training/demand_history_clean.csv`
@@ -72,6 +78,9 @@ Salidas principales:
 - `backend/data/training/eda_summary.json`
 - `backend/data/training/eda_report.md`
 - `backend/data/training/model_registry.json`
+- `backend/gpu_training/artifacts/metrics_summary.json`
+- `backend/gpu_training/artifacts/experiment_report.md`
+- `backend/gpu_training/artifacts/model_registry.json`
 
 Levantar API:
 
@@ -84,6 +93,9 @@ Endpoints:
 - `GET /api/health`
 - `GET /api/meta`
 - `GET /api/sku/{sku}?imputation=seasonal_median&horizon=12`
+
+Si existe `backend/gpu_training/artifacts/model_registry.json`, el backend agrega `catboost_gpu_global`
+como candidato por SKU/imputación y solo lo promueve como `best_model` cuando mejora al mejor baseline clásico.
 
 ## Frontend
 

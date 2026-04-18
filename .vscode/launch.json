@@ -2,43 +2,45 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Backend API",
-      "type": "debugpy",
+      "name": "[WSL Remote Only] Backend API :8001",
+      "type": "python",
       "request": "launch",
       "module": "uvicorn",
       "cwd": "${workspaceFolder}",
-      "python": "${workspaceFolder}/backend/.venv/bin/python",
+      "python": "${command:python.interpreterPath}",
       "args": [
         "backend.app.main:app",
         "--host",
-        "127.0.0.1",
+        "0.0.0.0",
         "--port",
-        "8000",
+        "8001",
         "--reload"
       ],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "justMyCode": true
     },
     {
-      "name": "Frontend Static Server",
-      "type": "debugpy",
+      "name": "[WSL Remote Only] Frontend Static Server :4173",
+      "type": "python",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "python": "${workspaceFolder}/backend/.venv/bin/python",
+      "python": "${command:python.interpreterPath}",
       "module": "http.server",
       "args": [
         "4173",
         "--directory",
         "frontend"
       ],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "justMyCode": true
     }
   ],
   "compounds": [
     {
-      "name": "Frontend + Backend",
+      "name": "[WSL Remote Only] Frontend + Backend",
       "configurations": [
-        "Backend API",
-        "Frontend Static Server"
+        "[WSL Remote Only] Backend API :8001",
+        "[WSL Remote Only] Frontend Static Server :4173"
       ]
     }
   ]

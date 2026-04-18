@@ -1,0 +1,145 @@
+{
+  "executive_summary": "Se entrenó CatBoost GPU multiserie con validación temporal estricta. En la imputación `linear`, el mejor baseline global fue `holt_winters` con MAPE 4.09, mientras `catboost_gpu_global` logró MAPE 4.83. Aun así, el modelo GPU ganó en 10 combinaciones SKU/imputación y queda integrado como candidato opcional.",
+  "final_recommendation": "Mantener `linear` como receta principal y promover el modelo GPU solo cuando mejore el MAPE del mejor baseline clásico en ese SKU. El backend queda preparado para mezclar ambos mundos sin forzar una sustitución global.",
+  "risks": [
+    "CatBoost GPU no domina globalmente a Holt-Winters o regresión estacional en este dataset.",
+    "Las bandas del modelo GPU usan desviación estándar de residuales de validación por horizonte, no cuantiles dedicados.",
+    "El modelo deep se omite por relación costo/beneficio: solo 20 series y 520 semanas por SKU."
+  ],
+  "imputations": {
+    "linear": {
+      "selected_params": {
+        "depth": 10,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10,
+        "iterations": 1000
+      },
+      "global_metrics": {
+        "seasonal_naive": {
+          "modelo": "seasonal_naive",
+          "mae": 69.55,
+          "mape": 6.74,
+          "rmse": 98.97,
+          "smape": 7.01,
+          "status": "ok"
+        },
+        "holt_winters": {
+          "modelo": "holt_winters",
+          "mae": 39.6,
+          "mape": 4.09,
+          "rmse": 53.5,
+          "smape": 4.1,
+          "status": "ok"
+        },
+        "seasonal_regression": {
+          "modelo": "seasonal_regression",
+          "mae": 40.99,
+          "mape": 4.28,
+          "rmse": 56.75,
+          "smape": 4.23,
+          "status": "ok"
+        },
+        "catboost_gpu_global": {
+          "modelo": "catboost_gpu_global",
+          "mae": 47.5,
+          "mape": 4.83,
+          "rmse": 67.2,
+          "smape": 4.81,
+          "status": "ok"
+        }
+      }
+    },
+    "forward_fill": {
+      "selected_params": {
+        "depth": 10,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10,
+        "iterations": 1000
+      },
+      "global_metrics": {
+        "seasonal_naive": {
+          "modelo": "seasonal_naive",
+          "mae": 73.96,
+          "mape": 7.15,
+          "rmse": 108.22,
+          "smape": 7.42,
+          "status": "ok"
+        },
+        "holt_winters": {
+          "modelo": "holt_winters",
+          "mae": 42.6,
+          "mape": 4.51,
+          "rmse": 56.97,
+          "smape": 4.51,
+          "status": "ok"
+        },
+        "seasonal_regression": {
+          "modelo": "seasonal_regression",
+          "mae": 42.54,
+          "mape": 4.47,
+          "rmse": 57.62,
+          "smape": 4.42,
+          "status": "ok"
+        },
+        "catboost_gpu_global": {
+          "modelo": "catboost_gpu_global",
+          "mae": 52.65,
+          "mape": 5.23,
+          "rmse": 76.56,
+          "smape": 5.22,
+          "status": "ok"
+        }
+      }
+    },
+    "seasonal_median": {
+      "selected_params": {
+        "depth": 10,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10,
+        "iterations": 1000
+      },
+      "global_metrics": {
+        "seasonal_naive": {
+          "modelo": "seasonal_naive",
+          "mae": 109.36,
+          "mape": 10.87,
+          "rmse": 163.09,
+          "smape": 11.37,
+          "status": "ok"
+        },
+        "holt_winters": {
+          "modelo": "holt_winters",
+          "mae": 79.17,
+          "mape": 8.48,
+          "rmse": 113.51,
+          "smape": 8.27,
+          "status": "ok"
+        },
+        "seasonal_regression": {
+          "modelo": "seasonal_regression",
+          "mae": 78.38,
+          "mape": 8.54,
+          "rmse": 113.15,
+          "smape": 8.22,
+          "status": "ok"
+        },
+        "catboost_gpu_global": {
+          "modelo": "catboost_gpu_global",
+          "mae": 88.48,
+          "mape": 9.14,
+          "rmse": 121.55,
+          "smape": 8.97,
+          "status": "ok"
+        }
+      }
+    }
+  },
+  "artifacts": {
+    "config": "backend/gpu_training/artifacts/config.json",
+    "metrics_summary": "backend/gpu_training/artifacts/metrics_summary.json",
+    "experiment_report": "backend/gpu_training/artifacts/experiment_report.md",
+    "model_registry": "backend/gpu_training/artifacts/model_registry.json",
+    "predictions": "backend/gpu_training/artifacts/predictions.csv",
+    "models_dir": "backend/gpu_training/artifacts/models"
+  }
+}

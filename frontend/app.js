@@ -25,6 +25,12 @@ async function fetchJson(url) {
   if (!response.ok) {
     throw new Error(`Request failed: ${response.status} ${response.statusText}`);
   }
+  const contentType = response.headers.get("content-type") || "";
+  if (!contentType.includes("application/json")) {
+    throw new Error(
+      "La API no devolvió JSON. Verifica que el dev tunnel siga activo y que el puerto esté en visibilidad Public.",
+    );
+  }
   return response.json();
 }
 
