@@ -141,30 +141,30 @@
       <section class="panel notes-panel">
         <div class="panel-header">
           <div>
-            <p class="panel-kicker">Arquitectura</p>
-            <h2>Cómo usar esta entrega</h2>
+            <p class="panel-kicker">Funcionalidad</p>
+            <h2>Qué permite analizar esta solución</h2>
           </div>
         </div>
         <div class="notes-grid">
           <article>
-            <h3>GitHub Pages</h3>
+            <h3>Lectura completa de la serie</h3>
             <p>
-              El sitio funciona sin backend usando los JSON precomputados que salen del pipeline
-              Python. Eso permite abrir el dashboard desde cualquier lugar.
+              El tablero deja ver la demanda observada, la serie ya corregida, el ajuste del modelo
+              y la proyección futura en una sola vista para entender el comportamiento del producto.
             </p>
           </article>
           <article>
-            <h3>Modo live</h3>
+            <h3>Comparación de escenarios</h3>
             <p>
-              Si defines <code>window.APP_CONFIG.apiBaseUrl</code> o agregas
-              <code>?apiBaseUrl=https://tu-url</code>, el frontend consulta el backend FastAPI.
+              Permite contrastar métodos de imputación, revisar métricas como MAE y MAPE, y observar
+              cómo cambia el forecast al modificar el horizonte entre 4 y 12 semanas.
             </p>
           </article>
           <article>
-            <h3>Colab</h3>
+            <h3>Apoyo para decisiones</h3>
             <p>
-              Se descartó como backend principal porque exige túneles efímeros y una sesión viva.
-              La opción estable incluida es backend local más port forwarding.
+              La tabla final resume semanas proyectadas, valor central e intervalo de confianza,
+              mientras el log de anomalías muestra qué ruido tuvo que corregirse antes de pronosticar.
             </p>
           </article>
         </div>
