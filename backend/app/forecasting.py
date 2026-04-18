@@ -371,6 +371,63 @@ def merge_gpu_analysis(
     return merged
 
 
+def build_sku_response(
+    sku: str,
+    imputation_method: str = "seasonal_median",
+    horizon: int = MAX_HORIZON,
+    df: pd.DataFrame | None = None,
+    gpu_registry: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    frame = df if df is not None else load_dataset()
+    raw_df = build_raw_series(frame, sku)
+    gpu_data = gpu_registry if gpu_registry is not None else load_gpu_registry()
+    analysis = analyze_series(raw_df, imputation_method, horizon=horizon)
+    gpu_entry = None
+    if gpu_data is not None:
+        gpu_entry = (
+            gpu_data.get("imputations", {})
+            .get(imputation_method, {})
+            .get("skus", {})
+            .get(sku)
+        )
+    analysis = merge_gpu_analysis(analysis, gpu_entry, horizon=horizon)
+
+    raw_records = []
+    for row in raw_df.itertuples(index=False):
+        raw_records.append(
+            {
+                "fecha": row.fecha.strftime("%Y-%m-%d"),
+                "valor": None if pd.isna(row.raw_value) else round(float(row.raw_value), 1),
+                "nota": row.nota,
+                "es_anomalia": bool(row.is_invalid),
+            }
+        )
+
+    anomaly_log = [
+        {
+            "fecha": item["fecha"],
+            "tipo": item["nota"],
+            "valor_original": item["valor"],
+        }
+        for item in raw_records
+        if item["nota"] != "ok"
+    ]
+
+    return {
+        "sku": sku,
+        "producto": str(raw_df["producto"].iloc[0]),
+        "dates": [item["fecha"] for item in raw_records],
+        "raw_series": raw_records,
+        "anomaly_log": anomaly_log,
+        "anomaly_summary": (
+            pd.Series([entry["tipo"] for entry in anomaly_log]).value_counts().sort_index().to_dict()
+            if anomaly_log
+            else {}
+        ),
+        "analysis": analysis,
+    }
+
+
 def build_payload(df: pd.DataFrame | None = None, horizon: int = MAX_HORIZON) -> dict[str, Any]:
     frame = df if df is not None else load_dataset()
     gpu_registry = load_gpu_registry()

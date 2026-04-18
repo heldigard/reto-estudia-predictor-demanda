@@ -6,7 +6,16 @@ from typing import Any
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-from .forecasting import MAX_HORIZON, PRECOMPUTED_PATH, build_payload, load_precomputed, write_payload
+from .forecasting import (
+    MAX_HORIZON,
+    PRECOMPUTED_PATH,
+    build_payload,
+    build_sku_response,
+    load_dataset,
+    load_precomputed,
+    load_gpu_registry,
+    write_payload,
+)
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -70,3 +79,22 @@ def sku_details(
         },
     }
     return response
+
+
+@app.get("/api/live/sku/{sku}")
+def live_sku_details(
+    sku: str,
+    imputation: str = Query("seasonal_median"),
+    horizon: int = Query(MAX_HORIZON, ge=1, le=MAX_HORIZON),
+) -> dict[str, Any]:
+    frame = load_dataset()
+    if sku not in set(frame["sku"].unique()):
+        raise HTTPException(status_code=404, detail=f"SKU not found: {sku}")
+    gpu_registry = load_gpu_registry()
+    return build_sku_response(
+        sku=sku,
+        imputation_method=imputation,
+        horizon=horizon,
+        df=frame,
+        gpu_registry=gpu_registry,
+    )

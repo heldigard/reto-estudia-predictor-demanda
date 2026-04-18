@@ -65,8 +65,27 @@
         <input id="horizon-range" type="range" min="4" max="12" step="1" value="12">
       </div>
       <div class="control-group">
-        <label>Backend</label>
-        <div class="api-hint" id="api-hint">Leyendo artefactos estáticos</div>
+        <label>Motor</label>
+        <div class="api-hint" id="api-hint">Usando demo estático</div>
+      </div>
+    </section>
+
+    <section class="panel live-panel" id="live-panel" hidden>
+      <div class="live-copy">
+        <p class="panel-kicker">Predicción dinámica</p>
+        <h2>Actualiza la proyección usando el modelo activo</h2>
+        <p class="live-text">
+          Esta vista puede recalcular el forecast del producto seleccionado para traer una proyección
+          actualizada desde el motor de predicción.
+        </p>
+      </div>
+      <div class="live-controls">
+        <div class="live-actions">
+          <button class="action-button primary" id="refresh-live-btn" type="button">Actualizar proyección</button>
+        </div>
+        <div class="live-status" id="live-status">
+          El forecast se puede recalcular en tiempo real para el SKU visible.
+        </div>
       </div>
     </section>
 
@@ -101,6 +120,9 @@
         <div class="table-wrap">
           <table class="data-table" id="model-table"></table>
         </div>
+        <p class="chart-caption" id="model-explanation">
+          Cargando interpretación del mejor modelo…
+        </p>
       </section>
 
       <section class="panel">

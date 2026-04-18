@@ -34,6 +34,23 @@ async function fetchJson(url) {
   return response.json();
 }
 
+async function probeBackend(baseUrl) {
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), 2500);
+  try {
+    const response = await fetch(`${baseUrl}/api/health`, { signal: controller.signal });
+    if (!response.ok) {
+      return false;
+    }
+    const payload = await response.json();
+    return payload.status === "ok";
+  } catch {
+    return false;
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
+}
+
 async function loadCatalog() {
   if (state.apiBaseUrl) {
     const payload = await fetchJson(`${state.apiBaseUrl}/api/meta`);
@@ -54,7 +71,7 @@ async function loadSkuData(sku) {
 
   const payload = state.apiBaseUrl
     ? await fetchJson(
-        `${state.apiBaseUrl}/api/sku/${sku}?imputation=${state.currentImputation}&horizon=${state.currentHorizon}`,
+        `${state.apiBaseUrl}/api/live/sku/${sku}?imputation=${state.currentImputation}&horizon=${state.currentHorizon}`,
       )
     : await fetchJson(`./data/series/${sku}.json`);
 
@@ -259,6 +276,49 @@ function renderModelTable(analysis) {
     </thead>
     <tbody>${rows}</tbody>
   `;
+
+  renderModelExplanation(analysis);
+}
+
+function prettyModelName(modelName) {
+  return modelName.replaceAll("_", " ");
+}
+
+function renderModelExplanation(analysis) {
+  const explanationNode = qs("model-explanation");
+  if (!explanationNode) {
+    return;
+  }
+
+  const ranked = [...analysis.model_comparison]
+    .filter((item) => item.status === "ok" && item.mape !== null)
+    .sort((left, right) => left.mape - right.mape);
+
+  if (!ranked.length) {
+    explanationNode.textContent = "No fue posible interpretar la comparación de modelos para este producto.";
+    return;
+  }
+
+  const best = ranked[0];
+  const second = ranked[1];
+  const marginText = second
+    ? ` Mejora el MAPE frente a ${prettyModelName(second.modelo)} por ${Math.abs(second.mape - best.mape).toFixed(2)} puntos.`
+    : "";
+
+  const reasonMap = {
+    seasonal_naive:
+      "Funciona bien cuando el patrón reciente se parece mucho a la misma temporada del año anterior.",
+    holt_winters:
+      "Captura tendencia y estacionalidad al mismo tiempo, por eso suele responder mejor cuando la serie tiene ciclos marcados.",
+    seasonal_regression:
+      "Aprovecha la estructura temporal completa y por eso suele adaptarse mejor cuando hay estacionalidad con cambios graduales en el nivel.",
+    catboost_gpu_global:
+      "Integra señales temporales y patrones históricos más complejos, lo que puede darle ventaja cuando la serie tiene relaciones no lineales.",
+  };
+
+  explanationNode.textContent =
+    `${prettyModelName(best.modelo)} fue elegido porque obtuvo el menor error para este SKU ` +
+    `(MAE ${best.mae}, MAPE ${best.mape}%). ${reasonMap[best.modelo] || ""}${marginText}`;
 }
 
 function renderForecastTable(analysis) {
@@ -381,16 +441,25 @@ function populateCatalog() {
   qs("sku-select").innerHTML = state.catalog
     .map((item) => `<option value="${item.sku}">${item.sku} · ${item.producto}</option>`)
     .join("");
-  state.currentSku = state.catalog[0]?.sku ?? null;
+  const stillExists = state.catalog.some((item) => item.sku === state.currentSku);
+  state.currentSku = stillExists ? state.currentSku : (state.catalog[0]?.sku ?? null);
 }
 
 function renderHeaderState() {
-  qs("mode-badge").textContent = state.apiBaseUrl ? "live API" : "demo estático";
+  qs("mode-badge").textContent = state.apiBaseUrl ? "modelo en vivo" : "demo estático";
   qs("coverage-badge").textContent = `${state.meta.weeks} semanas · ${state.meta.sku_count} SKU`;
   qs("dataset-badge").textContent = `${state.meta.date_range.inicio} → ${state.meta.date_range.fin}`;
   qs("api-hint").textContent = state.apiBaseUrl
-    ? `Conectado a ${state.apiBaseUrl}`
-    : "Leyendo JSON precomputado desde ./data";
+    ? "Forecast consultado al backend"
+    : "Forecast servido desde artefactos estáticos";
+  const livePanel = qs("live-panel");
+  if (livePanel) {
+    livePanel.hidden = !state.apiBaseUrl;
+  }
+  const liveStatus = qs("live-status");
+  if (liveStatus && state.apiBaseUrl) {
+    liveStatus.textContent = "La proyección visible puede recalcularse en tiempo real para el producto seleccionado.";
+  }
 }
 
 function attachEvents() {
@@ -417,11 +486,38 @@ function attachEvents() {
     }
     await refreshView();
   });
+
+  const refreshButton = qs("refresh-live-btn");
+  if (refreshButton) {
+    refreshButton.addEventListener("click", async () => {
+      try {
+        state.cache.clear();
+        const liveStatus = qs("live-status");
+        if (liveStatus) {
+          liveStatus.textContent = "Actualizando forecast con el modelo activo…";
+        }
+        await refreshView();
+        if (liveStatus) {
+          liveStatus.textContent = "Proyección actualizada correctamente.";
+        }
+      } catch (error) {
+        console.error(error);
+        const liveStatus = qs("live-status");
+        if (liveStatus) {
+          liveStatus.textContent =
+            error instanceof Error ? error.message : "No fue posible actualizar la proyección.";
+        }
+      }
+    });
+  }
 }
 
 async function bootstrap() {
   try {
-    state.apiBaseUrl = resolveApiBaseUrl();
+    const detectedApiBaseUrl = resolveApiBaseUrl();
+    state.apiBaseUrl = detectedApiBaseUrl && (await probeBackend(detectedApiBaseUrl))
+      ? detectedApiBaseUrl
+      : "";
     await loadCatalog();
     populateCatalog();
     renderHeaderState();
