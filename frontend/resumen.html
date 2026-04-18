@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumen EDA · Predictor de Demanda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script defer src="./eda.js"></script>
+</head>
+<body>
+  <div class="page-shell presentation-shell">
+    <nav class="top-nav">
+      <a class="nav-pill" href="./index.html">Dashboard</a>
+      <a class="nav-pill active" href="./resumen.html">Resumen EDA</a>
+    </nav>
+
+    <section class="panel presentation-hero">
+      <div class="hero-deck">
+        <div>
+          <span class="hero-ribbon">Reto 3 · Analítica para auditorio</span>
+          <h1>EDA, limpieza y criterio para confiar en el forecast.</h1>
+          <p class="presentation-subtitle">
+            Esta página resume la parte más robusta de la solución: cómo se clasificó el ruido del dataset,
+            cómo se corrigió la serie semanal por SKU y por qué las técnicas de imputación elegidas son
+            defendibles frente al comportamiento estacional de la demanda.
+          </p>
+        </div>
+
+        <div class="team-strip">
+          <span class="team-member">Eldigardo Camacho</span>
+          <span class="team-member">Jhohan Gallego</span>
+          <span class="team-member">Manuela Quintero</span>
+          <span class="team-member">Manuel Valbuena</span>
+          <span class="team-member">Santiago Villa</span>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-stack" id="hero-stats"></div>
+        <div class="hero-highlight">
+          <p id="hero-highlight-text">
+            Cargando hallazgos principales del análisis exploratorio…
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-grid">
+      <article class="panel span-7">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Lectura ejecutiva</p>
+            <h2>Qué demostró el EDA</h2>
+          </div>
+        </div>
+        <div class="insight-grid" id="insight-grid"></div>
+      </article>
+
+      <article class="panel span-5">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Narrativa del reto</p>
+            <h2>Cómo convertimos un PDF sucio en una base entrenable</h2>
+          </div>
+        </div>
+        <div class="story-list">
+          <div class="story-step">
+            <strong>1. Estandarización del origen</strong>
+            <p>Se extrajo el PDF a CSV con trazabilidad por fecha, SKU, producto, valor original y tipo de nota.</p>
+          </div>
+          <div class="story-step">
+            <strong>2. Clasificación de anomalías</strong>
+            <p>Se separaron faltantes, faltantes en bloque, negativos, duplicados y outliers altos o bajos para no tratarlos igual.</p>
+          </div>
+          <div class="story-step">
+            <strong>3. Limpieza por serie individual</strong>
+            <p>Cada SKU se limpió sobre su propia historia semanal. No se mezclaron productos ni escalas de demanda.</p>
+          </div>
+          <div class="story-step">
+            <strong>4. Imputación explicable</strong>
+            <p>La mediana estacional fue la base, con interpolación lineal y forward fill como alternativas comparables.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-grid">
+      <article class="panel span-6">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Mapa de calidad</p>
+            <h2>Distribución de notas del dataset original</h2>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="note-chart"></canvas>
+        </div>
+        <p class="chart-caption">
+          La mayor parte del esfuerzo no fue modelar primero, sino separar correctamente qué era dato confiable y qué debía reconstruirse.
+        </p>
+      </article>
+
+      <article class="panel span-6">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Fricción por producto</p>
+            <h2>SKU con mayor tasa de registros inválidos</h2>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="sku-chart"></canvas>
+        </div>
+        <p class="chart-caption" id="sku-chart-caption">
+          Cargando ranking de SKU más complejos…
+        </p>
+      </article>
+    </section>
+
+    <section class="section-grid">
+      <article class="panel span-5">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Decisiones metodológicas</p>
+            <h2>Clasificación, limpieza e imputación</h2>
+          </div>
+        </div>
+        <div class="method-list">
+          <div class="method-step">
+            <strong>Clasificación</strong>
+            <p>
+              <code>ok</code> se conserva. <code>missing</code> y <code>missing_bloque</code> se tratan como ausencia de señal.
+              <code>negativo</code> se invalida por imposibilidad operativa. <code>outlier_alto</code> y <code>outlier_bajo</code>
+              se aíslan para evitar que contaminen los estadísticos de entrenamiento.
+            </p>
+          </div>
+          <div class="method-step">
+            <strong>Limpieza</strong>
+            <p>
+              Se construyó <code>base_clean_value</code> dejando en vacío todo valor no confiable. Luego se generó
+              <code>cleaned_value</code> como valor final para modelar, manteniendo trazabilidad con <code>nota</code> e
+              <code>is_imputed</code>.
+            </p>
+          </div>
+          <div class="method-step">
+            <strong>Imputación</strong>
+            <p>
+              La técnica principal fue <code>seasonal_median</code> porque respeta la semana del año y es robusta frente a picos.
+              Se dejaron <code>linear</code> y <code>forward_fill</code> para contraste y sensibilidad del pipeline.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel span-7">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Ranking de complejidad</p>
+            <h2>Productos que exigieron más corrección</h2>
+          </div>
+        </div>
+        <div class="ranking-list" id="ranking-list"></div>
+        <p class="ranking-caption">
+          Este ranking mezcla volumen de errores, rachas de faltantes y dispersión de la serie limpia para identificar dónde estuvo el mayor riesgo analítico.
+        </p>
+      </article>
+    </section>
+
+    <section class="section-grid">
+      <article class="panel span-12">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Entrenamiento del modelo</p>
+            <h2>Qué se hizo después de limpiar la data</h2>
+          </div>
+        </div>
+        <div class="notes-grid">
+          <article>
+            <h3>Base entrenable</h3>
+            <p>
+              El modelo no se alimentó del valor original del PDF, sino de la serie limpia por SKU con
+              <code>cleaned_value</code>, preservando trazabilidad de qué puntos fueron imputados.
+            </p>
+          </article>
+          <article>
+            <h3>Comparación de enfoques</h3>
+            <p>
+              Se contrastaron tres enfoques: <code>seasonal_naive</code>, <code>holt_winters</code> y
+              <code>seasonal_regression</code>, para no depender de un único supuesto de demanda.
+            </p>
+          </article>
+          <article>
+            <h3>Selección objetiva</h3>
+            <p>
+              La decisión del mejor modelo se hizo con holdout temporal de 12 semanas y métricas de error
+              como <code>MAPE</code>, priorizando capacidad predictiva real sobre ajuste visual.
+            </p>
+          </article>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-grid">
+      <article class="panel span-12">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Mensaje para la presentación</p>
+            <h2>Conclusión ejecutiva</h2>
+          </div>
+        </div>
+        <div class="quote-band">
+          <blockquote id="closing-quote">
+            Cargando cierre ejecutivo del proyecto…
+          </blockquote>
+          <p>
+            La fortaleza de la solución no está en “pintar” un forecast, sino en dejar una serie semanal consistente, explicable y reutilizable para entrenamiento.
+          </p>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>

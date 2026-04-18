@@ -17,6 +17,7 @@ DATASET_PATH = ROOT / "backend" / "data" / "dataset.csv"
 PRECOMPUTED_PATH = ROOT / "backend" / "data" / "precomputed.json"
 FRONTEND_DATA_DIR = ROOT / "frontend" / "data"
 TRAINING_DIR = ROOT / "backend" / "data" / "training"
+EDA_SUMMARY_PATH = TRAINING_DIR / "eda_summary.json"
 INVALID_NOTES = {
     "duplicado",
     "missing",
@@ -391,6 +392,11 @@ def write_frontend_artifacts(payload: dict[str, Any], output_dir: Path = FRONTEN
     for sku, data in payload["series_by_sku"].items():
         (series_dir / f"{sku}.json").write_text(
             json.dumps(data, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+    if EDA_SUMMARY_PATH.exists():
+        (output_dir / "eda-summary.json").write_text(
+            EDA_SUMMARY_PATH.read_text(encoding="utf-8"),
             encoding="utf-8",
         )
 
