@@ -59,6 +59,20 @@ Generar artefactos:
 backend/.venv/bin/python backend/scripts/build_artifacts.py
 ```
 
+Ejecutar pipeline formal de limpieza + EDA + entrenamiento:
+
+```bash
+backend/.venv/bin/python backend/scripts/run_training_pipeline.py
+```
+
+Salidas principales:
+
+- `backend/data/training/demand_history_clean.csv`
+- `backend/data/training/demand_training_features.csv`
+- `backend/data/training/eda_summary.json`
+- `backend/data/training/eda_report.md`
+- `backend/data/training/model_registry.json`
+
 Levantar API:
 
 ```bash
@@ -141,6 +155,12 @@ Modelos comparados:
 Selección:
 
 - mejor modelo por `MAPE` sobre holdout
+
+Estado actual:
+
+- el backend sí entrena modelos reales por SKU
+- deja registro de la mejor receta por SKU en `backend/data/training/model_registry.json`
+- el frontend usa esos resultados precomputados para la demo pública
 
 ## Validaciones hechas
 

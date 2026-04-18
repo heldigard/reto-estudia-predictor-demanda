@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DATASET_PATH = ROOT / "backend" / "data" / "dataset.csv"
 PRECOMPUTED_PATH = ROOT / "backend" / "data" / "precomputed.json"
 FRONTEND_DATA_DIR = ROOT / "frontend" / "data"
+TRAINING_DIR = ROOT / "backend" / "data" / "training"
 INVALID_NOTES = {
     "duplicado",
     "missing",
@@ -83,6 +84,32 @@ def build_raw_series(df: pd.DataFrame, sku: str) -> pd.DataFrame:
     sku_df["raw_value"] = sku_df["unidades_vendidas"]
     sku_df["base_clean_value"] = sku_df["raw_value"].where(~sku_df["is_invalid"])
     return sku_df
+
+
+def prepare_clean_series(raw_df: pd.DataFrame, imputation_method: str) -> pd.DataFrame:
+    prepared = raw_df.copy()
+    cleaned = impute_series(prepared["base_clean_value"], prepared["fecha"], imputation_method)
+    prepared["cleaned_value"] = cleaned.round(4)
+    prepared["is_imputed"] = prepared["base_clean_value"].isna()
+    prepared["was_anomaly"] = prepared["is_invalid"]
+    prepared["iso_week"] = pd.to_datetime(prepared["fecha"]).dt.isocalendar().week.astype(int)
+    prepared["month"] = pd.to_datetime(prepared["fecha"]).dt.month.astype(int)
+    prepared["year"] = pd.to_datetime(prepared["fecha"]).dt.year.astype(int)
+    prepared["time_index"] = np.arange(len(prepared), dtype=int)
+    return prepared
+
+
+def build_clean_dataset(
+    df: pd.DataFrame,
+    imputation_method: str = "seasonal_median",
+) -> pd.DataFrame:
+    frames: list[pd.DataFrame] = []
+    for sku in sorted(df["sku"].unique()):
+        raw_df = build_raw_series(df, sku)
+        clean_df = prepare_clean_series(raw_df, imputation_method)
+        clean_df["imputation_method"] = imputation_method
+        frames.append(clean_df)
+    return pd.concat(frames, ignore_index=True)
 
 
 def impute_series(base_series: pd.Series, dates: pd.Series, method: str) -> pd.Series:
@@ -217,8 +244,9 @@ def records_from_run(run: ModelRun, horizon: int) -> dict[str, Any]:
 
 
 def analyze_series(raw_df: pd.DataFrame, imputation_method: str, horizon: int = MAX_HORIZON) -> dict[str, Any]:
-    dates = pd.date_range(raw_df["fecha"].min(), periods=len(raw_df), freq="W-MON")
-    cleaned = impute_series(raw_df["base_clean_value"], raw_df["fecha"], imputation_method)
+    prepared = prepare_clean_series(raw_df, imputation_method)
+    dates = pd.date_range(prepared["fecha"].min(), periods=len(prepared), freq="W-MON")
+    cleaned = prepared["cleaned_value"].astype(float).copy()
     cleaned.index = dates
     holdout = min(HOLDOUT_WEEKS, max(4, len(cleaned) // 8))
     train = cleaned.iloc[:-holdout]

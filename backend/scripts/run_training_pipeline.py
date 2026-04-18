@@ -7,16 +7,14 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from backend.app.forecasting import build_payload, write_frontend_artifacts, write_payload
 from backend.app.training_pipeline import run_training_pipeline
 
 
 def main() -> None:
-    run_training_pipeline()
-    payload = build_payload()
-    write_payload(payload)
-    write_frontend_artifacts(payload)
-    print("Training artifacts and frontend/backend payloads generated.")
+    outputs = run_training_pipeline()
+    print("Training pipeline completed.")
+    for label, path in outputs.items():
+        print(f"- {label}: {path}")
 
 
 if __name__ == "__main__":

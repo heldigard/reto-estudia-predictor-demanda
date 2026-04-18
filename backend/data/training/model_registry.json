@@ -1,0 +1,4457 @@
+{
+  "meta": {
+    "horizon": 12,
+    "candidate_models": [
+      "seasonal_naive",
+      "holt_winters",
+      "seasonal_regression"
+    ],
+    "candidate_imputations": [
+      "linear",
+      "forward_fill",
+      "seasonal_median"
+    ]
+  },
+  "models_by_sku": {
+    "SKU-001": {
+      "sku": "SKU-001",
+      "producto": "Arroz_500g",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 40.64,
+          "mape": 2.87,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 86.03,
+            "mape": 6.09,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 57.42,
+            "mape": 4.05,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 40.64,
+            "mape": 2.87,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 1154.73,
+          "desviacion_estandar": 202.13
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1451.1,
+            "ic_inferior": 1354.9,
+            "ic_superior": 1547.2
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1470.6,
+            "ic_inferior": 1334.6,
+            "ic_superior": 1606.5
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1490.5,
+            "ic_inferior": 1324.0,
+            "ic_superior": 1657.1
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 40.64,
+            "mape": 2.87,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 86.03,
+              "mape": 6.09,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 57.42,
+              "mape": 4.05,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 40.64,
+              "mape": 2.87,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1154.73,
+            "desviacion_estandar": 202.13
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1451.1,
+              "ic_inferior": 1354.9,
+              "ic_superior": 1547.2
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1470.6,
+              "ic_inferior": 1334.6,
+              "ic_superior": 1606.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1490.5,
+              "ic_inferior": 1324.0,
+              "ic_superior": 1657.1
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 41.47,
+            "mape": 2.9,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 85.3,
+              "mape": 5.97,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 54.23,
+              "mape": 3.76,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 41.47,
+              "mape": 2.9,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1155.45,
+            "desviacion_estandar": 204.52
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1451.8,
+              "ic_inferior": 1349.5,
+              "ic_superior": 1554.2
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1470.5,
+              "ic_inferior": 1325.7,
+              "ic_superior": 1615.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1489.9,
+              "ic_inferior": 1312.5,
+              "ic_superior": 1667.2
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 124.56,
+            "mape": 10.54,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 127.02,
+              "mape": 10.66,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 131.07,
+              "mape": 10.74,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 124.56,
+              "mape": 10.54,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1162.26,
+            "desviacion_estandar": 190.95
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1379.8,
+              "ic_inferior": 1217.6,
+              "ic_superior": 1542.0
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1400.7,
+              "ic_inferior": 1171.3,
+              "ic_superior": 1630.1
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1423.0,
+              "ic_inferior": 1142.1,
+              "ic_superior": 1704.0
+            }
+          ]
+        }
+      }
+    },
+    "SKU-002": {
+      "sku": "SKU-002",
+      "producto": "Aceite_1L",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 29.01,
+          "mape": 3.03,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 60.56,
+            "mape": 6.24,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 29.01,
+            "mape": 3.03,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 31.43,
+            "mape": 3.29,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 826.73,
+          "desviacion_estandar": 139.94
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1035.1,
+            "ic_inferior": 968.0,
+            "ic_superior": 1102.1
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1070.8,
+            "ic_inferior": 975.9,
+            "ic_superior": 1165.6
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1082.5,
+            "ic_inferior": 966.3,
+            "ic_superior": 1198.6
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 29.01,
+            "mape": 3.03,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 60.56,
+              "mape": 6.24,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 29.01,
+              "mape": 3.03,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 31.43,
+              "mape": 3.29,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 826.73,
+            "desviacion_estandar": 139.94
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1035.1,
+              "ic_inferior": 968.0,
+              "ic_superior": 1102.1
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1070.8,
+              "ic_inferior": 975.9,
+              "ic_superior": 1165.6
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1082.5,
+              "ic_inferior": 966.3,
+              "ic_superior": 1198.6
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 33.09,
+            "mape": 3.48,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 64.37,
+              "mape": 6.66,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 33.09,
+              "mape": 3.48,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 33.58,
+              "mape": 3.54,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 828.2,
+            "desviacion_estandar": 140.48
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1016.5,
+              "ic_inferior": 946.4,
+              "ic_superior": 1086.5
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1067.7,
+              "ic_inferior": 968.7,
+              "ic_superior": 1166.8
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1083.8,
+              "ic_inferior": 962.5,
+              "ic_superior": 1205.1
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 68.97,
+            "mape": 8.12,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 101.63,
+              "mape": 11.14,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 72.2,
+              "mape": 8.46,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 68.97,
+              "mape": 8.12,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 829.29,
+            "desviacion_estandar": 135.92
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1006.0,
+              "ic_inferior": 903.1,
+              "ic_superior": 1109.0
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1026.0,
+              "ic_inferior": 880.4,
+              "ic_superior": 1171.6
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1044.5,
+              "ic_inferior": 866.2,
+              "ic_superior": 1222.9
+            }
+          ]
+        }
+      }
+    },
+    "SKU-003": {
+      "sku": "SKU-003",
+      "producto": "Azucar_1kg",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 35.42,
+          "mape": 4.1,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 69.44,
+            "mape": 7.97,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 40.12,
+            "mape": 4.56,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 35.42,
+            "mape": 4.1,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 861.23,
+          "desviacion_estandar": 123.94
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 984.5,
+            "ic_inferior": 892.2,
+            "ic_superior": 1076.8
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1003.4,
+            "ic_inferior": 872.8,
+            "ic_superior": 1133.9
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1022.2,
+            "ic_inferior": 862.3,
+            "ic_superior": 1182.0
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 35.42,
+            "mape": 4.1,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 69.44,
+              "mape": 7.97,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 40.12,
+              "mape": 4.56,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 35.42,
+              "mape": 4.1,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 861.23,
+            "desviacion_estandar": 123.94
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 984.5,
+              "ic_inferior": 892.2,
+              "ic_superior": 1076.8
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1003.4,
+              "ic_inferior": 872.8,
+              "ic_superior": 1133.9
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1022.2,
+              "ic_inferior": 862.3,
+              "ic_superior": 1182.0
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 42.85,
+            "mape": 4.97,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 81.73,
+              "mape": 9.56,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 53.04,
+              "mape": 6.03,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 42.85,
+              "mape": 4.97,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 860.6,
+            "desviacion_estandar": 123.51
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 977.8,
+              "ic_inferior": 882.0,
+              "ic_superior": 1073.6
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 996.3,
+              "ic_inferior": 860.8,
+              "ic_superior": 1131.9
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1014.8,
+              "ic_inferior": 848.9,
+              "ic_superior": 1180.8
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 74.48,
+            "mape": 9.28,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 126.45,
+              "mape": 14.76,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 80.96,
+              "mape": 9.81,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 74.48,
+              "mape": 9.28,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 855.29,
+            "desviacion_estandar": 117.17
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 941.8,
+              "ic_inferior": 832.8,
+              "ic_superior": 1050.8
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 962.2,
+              "ic_inferior": 808.1,
+              "ic_superior": 1116.4
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 982.2,
+              "ic_inferior": 793.5,
+              "ic_superior": 1171.0
+            }
+          ]
+        }
+      }
+    },
+    "SKU-004": {
+      "sku": "SKU-004",
+      "producto": "Leche_UHT_1L",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 62.27,
+          "mape": 3.37,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 100.95,
+            "mape": 5.37,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 62.27,
+            "mape": 3.37,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 63.83,
+            "mape": 3.5,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 1565.83,
+          "desviacion_estandar": 298.07
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 2040.3,
+            "ic_inferior": 1918.2,
+            "ic_superior": 2162.3
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 2073.6,
+            "ic_inferior": 1901.0,
+            "ic_superior": 2246.2
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 2045.4,
+            "ic_inferior": 1834.0,
+            "ic_superior": 2256.8
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 62.27,
+            "mape": 3.37,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 100.95,
+              "mape": 5.37,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 62.27,
+              "mape": 3.37,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 63.83,
+              "mape": 3.5,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1565.83,
+            "desviacion_estandar": 298.07
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 2040.3,
+              "ic_inferior": 1918.2,
+              "ic_superior": 2162.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 2073.6,
+              "ic_inferior": 1901.0,
+              "ic_superior": 2246.2
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 2045.4,
+              "ic_inferior": 1834.0,
+              "ic_superior": 2256.8
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 69.77,
+            "mape": 3.76,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 117.18,
+              "mape": 6.3,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 69.77,
+              "mape": 3.76,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 72.7,
+              "mape": 3.99,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1564.88,
+            "desviacion_estandar": 300.54
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 2039.6,
+              "ic_inferior": 1910.2,
+              "ic_superior": 2168.9
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 2072.5,
+              "ic_inferior": 1889.6,
+              "ic_superior": 2255.4
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 2044.4,
+              "ic_inferior": 1820.4,
+              "ic_superior": 2268.5
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 133.28,
+            "mape": 8.11,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 163.99,
+              "mape": 8.73,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 146.0,
+              "mape": 8.63,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 133.28,
+              "mape": 8.11,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1573.19,
+            "desviacion_estandar": 283.29
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1927.9,
+              "ic_inferior": 1681.7,
+              "ic_superior": 2174.1
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1961.1,
+              "ic_inferior": 1613.0,
+              "ic_superior": 2309.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1993.8,
+              "ic_inferior": 1567.4,
+              "ic_superior": 2420.2
+            }
+          ]
+        }
+      }
+    },
+    "SKU-005": {
+      "sku": "SKU-005",
+      "producto": "Harina_1kg",
+      "best_training_recipe": {
+        "imputation_method": "seasonal_median",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 36.67,
+          "mape": 5.89,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 62.39,
+            "mape": 10.1,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 36.67,
+            "mape": 5.89,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 35.46,
+            "mape": 5.92,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 594.05,
+          "desviacion_estandar": 74.92
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 640.9,
+            "ic_inferior": 572.1,
+            "ic_superior": 709.7
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 673.8,
+            "ic_inferior": 576.5,
+            "ic_superior": 771.0
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 676.8,
+            "ic_inferior": 557.7,
+            "ic_superior": 795.9
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 36.26,
+            "mape": 6.2,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 39.41,
+              "mape": 6.73,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 36.26,
+              "mape": 6.2,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 36.59,
+              "mape": 6.4,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 594.73,
+            "desviacion_estandar": 82.2
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 667.3,
+              "ic_inferior": 611.0,
+              "ic_superior": 723.7
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 695.9,
+              "ic_inferior": 616.2,
+              "ic_superior": 775.7
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 704.1,
+              "ic_inferior": 606.5,
+              "ic_superior": 801.8
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 35.27,
+            "mape": 6.04,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 38.75,
+              "mape": 6.63,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 35.27,
+              "mape": 6.04,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 36.74,
+              "mape": 6.4,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 594.36,
+            "desviacion_estandar": 81.56
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 670.8,
+              "ic_inferior": 612.4,
+              "ic_superior": 729.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 682.9,
+              "ic_inferior": 600.2,
+              "ic_superior": 765.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 703.8,
+              "ic_inferior": 602.5,
+              "ic_superior": 805.0
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 36.67,
+            "mape": 5.89,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 62.39,
+              "mape": 10.1,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 36.67,
+              "mape": 5.89,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 35.46,
+              "mape": 5.92,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 594.05,
+            "desviacion_estandar": 74.92
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 640.9,
+              "ic_inferior": 572.1,
+              "ic_superior": 709.7
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 673.8,
+              "ic_inferior": 576.5,
+              "ic_superior": 771.0
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 676.8,
+              "ic_inferior": 557.7,
+              "ic_superior": 795.9
+            }
+          ]
+        }
+      }
+    },
+    "SKU-006": {
+      "sku": "SKU-006",
+      "producto": "Pasta_Spaghetti",
+      "best_training_recipe": {
+        "imputation_method": "forward_fill",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 21.22,
+          "mape": 2.19,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 70.54,
+            "mape": 7.24,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 21.22,
+            "mape": 2.19,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 25.24,
+            "mape": 2.62,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 794.35,
+          "desviacion_estandar": 153.3
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1019.4,
+            "ic_inferior": 952.4,
+            "ic_superior": 1086.5
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1051.2,
+            "ic_inferior": 956.4,
+            "ic_superior": 1146.0
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1087.4,
+            "ic_inferior": 971.3,
+            "ic_superior": 1203.5
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 23.51,
+            "mape": 2.44,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 69.36,
+              "mape": 7.12,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 23.51,
+              "mape": 2.44,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 25.28,
+              "mape": 2.63,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 794.06,
+            "desviacion_estandar": 152.76
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1019.2,
+              "ic_inferior": 953.4,
+              "ic_superior": 1085.0
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1051.5,
+              "ic_inferior": 958.4,
+              "ic_superior": 1144.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1088.3,
+              "ic_inferior": 974.4,
+              "ic_superior": 1202.3
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 21.22,
+            "mape": 2.19,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 70.54,
+              "mape": 7.24,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 21.22,
+              "mape": 2.19,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 25.24,
+              "mape": 2.62,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 794.35,
+            "desviacion_estandar": 153.3
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1019.4,
+              "ic_inferior": 952.4,
+              "ic_superior": 1086.5
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1051.2,
+              "ic_inferior": 956.4,
+              "ic_superior": 1146.0
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1087.4,
+              "ic_inferior": 971.3,
+              "ic_superior": 1203.5
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_naive",
+          "best_model_metrics": {
+            "modelo": "seasonal_naive",
+            "mae": 73.85,
+            "mape": 7.58,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 73.85,
+              "mape": 7.58,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 81.15,
+              "mape": 9.2,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 65.12,
+              "mape": 7.85,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 794.07,
+            "desviacion_estandar": 144.59
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 985.2,
+              "ic_inferior": 840.3,
+              "ic_superior": 1130.1
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 991.8,
+              "ic_inferior": 786.9,
+              "ic_superior": 1196.7
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 992.4,
+              "ic_inferior": 741.5,
+              "ic_superior": 1243.3
+            }
+          ]
+        }
+      }
+    },
+    "SKU-007": {
+      "sku": "SKU-007",
+      "producto": "Atun_Lata_170g",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 26.54,
+          "mape": 5.1,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 42.88,
+            "mape": 7.94,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 26.54,
+            "mape": 5.1,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 46.42,
+            "mape": 9.05,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 457.54,
+          "desviacion_estandar": 65.0
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 546.9,
+            "ic_inferior": 501.7,
+            "ic_superior": 592.1
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 549.3,
+            "ic_inferior": 485.3,
+            "ic_superior": 613.2
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 585.6,
+            "ic_inferior": 507.3,
+            "ic_superior": 663.9
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 26.54,
+            "mape": 5.1,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 42.88,
+              "mape": 7.94,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 26.54,
+              "mape": 5.1,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 46.42,
+              "mape": 9.05,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 457.54,
+            "desviacion_estandar": 65.0
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 546.9,
+              "ic_inferior": 501.7,
+              "ic_superior": 592.1
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 549.3,
+              "ic_inferior": 485.3,
+              "ic_superior": 613.2
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 585.6,
+              "ic_inferior": 507.3,
+              "ic_superior": 663.9
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 44.83,
+            "mape": 8.96,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 56.14,
+              "mape": 10.76,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 46.22,
+              "mape": 9.2,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 44.83,
+              "mape": 8.96,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 455.54,
+            "desviacion_estandar": 66.33
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 533.5,
+              "ic_inferior": 451.4,
+              "ic_superior": 615.6
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 533.3,
+              "ic_inferior": 417.2,
+              "ic_superior": 649.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 533.3,
+              "ic_inferior": 391.0,
+              "ic_superior": 675.6
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_naive",
+          "best_model_metrics": {
+            "modelo": "seasonal_naive",
+            "mae": 39.56,
+            "mape": 7.34,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 39.56,
+              "mape": 7.34,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 45.02,
+              "mape": 8.92,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 47.1,
+              "mape": 9.61,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 459.83,
+            "desviacion_estandar": 63.06
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 532.2,
+              "ic_inferior": 453.3,
+              "ic_superior": 611.1
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 538.6,
+              "ic_inferior": 427.0,
+              "ic_superior": 650.2
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 588.1,
+              "ic_inferior": 451.5,
+              "ic_superior": 724.7
+            }
+          ]
+        }
+      }
+    },
+    "SKU-008": {
+      "sku": "SKU-008",
+      "producto": "Frijol_500g",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 24.71,
+          "mape": 3.64,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 62.2,
+            "mape": 8.84,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 27.61,
+            "mape": 3.94,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 24.71,
+            "mape": 3.64,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 578.87,
+          "desviacion_estandar": 105.53
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 741.7,
+            "ic_inferior": 684.0,
+            "ic_superior": 799.4
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 748.5,
+            "ic_inferior": 666.9,
+            "ic_superior": 830.1
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 754.8,
+            "ic_inferior": 654.9,
+            "ic_superior": 854.7
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 24.71,
+            "mape": 3.64,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 62.2,
+              "mape": 8.84,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 27.61,
+              "mape": 3.94,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 24.71,
+              "mape": 3.64,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 578.87,
+            "desviacion_estandar": 105.53
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 741.7,
+              "ic_inferior": 684.0,
+              "ic_superior": 799.4
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 748.5,
+              "ic_inferior": 666.9,
+              "ic_superior": 830.1
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 754.8,
+              "ic_inferior": 654.9,
+              "ic_superior": 854.7
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 24.92,
+            "mape": 3.67,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 60.15,
+              "mape": 8.51,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 27.31,
+              "mape": 3.91,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 24.92,
+              "mape": 3.67,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 580.21,
+            "desviacion_estandar": 105.76
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 741.3,
+              "ic_inferior": 680.8,
+              "ic_superior": 801.8
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 748.0,
+              "ic_inferior": 662.5,
+              "ic_superior": 833.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 754.2,
+              "ic_inferior": 649.4,
+              "ic_superior": 859.0
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 48.88,
+            "mape": 6.87,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 79.13,
+              "mape": 11.3,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 53.26,
+              "mape": 7.5,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 48.88,
+              "mape": 6.87,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 574.51,
+            "desviacion_estandar": 100.92
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 695.7,
+              "ic_inferior": 610.0,
+              "ic_superior": 781.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 703.5,
+              "ic_inferior": 582.4,
+              "ic_superior": 824.7
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 711.7,
+              "ic_inferior": 563.3,
+              "ic_superior": 860.0
+            }
+          ]
+        }
+      }
+    },
+    "SKU-009": {
+      "sku": "SKU-009",
+      "producto": "Sal_1kg",
+      "best_training_recipe": {
+        "imputation_method": "forward_fill",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 12.59,
+          "mape": 3.79,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 27.59,
+            "mape": 8.29,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 15.31,
+            "mape": 4.57,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 12.59,
+            "mape": 3.79,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 315.85,
+          "desviacion_estandar": 33.59
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 340.2,
+            "ic_inferior": 304.6,
+            "ic_superior": 375.7
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 344.0,
+            "ic_inferior": 293.7,
+            "ic_superior": 394.3
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 348.0,
+            "ic_inferior": 286.4,
+            "ic_superior": 409.6
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 13.45,
+            "mape": 4.04,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 27.51,
+              "mape": 8.25,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 15.82,
+              "mape": 4.73,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 13.45,
+              "mape": 4.04,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 315.46,
+            "desviacion_estandar": 33.13
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 341.8,
+              "ic_inferior": 307.5,
+              "ic_superior": 376.1
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 345.8,
+              "ic_inferior": 297.2,
+              "ic_superior": 394.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 349.9,
+              "ic_inferior": 290.5,
+              "ic_superior": 409.4
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 12.59,
+            "mape": 3.79,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 27.59,
+              "mape": 8.29,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 15.31,
+              "mape": 4.57,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 12.59,
+              "mape": 3.79,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 315.85,
+            "desviacion_estandar": 33.59
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 340.2,
+              "ic_inferior": 304.6,
+              "ic_superior": 375.7
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 344.0,
+              "ic_inferior": 293.7,
+              "ic_superior": 394.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 348.0,
+              "ic_inferior": 286.4,
+              "ic_superior": 409.6
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 15.5,
+            "mape": 4.73,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 21.37,
+              "mape": 6.48,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 20.16,
+              "mape": 6.09,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 15.5,
+              "mape": 4.73,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 315.73,
+            "desviacion_estandar": 31.91
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 337.2,
+              "ic_inferior": 302.7,
+              "ic_superior": 371.7
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 339.7,
+              "ic_inferior": 290.9,
+              "ic_superior": 388.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 342.2,
+              "ic_inferior": 282.4,
+              "ic_superior": 402.0
+            }
+          ]
+        }
+      }
+    },
+    "SKU-010": {
+      "sku": "SKU-010",
+      "producto": "Cafe_Molido_250g",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 39.01,
+          "mape": 3.0,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 70.36,
+            "mape": 5.3,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 41.69,
+            "mape": 3.16,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 39.01,
+            "mape": 3.0,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 1037.61,
+          "desviacion_estandar": 221.46
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1397.5,
+            "ic_inferior": 1313.3,
+            "ic_superior": 1481.7
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1412.9,
+            "ic_inferior": 1293.8,
+            "ic_superior": 1532.0
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1428.2,
+            "ic_inferior": 1282.4,
+            "ic_superior": 1574.1
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 39.01,
+            "mape": 3.0,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 70.36,
+              "mape": 5.3,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 41.69,
+              "mape": 3.16,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 39.01,
+              "mape": 3.0,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1037.61,
+            "desviacion_estandar": 221.46
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1397.5,
+              "ic_inferior": 1313.3,
+              "ic_superior": 1481.7
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1412.9,
+              "ic_inferior": 1293.8,
+              "ic_superior": 1532.0
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1428.2,
+              "ic_inferior": 1282.4,
+              "ic_superior": 1574.1
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 39.33,
+            "mape": 3.02,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 71.64,
+              "mape": 5.4,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 43.15,
+              "mape": 3.28,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 39.33,
+              "mape": 3.02,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1036.08,
+            "desviacion_estandar": 221.41
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1400.9,
+              "ic_inferior": 1313.4,
+              "ic_superior": 1488.4
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1415.7,
+              "ic_inferior": 1291.9,
+              "ic_superior": 1539.4
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1429.9,
+              "ic_inferior": 1278.3,
+              "ic_superior": 1581.4
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 73.64,
+            "mape": 5.49,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 150.26,
+              "mape": 11.19,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 90.43,
+              "mape": 6.71,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 73.64,
+              "mape": 5.49,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1033.19,
+            "desviacion_estandar": 208.11
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1333.8,
+              "ic_inferior": 1175.9,
+              "ic_superior": 1491.7
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1347.5,
+              "ic_inferior": 1124.2,
+              "ic_superior": 1570.8
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1361.1,
+              "ic_inferior": 1087.6,
+              "ic_superior": 1634.6
+            }
+          ]
+        }
+      }
+    },
+    "SKU-011": {
+      "sku": "SKU-011",
+      "producto": "Jabon_Barra",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 40.14,
+          "mape": 4.61,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 53.94,
+            "mape": 6.11,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 42.94,
+            "mape": 4.84,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 40.14,
+            "mape": 4.61,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 720.19,
+          "desviacion_estandar": 121.79
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 906.5,
+            "ic_inferior": 842.7,
+            "ic_superior": 970.3
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 923.3,
+            "ic_inferior": 833.1,
+            "ic_superior": 1013.6
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 939.0,
+            "ic_inferior": 828.5,
+            "ic_superior": 1049.6
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 40.14,
+            "mape": 4.61,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 53.94,
+              "mape": 6.11,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 42.94,
+              "mape": 4.84,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 40.14,
+              "mape": 4.61,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 720.19,
+            "desviacion_estandar": 121.79
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 906.5,
+              "ic_inferior": 842.7,
+              "ic_superior": 970.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 923.3,
+              "ic_inferior": 833.1,
+              "ic_superior": 1013.6
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 939.0,
+              "ic_inferior": 828.5,
+              "ic_superior": 1049.6
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 48.28,
+            "mape": 5.67,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 64.07,
+              "mape": 7.38,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 49.42,
+              "mape": 5.7,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 48.28,
+              "mape": 5.67,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 720.18,
+            "desviacion_estandar": 122.29
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 897.9,
+              "ic_inferior": 829.3,
+              "ic_superior": 966.4
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 915.5,
+              "ic_inferior": 818.5,
+              "ic_superior": 1012.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 932.5,
+              "ic_inferior": 813.8,
+              "ic_superior": 1051.3
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 73.66,
+            "mape": 9.48,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 86.38,
+              "mape": 10.54,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 73.3,
+              "mape": 9.51,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 73.66,
+              "mape": 9.48,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 724.83,
+            "desviacion_estandar": 116.21
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 861.5,
+              "ic_inferior": 764.1,
+              "ic_superior": 958.8
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 881.2,
+              "ic_inferior": 743.5,
+              "ic_superior": 1018.9
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 900.6,
+              "ic_inferior": 731.9,
+              "ic_superior": 1069.3
+            }
+          ]
+        }
+      }
+    },
+    "SKU-012": {
+      "sku": "SKU-012",
+      "producto": "Shampoo_400ml",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 26.32,
+          "mape": 2.83,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 69.33,
+            "mape": 7.16,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 26.32,
+            "mape": 2.83,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 27.66,
+            "mape": 2.99,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 747.63,
+          "desviacion_estandar": 176.04
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1043.0,
+            "ic_inferior": 992.8,
+            "ic_superior": 1093.2
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1064.9,
+            "ic_inferior": 994.0,
+            "ic_superior": 1135.9
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1075.2,
+            "ic_inferior": 988.3,
+            "ic_superior": 1162.1
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 26.32,
+            "mape": 2.83,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 69.33,
+              "mape": 7.16,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 26.32,
+              "mape": 2.83,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 27.66,
+              "mape": 2.99,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 747.63,
+            "desviacion_estandar": 176.04
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1043.0,
+              "ic_inferior": 992.8,
+              "ic_superior": 1093.2
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1064.9,
+              "ic_inferior": 994.0,
+              "ic_superior": 1135.9
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1075.2,
+              "ic_inferior": 988.3,
+              "ic_superior": 1162.1
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 26.35,
+            "mape": 2.84,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 59.02,
+              "mape": 6.13,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 26.35,
+              "mape": 2.84,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 30.45,
+              "mape": 3.3,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 747.57,
+            "desviacion_estandar": 177.64
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1037.8,
+              "ic_inferior": 981.9,
+              "ic_superior": 1093.6
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1060.3,
+              "ic_inferior": 981.3,
+              "ic_superior": 1139.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1072.0,
+              "ic_inferior": 975.3,
+              "ic_superior": 1168.7
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 56.75,
+            "mape": 6.81,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 145.58,
+              "mape": 15.69,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 56.75,
+              "mape": 6.81,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 86.78,
+              "mape": 9.8,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 749.45,
+            "desviacion_estandar": 159.17
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1014.3,
+              "ic_inferior": 885.4,
+              "ic_superior": 1143.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1050.3,
+              "ic_inferior": 867.9,
+              "ic_superior": 1232.6
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1030.2,
+              "ic_inferior": 806.9,
+              "ic_superior": 1253.5
+            }
+          ]
+        }
+      }
+    },
+    "SKU-013": {
+      "sku": "SKU-013",
+      "producto": "Papel_Higienico_4x",
+      "best_training_recipe": {
+        "imputation_method": "forward_fill",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 62.39,
+          "mape": 3.88,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 82.71,
+            "mape": 5.12,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 62.39,
+            "mape": 3.88,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 62.74,
+            "mape": 3.98,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 1316.91,
+          "desviacion_estandar": 255.19
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1676.6,
+            "ic_inferior": 1564.2,
+            "ic_superior": 1789.0
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1744.5,
+            "ic_inferior": 1585.6,
+            "ic_superior": 1903.4
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1742.3,
+            "ic_inferior": 1547.7,
+            "ic_superior": 1936.9
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 64.91,
+            "mape": 4.11,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 85.12,
+              "mape": 5.23,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 64.91,
+              "mape": 4.11,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 64.6,
+              "mape": 4.11,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1316.66,
+            "desviacion_estandar": 252.12
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1682.6,
+              "ic_inferior": 1579.9,
+              "ic_superior": 1785.4
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1735.1,
+              "ic_inferior": 1589.8,
+              "ic_superior": 1880.4
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1730.8,
+              "ic_inferior": 1552.8,
+              "ic_superior": 1908.7
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 62.39,
+            "mape": 3.88,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 82.71,
+              "mape": 5.12,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 62.39,
+              "mape": 3.88,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 62.74,
+              "mape": 3.98,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1316.91,
+            "desviacion_estandar": 255.19
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1676.6,
+              "ic_inferior": 1564.2,
+              "ic_superior": 1789.0
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1744.5,
+              "ic_inferior": 1585.6,
+              "ic_superior": 1903.4
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1742.3,
+              "ic_inferior": 1547.7,
+              "ic_superior": 1936.9
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 87.11,
+            "mape": 5.29,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 218.87,
+              "mape": 13.82,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 96.32,
+              "mape": 5.86,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 87.11,
+              "mape": 5.29,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1308.58,
+            "desviacion_estandar": 237.76
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1637.9,
+              "ic_inferior": 1443.4,
+              "ic_superior": 1832.4
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1662.5,
+              "ic_inferior": 1387.5,
+              "ic_superior": 1937.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1686.2,
+              "ic_inferior": 1349.4,
+              "ic_superior": 2023.1
+            }
+          ]
+        }
+      }
+    },
+    "SKU-014": {
+      "sku": "SKU-014",
+      "producto": "Detergente_1kg",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 54.09,
+          "mape": 5.14,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 81.55,
+            "mape": 7.69,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 57.63,
+            "mape": 5.47,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 54.09,
+            "mape": 5.14,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 840.74,
+          "desviacion_estandar": 158.65
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1087.0,
+            "ic_inferior": 1010.4,
+            "ic_superior": 1163.7
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1100.7,
+            "ic_inferior": 992.3,
+            "ic_superior": 1209.0
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1113.9,
+            "ic_inferior": 981.2,
+            "ic_superior": 1246.6
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 54.09,
+            "mape": 5.14,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 81.55,
+              "mape": 7.69,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 57.63,
+              "mape": 5.47,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 54.09,
+              "mape": 5.14,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 840.74,
+            "desviacion_estandar": 158.65
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1087.0,
+              "ic_inferior": 1010.4,
+              "ic_superior": 1163.7
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1100.7,
+              "ic_inferior": 992.3,
+              "ic_superior": 1209.0
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1113.9,
+              "ic_inferior": 981.2,
+              "ic_superior": 1246.6
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 58.55,
+            "mape": 5.54,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 81.84,
+              "mape": 7.7,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 60.61,
+              "mape": 5.73,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 58.55,
+              "mape": 5.54,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 841.03,
+            "desviacion_estandar": 158.06
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1079.4,
+              "ic_inferior": 999.6,
+              "ic_superior": 1159.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1093.5,
+              "ic_inferior": 980.6,
+              "ic_superior": 1206.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1107.3,
+              "ic_inferior": 969.0,
+              "ic_superior": 1245.6
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_naive",
+          "best_model_metrics": {
+            "modelo": "seasonal_naive",
+            "mae": 101.77,
+            "mape": 11.14,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 101.77,
+              "mape": 11.14,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 110.86,
+              "mape": 12.59,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 105.07,
+              "mape": 12.14,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 836.85,
+            "desviacion_estandar": 148.91
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 734.4,
+              "ic_inferior": 575.9,
+              "ic_superior": 892.8
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1071.4,
+              "ic_inferior": 847.3,
+              "ic_superior": 1295.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 982.5,
+              "ic_inferior": 708.0,
+              "ic_superior": 1257.0
+            }
+          ]
+        }
+      }
+    },
+    "SKU-015": {
+      "sku": "SKU-015",
+      "producto": "Mayonesa_445g",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 17.08,
+          "mape": 2.79,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 26.47,
+            "mape": 4.21,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 21.68,
+            "mape": 3.54,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 17.08,
+            "mape": 2.79,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 505.03,
+          "desviacion_estandar": 102.06
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 666.2,
+            "ic_inferior": 622.9,
+            "ic_superior": 709.6
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 681.7,
+            "ic_inferior": 620.5,
+            "ic_superior": 743.0
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 696.3,
+            "ic_inferior": 621.3,
+            "ic_superior": 771.4
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 17.08,
+            "mape": 2.79,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 26.47,
+              "mape": 4.21,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 21.68,
+              "mape": 3.54,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 17.08,
+              "mape": 2.79,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 505.03,
+            "desviacion_estandar": 102.06
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 666.2,
+              "ic_inferior": 622.9,
+              "ic_superior": 709.6
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 681.7,
+              "ic_inferior": 620.5,
+              "ic_superior": 743.0
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 696.3,
+              "ic_inferior": 621.3,
+              "ic_superior": 771.4
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 18.3,
+            "mape": 2.99,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 34.08,
+              "mape": 5.37,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 22.79,
+              "mape": 3.69,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 18.3,
+              "mape": 2.99,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 505.2,
+            "desviacion_estandar": 103.13
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 667.0,
+              "ic_inferior": 620.0,
+              "ic_superior": 714.0
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 682.8,
+              "ic_inferior": 616.3,
+              "ic_superior": 749.2
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 697.6,
+              "ic_inferior": 616.1,
+              "ic_superior": 779.0
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 34.03,
+            "mape": 6.99,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 62.19,
+              "mape": 10.08,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 34.03,
+              "mape": 6.99,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 36.43,
+              "mape": 7.65,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 506.03,
+            "desviacion_estandar": 97.04
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 655.9,
+              "ic_inferior": 581.4,
+              "ic_superior": 730.5
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 690.4,
+              "ic_inferior": 584.9,
+              "ic_superior": 795.8
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 680.5,
+              "ic_inferior": 551.4,
+              "ic_superior": 809.7
+            }
+          ]
+        }
+      }
+    },
+    "SKU-016": {
+      "sku": "SKU-016",
+      "producto": "Ketchup_397g",
+      "best_training_recipe": {
+        "imputation_method": "forward_fill",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 17.56,
+          "mape": 3.76,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 24.98,
+            "mape": 5.17,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 21.05,
+            "mape": 4.56,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 17.56,
+            "mape": 3.76,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 412.25,
+          "desviacion_estandar": 71.9
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 497.5,
+            "ic_inferior": 451.9,
+            "ic_superior": 543.2
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 510.7,
+            "ic_inferior": 446.1,
+            "ic_superior": 575.3
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 523.9,
+            "ic_inferior": 444.7,
+            "ic_superior": 603.0
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 19.23,
+            "mape": 4.12,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 23.06,
+              "mape": 4.77,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 19.62,
+              "mape": 4.25,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 19.23,
+              "mape": 4.12,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 412.24,
+            "desviacion_estandar": 71.44
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 512.7,
+              "ic_inferior": 474.3,
+              "ic_superior": 551.2
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 525.7,
+              "ic_inferior": 471.3,
+              "ic_superior": 580.1
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 537.9,
+              "ic_inferior": 471.2,
+              "ic_superior": 604.5
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 17.56,
+            "mape": 3.76,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 24.98,
+              "mape": 5.17,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 21.05,
+              "mape": 4.56,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 17.56,
+              "mape": 3.76,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 412.25,
+            "desviacion_estandar": 71.9
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 497.5,
+              "ic_inferior": 451.9,
+              "ic_superior": 543.2
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 510.7,
+              "ic_inferior": 446.1,
+              "ic_superior": 575.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 523.9,
+              "ic_inferior": 444.7,
+              "ic_superior": 603.0
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 26.98,
+            "mape": 6.63,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 44.22,
+              "mape": 10.0,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 26.98,
+              "mape": 6.63,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 34.83,
+              "mape": 8.09,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 415.81,
+            "desviacion_estandar": 67.65
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 482.9,
+              "ic_inferior": 426.1,
+              "ic_superior": 539.6
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 528.0,
+              "ic_inferior": 447.7,
+              "ic_superior": 608.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 507.2,
+              "ic_inferior": 408.9,
+              "ic_superior": 605.5
+            }
+          ]
+        }
+      }
+    },
+    "SKU-017": {
+      "sku": "SKU-017",
+      "producto": "Galletas_200g",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "holt_winters",
+        "best_model_metrics": {
+          "modelo": "holt_winters",
+          "mae": 48.0,
+          "mape": 3.82,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 84.86,
+            "mape": 6.58,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 48.0,
+            "mape": 3.82,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 107.68,
+            "mape": 8.53,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 1044.68,
+          "desviacion_estandar": 181.28
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 1313.5,
+            "ic_inferior": 1218.1,
+            "ic_superior": 1408.9
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 1386.8,
+            "ic_inferior": 1251.9,
+            "ic_superior": 1521.7
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 1404.4,
+            "ic_inferior": 1239.2,
+            "ic_superior": 1569.7
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 48.0,
+            "mape": 3.82,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 84.86,
+              "mape": 6.58,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 48.0,
+              "mape": 3.82,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 107.68,
+              "mape": 8.53,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1044.68,
+            "desviacion_estandar": 181.28
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1313.5,
+              "ic_inferior": 1218.1,
+              "ic_superior": 1408.9
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1386.8,
+              "ic_inferior": 1251.9,
+              "ic_superior": 1521.7
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1404.4,
+              "ic_inferior": 1239.2,
+              "ic_superior": 1569.7
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 61.64,
+            "mape": 4.83,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 86.48,
+              "mape": 6.69,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 61.64,
+              "mape": 4.83,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 102.24,
+              "mape": 8.08,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1045.97,
+            "desviacion_estandar": 184.85
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1305.0,
+              "ic_inferior": 1198.8,
+              "ic_superior": 1411.2
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1384.8,
+              "ic_inferior": 1234.5,
+              "ic_superior": 1535.0
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1410.8,
+              "ic_inferior": 1226.8,
+              "ic_superior": 1594.8
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 66.04,
+            "mape": 5.36,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 108.0,
+              "mape": 8.76,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 66.04,
+              "mape": 5.36,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 139.64,
+              "mape": 11.16,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1043.66,
+            "desviacion_estandar": 174.84
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 1314.5,
+              "ic_inferior": 1174.5,
+              "ic_superior": 1454.5
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 1355.5,
+              "ic_inferior": 1157.5,
+              "ic_superior": 1553.6
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 1362.4,
+              "ic_inferior": 1119.9,
+              "ic_superior": 1604.9
+            }
+          ]
+        }
+      }
+    },
+    "SKU-018": {
+      "sku": "SKU-018",
+      "producto": "Jugo_Naranja_1L",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 33.03,
+          "mape": 4.25,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 57.31,
+            "mape": 7.07,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 36.51,
+            "mape": 4.44,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 33.03,
+            "mape": 4.25,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 727.51,
+          "desviacion_estandar": 183.43
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 938.5,
+            "ic_inferior": 863.2,
+            "ic_superior": 1013.8
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 961.7,
+            "ic_inferior": 855.3,
+            "ic_superior": 1068.2
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 984.3,
+            "ic_inferior": 853.9,
+            "ic_superior": 1114.7
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 33.03,
+            "mape": 4.25,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 57.31,
+              "mape": 7.07,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 36.51,
+              "mape": 4.44,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 33.03,
+              "mape": 4.25,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 727.51,
+            "desviacion_estandar": 183.43
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 938.5,
+              "ic_inferior": 863.2,
+              "ic_superior": 1013.8
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 961.7,
+              "ic_inferior": 855.3,
+              "ic_superior": 1068.2
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 984.3,
+              "ic_inferior": 853.9,
+              "ic_superior": 1114.7
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 38.62,
+            "mape": 4.98,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 53.83,
+              "mape": 6.68,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 43.83,
+              "mape": 5.33,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 38.62,
+              "mape": 4.98,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 727.98,
+            "desviacion_estandar": 183.27
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 936.0,
+              "ic_inferior": 856.8,
+              "ic_superior": 1015.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 959.4,
+              "ic_inferior": 847.4,
+              "ic_superior": 1071.5
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 982.2,
+              "ic_inferior": 844.9,
+              "ic_superior": 1119.4
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 62.37,
+            "mape": 8.9,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 82.77,
+              "mape": 11.31,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 70.1,
+              "mape": 9.82,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 62.37,
+              "mape": 8.9,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 727.02,
+            "desviacion_estandar": 176.55
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 911.1,
+              "ic_inferior": 794.7,
+              "ic_superior": 1027.5
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 933.6,
+              "ic_inferior": 769.0,
+              "ic_superior": 1098.1
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 954.6,
+              "ic_inferior": 753.1,
+              "ic_superior": 1156.2
+            }
+          ]
+        }
+      }
+    },
+    "SKU-019": {
+      "sku": "SKU-019",
+      "producto": "Agua_500ml_x24",
+      "best_training_recipe": {
+        "imputation_method": "forward_fill",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 68.8,
+          "mape": 3.06,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 283.36,
+            "mape": 12.76,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 79.41,
+            "mape": 3.54,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 68.8,
+            "mape": 3.06,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 1962.01,
+          "desviacion_estandar": 404.84
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 2510.5,
+            "ic_inferior": 2316.6,
+            "ic_superior": 2704.3
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 2557.2,
+            "ic_inferior": 2283.1,
+            "ic_superior": 2831.3
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 2602.5,
+            "ic_inferior": 2266.8,
+            "ic_superior": 2938.2
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 76.62,
+            "mape": 3.38,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 238.7,
+              "mape": 10.62,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 85.82,
+              "mape": 3.77,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 76.62,
+              "mape": 3.38,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1967.66,
+            "desviacion_estandar": 400.69
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 2532.0,
+              "ic_inferior": 2355.0,
+              "ic_superior": 2709.0
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 2578.7,
+              "ic_inferior": 2328.4,
+              "ic_superior": 2829.1
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 2623.5,
+              "ic_inferior": 2316.9,
+              "ic_superior": 2930.1
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 68.8,
+            "mape": 3.06,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 283.36,
+              "mape": 12.76,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 79.41,
+              "mape": 3.54,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 68.8,
+              "mape": 3.06,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1962.01,
+            "desviacion_estandar": 404.84
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 2510.5,
+              "ic_inferior": 2316.6,
+              "ic_superior": 2704.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 2557.2,
+              "ic_inferior": 2283.1,
+              "ic_superior": 2831.3
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 2602.5,
+              "ic_inferior": 2266.8,
+              "ic_superior": 2938.2
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 180.0,
+            "mape": 9.35,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 307.83,
+              "mape": 14.0,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 204.53,
+              "mape": 10.46,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 180.0,
+              "mape": 9.35,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 1963.99,
+            "desviacion_estandar": 381.14
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 2440.3,
+              "ic_inferior": 2148.3,
+              "ic_superior": 2732.3
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 2480.8,
+              "ic_inferior": 2067.8,
+              "ic_superior": 2893.8
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 2519.2,
+              "ic_inferior": 2013.5,
+              "ic_superior": 3025.0
+            }
+          ]
+        }
+      }
+    },
+    "SKU-020": {
+      "sku": "SKU-020",
+      "producto": "Cereal_Corn_500g",
+      "best_training_recipe": {
+        "imputation_method": "linear",
+        "best_model": "seasonal_regression",
+        "best_model_metrics": {
+          "modelo": "seasonal_regression",
+          "mae": 22.92,
+          "mape": 3.06,
+          "status": "ok"
+        },
+        "model_comparison": [
+          {
+            "modelo": "seasonal_naive",
+            "mae": 42.02,
+            "mape": 5.59,
+            "status": "ok"
+          },
+          {
+            "modelo": "holt_winters",
+            "mae": 27.27,
+            "mape": 3.59,
+            "status": "ok"
+          },
+          {
+            "modelo": "seasonal_regression",
+            "mae": 22.92,
+            "mape": 3.06,
+            "status": "ok"
+          }
+        ],
+        "cleaned_summary": {
+          "media": 623.02,
+          "desviacion_estandar": 122.23
+        },
+        "forecast_preview": [
+          {
+            "fecha": "2023-12-25",
+            "valor_central": 809.0,
+            "ic_inferior": 756.5,
+            "ic_superior": 861.5
+          },
+          {
+            "fecha": "2024-01-01",
+            "valor_central": 820.5,
+            "ic_inferior": 746.3,
+            "ic_superior": 894.7
+          },
+          {
+            "fecha": "2024-01-08",
+            "valor_central": 831.6,
+            "ic_inferior": 740.7,
+            "ic_superior": 922.4
+          }
+        ]
+      },
+      "recipes_by_imputation": {
+        "linear": {
+          "imputation_method": "linear",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 22.92,
+            "mape": 3.06,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 42.02,
+              "mape": 5.59,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 27.27,
+              "mape": 3.59,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 22.92,
+              "mape": 3.06,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 623.02,
+            "desviacion_estandar": 122.23
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 809.0,
+              "ic_inferior": 756.5,
+              "ic_superior": 861.5
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 820.5,
+              "ic_inferior": 746.3,
+              "ic_superior": 894.7
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 831.6,
+              "ic_inferior": 740.7,
+              "ic_superior": 922.4
+            }
+          ]
+        },
+        "forward_fill": {
+          "imputation_method": "forward_fill",
+          "best_model": "holt_winters",
+          "best_model_metrics": {
+            "modelo": "holt_winters",
+            "mae": 30.79,
+            "mape": 4.1,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 35.37,
+              "mape": 4.71,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 30.79,
+              "mape": 4.1,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 31.02,
+              "mape": 4.23,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 622.84,
+            "desviacion_estandar": 123.15
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 787.3,
+              "ic_inferior": 735.4,
+              "ic_superior": 839.1
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 816.8,
+              "ic_inferior": 743.5,
+              "ic_superior": 890.2
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 834.8,
+              "ic_inferior": 744.9,
+              "ic_superior": 924.6
+            }
+          ]
+        },
+        "seasonal_median": {
+          "imputation_method": "seasonal_median",
+          "best_model": "seasonal_regression",
+          "best_model_metrics": {
+            "modelo": "seasonal_regression",
+            "mae": 74.75,
+            "mape": 12.48,
+            "status": "ok"
+          },
+          "model_comparison": [
+            {
+              "modelo": "seasonal_naive",
+              "mae": 83.95,
+              "mape": 12.8,
+              "status": "ok"
+            },
+            {
+              "modelo": "holt_winters",
+              "mae": 77.87,
+              "mape": 12.57,
+              "status": "ok"
+            },
+            {
+              "modelo": "seasonal_regression",
+              "mae": 74.75,
+              "mape": 12.48,
+              "status": "ok"
+            }
+          ],
+          "cleaned_summary": {
+            "media": 620.42,
+            "desviacion_estandar": 114.74
+          },
+          "forecast_preview": [
+            {
+              "fecha": "2023-12-25",
+              "valor_central": 775.9,
+              "ic_inferior": 686.1,
+              "ic_superior": 865.6
+            },
+            {
+              "fecha": "2024-01-01",
+              "valor_central": 787.0,
+              "ic_inferior": 660.0,
+              "ic_superior": 913.9
+            },
+            {
+              "fecha": "2024-01-08",
+              "valor_central": 797.6,
+              "ic_inferior": 642.1,
+              "ic_superior": 953.1
+            }
+          ]
+        }
+      }
+    }
+  }
+}
