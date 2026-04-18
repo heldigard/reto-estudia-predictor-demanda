@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predictor de Demanda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script defer src="./config.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Reto 3 · Forecast con datos sucios</p>
+        <h1>Predictor de demanda con limpieza, imputación y forecast semanal.</h1>
+        <p class="hero-text">
+          Frontend estático listo para GitHub Pages. Si habilitas una URL de API,
+          la misma interfaz consume el backend local vía port forwarding.
+        </p>
+      </div>
+      <div class="hero-status">
+        <div class="status-card">
+          <span class="status-label">Modo</span>
+          <span class="status-value" id="mode-badge">cargando…</span>
+        </div>
+        <div class="status-card">
+          <span class="status-label">Cobertura</span>
+          <span class="status-value" id="coverage-badge">—</span>
+        </div>
+        <div class="status-card">
+          <span class="status-label">Dataset</span>
+          <span class="status-value" id="dataset-badge">—</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="control-bar panel">
+      <div class="control-group">
+        <label for="sku-select">Producto / SKU</label>
+        <select id="sku-select"></select>
+      </div>
+      <div class="control-group">
+        <label for="imputation-select">Imputación</label>
+        <select id="imputation-select">
+          <option value="seasonal_median">Mediana estacional</option>
+          <option value="linear">Interpolación lineal</option>
+          <option value="forward_fill">Forward fill</option>
+        </select>
+      </div>
+      <div class="control-group range-group">
+        <label for="horizon-range">Horizonte <span id="horizon-label">12 semanas</span></label>
+        <input id="horizon-range" type="range" min="4" max="12" step="1" value="12">
+      </div>
+      <div class="control-group">
+        <label>Backend</label>
+        <div class="api-hint" id="api-hint">Leyendo artefactos estáticos</div>
+      </div>
+    </section>
+
+    <section class="metrics-grid" id="metrics-grid"></section>
+
+    <main class="layout">
+      <section class="panel chart-panel">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Serie semanal</p>
+            <h2 id="chart-title">Cargando producto…</h2>
+          </div>
+          <div class="legend-inline">
+            <span><i class="dot raw"></i>observado</span>
+            <span><i class="dot clean"></i>limpio</span>
+            <span><i class="dot fitted"></i>ajuste</span>
+            <span><i class="dot forecast"></i>forecast</span>
+          </div>
+        </div>
+        <div class="chart-wrap large">
+          <canvas id="series-chart"></canvas>
+        </div>
+      </section>
+
+      <section class="panel side-panel">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Selección del modelo</p>
+            <h2>Comparativa de desempeño</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table" id="model-table"></table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Residuos</p>
+            <h2>Distribución del error del mejor modelo</h2>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="residual-chart"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Forecast</p>
+            <h2>Tabla de predicciones</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table" id="forecast-table"></table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Anomalías</p>
+            <h2>Log del dataset original</h2>
+          </div>
+        </div>
+        <div class="chip-row" id="anomaly-summary"></div>
+        <div class="log-list" id="anomaly-log"></div>
+      </section>
+
+      <section class="panel notes-panel">
+        <div class="panel-header">
+          <div>
+            <p class="panel-kicker">Arquitectura</p>
+            <h2>Cómo usar esta entrega</h2>
+          </div>
+        </div>
+        <div class="notes-grid">
+          <article>
+            <h3>GitHub Pages</h3>
+            <p>
+              El sitio funciona sin backend usando los JSON precomputados que salen del pipeline
+              Python. Eso permite abrir el dashboard desde cualquier lugar.
+            </p>
+          </article>
+          <article>
+            <h3>Modo live</h3>
+            <p>
+              Si defines <code>window.APP_CONFIG.apiBaseUrl</code> o agregas
+              <code>?apiBaseUrl=https://tu-url</code>, el frontend consulta el backend FastAPI.
+            </p>
+          </article>
+          <article>
+            <h3>Colab</h3>
+            <p>
+              Se descartó como backend principal porque exige túneles efímeros y una sesión viva.
+              La opción estable incluida es backend local más port forwarding.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

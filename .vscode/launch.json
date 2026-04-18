@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend API",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/backend/.venv/bin/python",
+      "args": [
+        "backend.app.main:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000",
+        "--reload"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Frontend Static Server",
+      "type": "debugpy",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/backend/.venv/bin/python",
+      "module": "http.server",
+      "args": [
+        "4173",
+        "--directory",
+        "frontend"
+      ],
+      "console": "integratedTerminal"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Frontend + Backend",
+      "configurations": [
+        "Backend API",
+        "Frontend Static Server"
+      ]
+    }
+  ]
+}

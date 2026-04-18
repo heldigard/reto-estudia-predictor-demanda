@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "generated_from": "dataset.pdf",
+    "source_csv": "backend/data/dataset.csv",
+    "weeks": 520,
+    "sku_count": 20,
+    "date_range": {
+      "inicio": "2014-01-06",
+      "fin": "2023-12-18"
+    },
+    "imputation_methods": [
+      "linear",
+      "forward_fill",
+      "seasonal_median"
+    ],
+    "max_horizon": 12
+  },
+  "catalog": [
+    {
+      "sku": "SKU-001",
+      "producto": "Arroz_500g"
+    },
+    {
+      "sku": "SKU-002",
+      "producto": "Aceite_1L"
+    },
+    {
+      "sku": "SKU-003",
+      "producto": "Azucar_1kg"
+    },
+    {
+      "sku": "SKU-004",
+      "producto": "Leche_UHT_1L"
+    },
+    {
+      "sku": "SKU-005",
+      "producto": "Harina_1kg"
+    },
+    {
+      "sku": "SKU-006",
+      "producto": "Pasta_Spaghetti"
+    },
+    {
+      "sku": "SKU-007",
+      "producto": "Atun_Lata_170g"
+    },
+    {
+      "sku": "SKU-008",
+      "producto": "Frijol_500g"
+    },
+    {
+      "sku": "SKU-009",
+      "producto": "Sal_1kg"
+    },
+    {
+      "sku": "SKU-010",
+      "producto": "Cafe_Molido_250g"
+    },
+    {
+      "sku": "SKU-011",
+      "producto": "Jabon_Barra"
+    },
+    {
+      "sku": "SKU-012",
+      "producto": "Shampoo_400ml"
+    },
+    {
+      "sku": "SKU-013",
+      "producto": "Papel_Higienico_4x"
+    },
+    {
+      "sku": "SKU-014",
+      "producto": "Detergente_1kg"
+    },
+    {
+      "sku": "SKU-015",
+      "producto": "Mayonesa_445g"
+    },
+    {
+      "sku": "SKU-016",
+      "producto": "Ketchup_397g"
+    },
+    {
+      "sku": "SKU-017",
+      "producto": "Galletas_200g"
+    },
+    {
+      "sku": "SKU-018",
+      "producto": "Jugo_Naranja_1L"
+    },
+    {
+      "sku": "SKU-019",
+      "producto": "Agua_500ml_x24"
+    },
+    {
+      "sku": "SKU-020",
+      "producto": "Cereal_Corn_500g"
+    }
+  ]
+}

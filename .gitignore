@@ -1,0 +1,7 @@
+.memory-bank/
+backend/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+3. Reto; Predictor de demanda (código).html
+dataset.pdf-*.png
