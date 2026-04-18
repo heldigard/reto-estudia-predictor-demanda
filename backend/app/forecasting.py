@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import inspect
 import json
 import math
 from dataclasses import dataclass
@@ -8,7 +9,35 @@ from typing import Any
 
 import numpy as np
 import pandas as pd
+from pandas.util import _decorators as pandas_decorators
 from sklearn.linear_model import LinearRegression
+
+
+def _patch_pandas_deprecate_kwarg() -> None:
+    signature = inspect.signature(pandas_decorators.deprecate_kwarg)
+    if list(signature.parameters)[0] != "klass":
+        return
+
+    original = pandas_decorators.deprecate_kwarg
+
+    def compat_deprecate_kwarg(
+        old_arg_name: str,
+        new_arg_name: str | None,
+        mapping: Any = None,
+        stacklevel: int = 2,
+    ) -> Any:
+        return original(
+            FutureWarning,
+            old_arg_name,
+            new_arg_name,
+            mapping=mapping,
+            stacklevel=stacklevel,
+        )
+
+    pandas_decorators.deprecate_kwarg = compat_deprecate_kwarg
+
+
+_patch_pandas_deprecate_kwarg()
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
 
@@ -18,6 +47,7 @@ PRECOMPUTED_PATH = ROOT / "backend" / "data" / "precomputed.json"
 FRONTEND_DATA_DIR = ROOT / "frontend" / "data"
 TRAINING_DIR = ROOT / "backend" / "data" / "training"
 EDA_SUMMARY_PATH = TRAINING_DIR / "eda_summary.json"
+GPU_REGISTRY_PATH = ROOT / "backend" / "gpu_training" / "artifacts" / "model_registry.json"
 INVALID_NOTES = {
     "duplicado",
     "missing",
@@ -74,6 +104,12 @@ def load_dataset(csv_path: Path = DATASET_PATH) -> pd.DataFrame:
     df["nota"] = df["nota"].fillna("missing")
     df = df.sort_values(["sku", "fecha"]).reset_index(drop=True)
     return df
+
+
+def load_gpu_registry(registry_path: Path = GPU_REGISTRY_PATH) -> dict[str, Any] | None:
+    if not registry_path.exists():
+        return None
+    return json.loads(registry_path.read_text(encoding="utf-8"))
 
 
 def build_raw_series(df: pd.DataFrame, sku: str) -> pd.DataFrame:
@@ -310,8 +346,34 @@ def analyze_series(raw_df: pd.DataFrame, imputation_method: str, horizon: int = 
     }
 
 
+def merge_gpu_analysis(
+    analysis: dict[str, Any],
+    gpu_entry: dict[str, Any] | None,
+    horizon: int,
+) -> dict[str, Any]:
+    if not gpu_entry:
+        return analysis
+
+    merged = dict(analysis)
+    comparison = [item for item in analysis["model_comparison"] if item["modelo"] != gpu_entry["best_model_metrics"]["modelo"]]
+    comparison.append(gpu_entry["best_model_metrics"])
+    merged["model_comparison"] = comparison
+
+    gpu_best_run = gpu_entry.get("best_run")
+    if gpu_best_run and gpu_entry["best_model_metrics"]["mape"] < analysis["best_model_metrics"]["mape"]:
+        merged["best_model"] = gpu_entry["best_model_metrics"]["modelo"]
+        merged["best_model_metrics"] = gpu_entry["best_model_metrics"]
+        merged["best_run"] = {
+            **gpu_best_run,
+            "forecast": gpu_best_run["forecast"][:horizon],
+        }
+
+    return merged
+
+
 def build_payload(df: pd.DataFrame | None = None, horizon: int = MAX_HORIZON) -> dict[str, Any]:
     frame = df if df is not None else load_dataset()
+    gpu_registry = load_gpu_registry()
     payload: dict[str, Any] = {
         "meta": {
             "generated_from": "dataset.pdf",
@@ -353,9 +415,18 @@ def build_payload(df: pd.DataFrame | None = None, horizon: int = MAX_HORIZON) ->
             if item["nota"] != "ok"
         ]
 
-        analyses = {
-            method: analyze_series(raw_df, method, horizon=horizon) for method in IMPUTATION_METHODS
-        }
+        analyses: dict[str, Any] = {}
+        for method in IMPUTATION_METHODS:
+            analysis = analyze_series(raw_df, method, horizon=horizon)
+            gpu_entry = None
+            if gpu_registry is not None:
+                gpu_entry = (
+                    gpu_registry.get("imputations", {})
+                    .get(method, {})
+                    .get("skus", {})
+                    .get(sku)
+                )
+            analyses[method] = merge_gpu_analysis(analysis, gpu_entry, horizon=horizon)
 
         payload["catalog"].append({"sku": sku, "producto": product_name})
         payload["series_by_sku"][sku] = {
