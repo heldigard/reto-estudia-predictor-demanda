@@ -60,8 +60,9 @@ IMPUTATION_METHODS = ("linear", "forward_fill", "seasonal_median")
 MODEL_NAMES = ("seasonal_naive", "holt_winters", "seasonal_regression")
 SEASONAL_PERIOD = 52
 HOLDOUT_WEEKS = 12
-MAX_HORIZON = 12
 Z_90 = 1.6448536269514722
+FORECAST_END_DATE = pd.Timestamp("2030-12-30")
+MAX_HORIZON = 367
 
 
 @dataclass

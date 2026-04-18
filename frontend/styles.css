@@ -304,6 +304,59 @@ input[type="range"] {
   font-size: 0.92rem;
 }
 
+.forecast-insights {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.forecast-card {
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid var(--line);
+}
+
+.forecast-card strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.forecast-card span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.forecast-card small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.year-chip-row {
+  margin-bottom: 16px;
+}
+
+.year-chip {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.62);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.year-chip.active {
+  background: rgba(31, 77, 189, 0.12);
+  color: var(--accent-2);
+  border-color: rgba(31, 77, 189, 0.24);
+}
+
 .layout {
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(360px, 0.95fr);
@@ -763,7 +816,8 @@ input[type="range"] {
   .control-bar,
   .metrics-grid,
   .notes-grid,
-  .live-panel {
+  .live-panel,
+  .forecast-insights {
     grid-template-columns: 1fr;
   }
 

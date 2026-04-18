@@ -24,8 +24,9 @@
         <p class="eyebrow">Reto 3 · Forecast con datos sucios</p>
         <h1>Predictor de demanda con limpieza, imputación y forecast semanal.</h1>
         <p class="hero-text">
-          Frontend estático listo para GitHub Pages. Si habilitas una URL de API,
-          la misma interfaz consume el backend local vía port forwarding.
+          Esta solución transforma un histórico inconsistente en una lectura clara de demanda,
+          mostrando qué se corrigió, qué modelo respondió mejor y cómo evoluciona la proyección
+          hasta 2030.
         </p>
         <div class="hero-actions">
           <a class="cta-link" href="./resumen.html">Ver resumen ejecutivo del EDA</a>
@@ -61,8 +62,8 @@
         </select>
       </div>
       <div class="control-group range-group">
-        <label for="horizon-range">Horizonte <span id="horizon-label">12 semanas</span></label>
-        <input id="horizon-range" type="range" min="4" max="12" step="1" value="12">
+        <label for="horizon-range">Horizonte <span id="horizon-label">hasta 2030</span></label>
+        <input id="horizon-range" type="range" min="4" max="367" step="1" value="367">
       </div>
       <div class="control-group">
         <label>Motor</label>
@@ -144,6 +145,8 @@
             <h2>Tabla de predicciones</h2>
           </div>
         </div>
+        <div class="forecast-insights" id="forecast-insights"></div>
+        <div class="chip-row year-chip-row" id="forecast-year-chips"></div>
         <div class="table-wrap">
           <table class="data-table" id="forecast-table"></table>
         </div>
@@ -179,7 +182,7 @@
             <h3>Comparación de escenarios</h3>
             <p>
               Permite contrastar métodos de imputación, revisar métricas como MAE y MAPE, y observar
-              cómo cambia el forecast al modificar el horizonte entre 4 y 12 semanas.
+              cómo cambia el forecast desde decisiones de corto plazo hasta la planeación hacia 2030.
             </p>
           </article>
           <article>

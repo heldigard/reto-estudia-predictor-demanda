@@ -13,7 +13,7 @@
       "forward_fill",
       "seasonal_median"
     ],
-    "max_horizon": 12
+    "max_horizon": 367
   },
   "catalog": [
     {

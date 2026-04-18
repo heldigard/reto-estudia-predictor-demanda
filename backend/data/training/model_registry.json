@@ -1,6 +1,6 @@
 {
   "meta": {
-    "horizon": 12,
+    "horizon": 367,
     "candidate_models": [
       "seasonal_naive",
       "holt_winters",

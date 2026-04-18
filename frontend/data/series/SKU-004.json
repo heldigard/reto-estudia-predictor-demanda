@@ -5251,6 +5251,2136 @@
             "valor_central": 2197.2,
             "ic_inferior": 1774.4,
             "ic_superior": 2620.0
+          },
+          {
+            "fecha": "2024-03-18",
+            "valor_central": 2150.4,
+            "ic_inferior": 1710.4,
+            "ic_superior": 2590.5
+          },
+          {
+            "fecha": "2024-03-25",
+            "valor_central": 2187.7,
+            "ic_inferior": 1731.0,
+            "ic_superior": 2644.3
+          },
+          {
+            "fecha": "2024-04-01",
+            "valor_central": 2176.3,
+            "ic_inferior": 1703.6,
+            "ic_superior": 2649.0
+          },
+          {
+            "fecha": "2024-04-08",
+            "valor_central": 2175.8,
+            "ic_inferior": 1687.7,
+            "ic_superior": 2664.0
+          },
+          {
+            "fecha": "2024-04-15",
+            "valor_central": 2191.7,
+            "ic_inferior": 1688.5,
+            "ic_superior": 2694.9
+          },
+          {
+            "fecha": "2024-04-22",
+            "valor_central": 2210.3,
+            "ic_inferior": 1692.5,
+            "ic_superior": 2728.1
+          },
+          {
+            "fecha": "2024-04-29",
+            "valor_central": 2183.2,
+            "ic_inferior": 1651.2,
+            "ic_superior": 2715.2
+          },
+          {
+            "fecha": "2024-05-06",
+            "valor_central": 2131.3,
+            "ic_inferior": 1585.5,
+            "ic_superior": 2677.2
+          },
+          {
+            "fecha": "2024-05-13",
+            "valor_central": 2137.7,
+            "ic_inferior": 1578.4,
+            "ic_superior": 2697.0
+          },
+          {
+            "fecha": "2024-05-20",
+            "valor_central": 2120.8,
+            "ic_inferior": 1548.4,
+            "ic_superior": 2693.3
+          },
+          {
+            "fecha": "2024-05-27",
+            "valor_central": 2095.4,
+            "ic_inferior": 1510.1,
+            "ic_superior": 2680.7
+          },
+          {
+            "fecha": "2024-06-03",
+            "valor_central": 2055.2,
+            "ic_inferior": 1457.2,
+            "ic_superior": 2653.1
+          },
+          {
+            "fecha": "2024-06-10",
+            "valor_central": 2086.7,
+            "ic_inferior": 1476.4,
+            "ic_superior": 2696.9
+          },
+          {
+            "fecha": "2024-06-17",
+            "valor_central": 2075.5,
+            "ic_inferior": 1453.2,
+            "ic_superior": 2697.8
+          },
+          {
+            "fecha": "2024-06-24",
+            "valor_central": 2018.4,
+            "ic_inferior": 1384.2,
+            "ic_superior": 2652.6
+          },
+          {
+            "fecha": "2024-07-01",
+            "valor_central": 1968.0,
+            "ic_inferior": 1322.2,
+            "ic_superior": 2613.8
+          },
+          {
+            "fecha": "2024-07-08",
+            "valor_central": 1951.0,
+            "ic_inferior": 1293.7,
+            "ic_superior": 2608.2
+          },
+          {
+            "fecha": "2024-07-15",
+            "valor_central": 1956.1,
+            "ic_inferior": 1287.6,
+            "ic_superior": 2624.6
+          },
+          {
+            "fecha": "2024-07-22",
+            "valor_central": 1929.3,
+            "ic_inferior": 1249.7,
+            "ic_superior": 2608.8
+          },
+          {
+            "fecha": "2024-07-29",
+            "valor_central": 1919.3,
+            "ic_inferior": 1228.9,
+            "ic_superior": 2609.7
+          },
+          {
+            "fecha": "2024-08-05",
+            "valor_central": 1918.7,
+            "ic_inferior": 1217.6,
+            "ic_superior": 2619.8
+          },
+          {
+            "fecha": "2024-08-12",
+            "valor_central": 1908.0,
+            "ic_inferior": 1196.4,
+            "ic_superior": 2619.7
+          },
+          {
+            "fecha": "2024-08-19",
+            "valor_central": 1933.2,
+            "ic_inferior": 1211.1,
+            "ic_superior": 2655.2
+          },
+          {
+            "fecha": "2024-08-26",
+            "valor_central": 1862.3,
+            "ic_inferior": 1130.0,
+            "ic_superior": 2594.6
+          },
+          {
+            "fecha": "2024-09-02",
+            "valor_central": 1917.6,
+            "ic_inferior": 1175.3,
+            "ic_superior": 2660.0
+          },
+          {
+            "fecha": "2024-09-09",
+            "valor_central": 1888.2,
+            "ic_inferior": 1135.8,
+            "ic_superior": 2640.5
+          },
+          {
+            "fecha": "2024-09-16",
+            "valor_central": 1883.7,
+            "ic_inferior": 1121.5,
+            "ic_superior": 2645.9
+          },
+          {
+            "fecha": "2024-09-23",
+            "valor_central": 1817.0,
+            "ic_inferior": 1045.1,
+            "ic_superior": 2588.9
+          },
+          {
+            "fecha": "2024-09-30",
+            "valor_central": 1857.1,
+            "ic_inferior": 1075.6,
+            "ic_superior": 2638.6
+          },
+          {
+            "fecha": "2024-10-07",
+            "valor_central": 1863.4,
+            "ic_inferior": 1072.5,
+            "ic_superior": 2654.4
+          },
+          {
+            "fecha": "2024-10-14",
+            "valor_central": 1910.8,
+            "ic_inferior": 1110.5,
+            "ic_superior": 2711.2
+          },
+          {
+            "fecha": "2024-10-21",
+            "valor_central": 1818.8,
+            "ic_inferior": 1009.2,
+            "ic_superior": 2628.3
+          },
+          {
+            "fecha": "2024-10-28",
+            "valor_central": 1869.9,
+            "ic_inferior": 1051.2,
+            "ic_superior": 2688.6
+          },
+          {
+            "fecha": "2024-11-04",
+            "valor_central": 1961.2,
+            "ic_inferior": 1133.5,
+            "ic_superior": 2789.0
+          },
+          {
+            "fecha": "2024-11-11",
+            "valor_central": 1899.3,
+            "ic_inferior": 1062.5,
+            "ic_superior": 2736.0
+          },
+          {
+            "fecha": "2024-11-18",
+            "valor_central": 1947.6,
+            "ic_inferior": 1102.1,
+            "ic_superior": 2793.2
+          },
+          {
+            "fecha": "2024-11-25",
+            "valor_central": 1967.3,
+            "ic_inferior": 1112.9,
+            "ic_superior": 2821.6
+          },
+          {
+            "fecha": "2024-12-02",
+            "valor_central": 1960.8,
+            "ic_inferior": 1097.8,
+            "ic_superior": 2823.8
+          },
+          {
+            "fecha": "2024-12-09",
+            "valor_central": 1985.0,
+            "ic_inferior": 1113.4,
+            "ic_superior": 2856.6
+          },
+          {
+            "fecha": "2024-12-16",
+            "valor_central": 2003.6,
+            "ic_inferior": 1123.5,
+            "ic_superior": 2883.7
+          },
+          {
+            "fecha": "2024-12-23",
+            "valor_central": 2089.5,
+            "ic_inferior": 1201.0,
+            "ic_superior": 2978.0
+          },
+          {
+            "fecha": "2024-12-30",
+            "valor_central": 2122.5,
+            "ic_inferior": 1225.7,
+            "ic_superior": 3019.4
+          },
+          {
+            "fecha": "2025-01-06",
+            "valor_central": 2094.1,
+            "ic_inferior": 1189.0,
+            "ic_superior": 2999.2
+          },
+          {
+            "fecha": "2025-01-13",
+            "valor_central": 2100.9,
+            "ic_inferior": 1187.5,
+            "ic_superior": 3014.2
+          },
+          {
+            "fecha": "2025-01-20",
+            "valor_central": 2158.3,
+            "ic_inferior": 1236.9,
+            "ic_superior": 3079.7
+          },
+          {
+            "fecha": "2025-01-27",
+            "valor_central": 2195.3,
+            "ic_inferior": 1265.8,
+            "ic_superior": 3124.8
+          },
+          {
+            "fecha": "2025-02-03",
+            "valor_central": 2233.7,
+            "ic_inferior": 1296.2,
+            "ic_superior": 3171.2
+          },
+          {
+            "fecha": "2025-02-10",
+            "valor_central": 2222.5,
+            "ic_inferior": 1277.2,
+            "ic_superior": 3167.9
+          },
+          {
+            "fecha": "2025-02-17",
+            "valor_central": 2207.4,
+            "ic_inferior": 1254.2,
+            "ic_superior": 3160.7
+          },
+          {
+            "fecha": "2025-02-24",
+            "valor_central": 2264.1,
+            "ic_inferior": 1303.1,
+            "ic_superior": 3225.1
+          },
+          {
+            "fecha": "2025-03-03",
+            "valor_central": 2229.4,
+            "ic_inferior": 1260.6,
+            "ic_superior": 3198.1
+          },
+          {
+            "fecha": "2025-03-10",
+            "valor_central": 2243.8,
+            "ic_inferior": 1267.4,
+            "ic_superior": 3220.2
+          },
+          {
+            "fecha": "2025-03-17",
+            "valor_central": 2196.8,
+            "ic_inferior": 1212.8,
+            "ic_superior": 3180.7
+          },
+          {
+            "fecha": "2025-03-24",
+            "valor_central": 2233.8,
+            "ic_inferior": 1242.3,
+            "ic_superior": 3225.3
+          },
+          {
+            "fecha": "2025-03-31",
+            "valor_central": 2222.2,
+            "ic_inferior": 1223.2,
+            "ic_superior": 3221.2
+          },
+          {
+            "fecha": "2025-04-07",
+            "valor_central": 2221.5,
+            "ic_inferior": 1215.1,
+            "ic_superior": 3227.9
+          },
+          {
+            "fecha": "2025-04-14",
+            "valor_central": 2237.1,
+            "ic_inferior": 1223.3,
+            "ic_superior": 3250.9
+          },
+          {
+            "fecha": "2025-04-21",
+            "valor_central": 2255.5,
+            "ic_inferior": 1234.3,
+            "ic_superior": 3276.6
+          },
+          {
+            "fecha": "2025-04-28",
+            "valor_central": 2228.2,
+            "ic_inferior": 1199.8,
+            "ic_superior": 3256.6
+          },
+          {
+            "fecha": "2025-05-05",
+            "valor_central": 2176.1,
+            "ic_inferior": 1140.5,
+            "ic_superior": 3211.7
+          },
+          {
+            "fecha": "2025-05-12",
+            "valor_central": 2182.2,
+            "ic_inferior": 1139.4,
+            "ic_superior": 3225.0
+          },
+          {
+            "fecha": "2025-05-19",
+            "valor_central": 2165.1,
+            "ic_inferior": 1115.2,
+            "ic_superior": 3215.0
+          },
+          {
+            "fecha": "2025-05-26",
+            "valor_central": 2139.5,
+            "ic_inferior": 1082.5,
+            "ic_superior": 3196.4
+          },
+          {
+            "fecha": "2025-06-02",
+            "valor_central": 2099.0,
+            "ic_inferior": 1035.0,
+            "ic_superior": 3163.0
+          },
+          {
+            "fecha": "2025-06-09",
+            "valor_central": 2130.3,
+            "ic_inferior": 1059.3,
+            "ic_superior": 3201.3
+          },
+          {
+            "fecha": "2025-06-16",
+            "valor_central": 2118.9,
+            "ic_inferior": 1041.0,
+            "ic_superior": 3196.8
+          },
+          {
+            "fecha": "2025-06-23",
+            "valor_central": 2061.6,
+            "ic_inferior": 976.8,
+            "ic_superior": 3146.4
+          },
+          {
+            "fecha": "2025-06-30",
+            "valor_central": 2010.9,
+            "ic_inferior": 919.3,
+            "ic_superior": 3102.6
+          },
+          {
+            "fecha": "2025-07-07",
+            "valor_central": 1993.7,
+            "ic_inferior": 895.3,
+            "ic_superior": 3092.2
+          },
+          {
+            "fecha": "2025-07-14",
+            "valor_central": 1998.6,
+            "ic_inferior": 893.5,
+            "ic_superior": 3103.8
+          },
+          {
+            "fecha": "2025-07-21",
+            "valor_central": 1971.6,
+            "ic_inferior": 859.7,
+            "ic_superior": 3083.5
+          },
+          {
+            "fecha": "2025-07-28",
+            "valor_central": 1961.4,
+            "ic_inferior": 842.9,
+            "ic_superior": 3080.0
+          },
+          {
+            "fecha": "2025-08-04",
+            "valor_central": 1960.6,
+            "ic_inferior": 835.4,
+            "ic_superior": 3085.8
+          },
+          {
+            "fecha": "2025-08-11",
+            "valor_central": 1949.7,
+            "ic_inferior": 817.9,
+            "ic_superior": 3081.6
+          },
+          {
+            "fecha": "2025-08-18",
+            "valor_central": 1974.7,
+            "ic_inferior": 836.3,
+            "ic_superior": 3113.1
+          },
+          {
+            "fecha": "2025-08-25",
+            "valor_central": 1903.6,
+            "ic_inferior": 758.7,
+            "ic_superior": 3048.5
+          },
+          {
+            "fecha": "2025-09-01",
+            "valor_central": 1958.7,
+            "ic_inferior": 807.3,
+            "ic_superior": 3110.1
+          },
+          {
+            "fecha": "2025-09-08",
+            "valor_central": 1929.1,
+            "ic_inferior": 771.2,
+            "ic_superior": 3086.9
+          },
+          {
+            "fecha": "2025-09-15",
+            "valor_central": 1924.4,
+            "ic_inferior": 760.1,
+            "ic_superior": 3088.6
+          },
+          {
+            "fecha": "2025-09-22",
+            "valor_central": 1857.5,
+            "ic_inferior": 686.8,
+            "ic_superior": 3028.1
+          },
+          {
+            "fecha": "2025-09-29",
+            "valor_central": 1897.4,
+            "ic_inferior": 720.4,
+            "ic_superior": 3074.3
+          },
+          {
+            "fecha": "2025-10-06",
+            "valor_central": 1903.5,
+            "ic_inferior": 720.2,
+            "ic_superior": 3086.8
+          },
+          {
+            "fecha": "2025-10-13",
+            "valor_central": 1950.7,
+            "ic_inferior": 761.1,
+            "ic_superior": 3140.3
+          },
+          {
+            "fecha": "2025-10-20",
+            "valor_central": 1858.4,
+            "ic_inferior": 662.6,
+            "ic_superior": 3054.2
+          },
+          {
+            "fecha": "2025-10-27",
+            "valor_central": 1909.4,
+            "ic_inferior": 707.3,
+            "ic_superior": 3111.4
+          },
+          {
+            "fecha": "2025-11-03",
+            "valor_central": 2000.5,
+            "ic_inferior": 792.3,
+            "ic_superior": 3208.7
+          },
+          {
+            "fecha": "2025-11-10",
+            "valor_central": 1938.3,
+            "ic_inferior": 724.0,
+            "ic_superior": 3152.7
+          },
+          {
+            "fecha": "2025-11-17",
+            "valor_central": 1986.5,
+            "ic_inferior": 766.0,
+            "ic_superior": 3207.0
+          },
+          {
+            "fecha": "2025-11-24",
+            "valor_central": 2005.9,
+            "ic_inferior": 779.4,
+            "ic_superior": 3232.5
+          },
+          {
+            "fecha": "2025-12-01",
+            "valor_central": 1999.3,
+            "ic_inferior": 766.7,
+            "ic_superior": 3231.9
+          },
+          {
+            "fecha": "2025-12-08",
+            "valor_central": 2023.3,
+            "ic_inferior": 784.7,
+            "ic_superior": 3262.0
+          },
+          {
+            "fecha": "2025-12-15",
+            "valor_central": 2041.7,
+            "ic_inferior": 797.1,
+            "ic_superior": 3286.4
+          },
+          {
+            "fecha": "2025-12-22",
+            "valor_central": 2127.4,
+            "ic_inferior": 876.8,
+            "ic_superior": 3378.0
+          },
+          {
+            "fecha": "2025-12-29",
+            "valor_central": 2160.3,
+            "ic_inferior": 903.7,
+            "ic_superior": 3416.8
+          },
+          {
+            "fecha": "2026-01-05",
+            "valor_central": 2131.7,
+            "ic_inferior": 869.2,
+            "ic_superior": 3394.1
+          },
+          {
+            "fecha": "2026-01-12",
+            "valor_central": 2138.2,
+            "ic_inferior": 869.9,
+            "ic_superior": 3406.6
+          },
+          {
+            "fecha": "2026-01-19",
+            "valor_central": 2195.5,
+            "ic_inferior": 921.2,
+            "ic_superior": 3469.7
+          },
+          {
+            "fecha": "2026-01-26",
+            "valor_central": 2232.3,
+            "ic_inferior": 952.2,
+            "ic_superior": 3512.3
+          },
+          {
+            "fecha": "2026-02-02",
+            "valor_central": 2270.5,
+            "ic_inferior": 984.7,
+            "ic_superior": 3556.4
+          },
+          {
+            "fecha": "2026-02-09",
+            "valor_central": 2259.1,
+            "ic_inferior": 967.5,
+            "ic_superior": 3550.8
+          },
+          {
+            "fecha": "2026-02-16",
+            "valor_central": 2243.9,
+            "ic_inferior": 946.5,
+            "ic_superior": 3541.2
+          },
+          {
+            "fecha": "2026-02-23",
+            "valor_central": 2300.3,
+            "ic_inferior": 997.2,
+            "ic_superior": 3603.5
+          },
+          {
+            "fecha": "2026-03-02",
+            "valor_central": 2265.4,
+            "ic_inferior": 956.6,
+            "ic_superior": 3574.2
+          },
+          {
+            "fecha": "2026-03-09",
+            "valor_central": 2279.7,
+            "ic_inferior": 965.2,
+            "ic_superior": 3594.2
+          },
+          {
+            "fecha": "2026-03-16",
+            "valor_central": 2232.5,
+            "ic_inferior": 912.3,
+            "ic_superior": 3552.6
+          },
+          {
+            "fecha": "2026-03-23",
+            "valor_central": 2269.3,
+            "ic_inferior": 943.5,
+            "ic_superior": 3595.1
+          },
+          {
+            "fecha": "2026-03-30",
+            "valor_central": 2257.5,
+            "ic_inferior": 926.2,
+            "ic_superior": 3588.9
+          },
+          {
+            "fecha": "2026-04-06",
+            "valor_central": 2256.7,
+            "ic_inferior": 919.7,
+            "ic_superior": 3593.6
+          },
+          {
+            "fecha": "2026-04-13",
+            "valor_central": 2272.1,
+            "ic_inferior": 929.6,
+            "ic_superior": 3614.6
+          },
+          {
+            "fecha": "2026-04-20",
+            "valor_central": 2290.3,
+            "ic_inferior": 942.2,
+            "ic_superior": 3638.3
+          },
+          {
+            "fecha": "2026-04-27",
+            "valor_central": 2262.8,
+            "ic_inferior": 909.2,
+            "ic_superior": 3616.4
+          },
+          {
+            "fecha": "2026-05-04",
+            "valor_central": 2210.6,
+            "ic_inferior": 851.5,
+            "ic_superior": 3569.6
+          },
+          {
+            "fecha": "2026-05-11",
+            "valor_central": 2216.5,
+            "ic_inferior": 852.0,
+            "ic_superior": 3581.1
+          },
+          {
+            "fecha": "2026-05-18",
+            "valor_central": 2199.2,
+            "ic_inferior": 829.3,
+            "ic_superior": 3569.2
+          },
+          {
+            "fecha": "2026-05-25",
+            "valor_central": 2173.4,
+            "ic_inferior": 798.0,
+            "ic_superior": 3548.8
+          },
+          {
+            "fecha": "2026-06-01",
+            "valor_central": 2132.8,
+            "ic_inferior": 752.0,
+            "ic_superior": 3513.6
+          },
+          {
+            "fecha": "2026-06-08",
+            "valor_central": 2163.9,
+            "ic_inferior": 777.7,
+            "ic_superior": 3550.1
+          },
+          {
+            "fecha": "2026-06-15",
+            "valor_central": 2152.4,
+            "ic_inferior": 760.8,
+            "ic_superior": 3543.9
+          },
+          {
+            "fecha": "2026-06-22",
+            "valor_central": 2094.9,
+            "ic_inferior": 698.0,
+            "ic_superior": 3491.8
+          },
+          {
+            "fecha": "2026-06-29",
+            "valor_central": 2044.1,
+            "ic_inferior": 641.8,
+            "ic_superior": 3446.3
+          },
+          {
+            "fecha": "2026-07-06",
+            "valor_central": 2026.7,
+            "ic_inferior": 619.2,
+            "ic_superior": 3434.2
+          },
+          {
+            "fecha": "2026-07-13",
+            "valor_central": 2031.4,
+            "ic_inferior": 618.6,
+            "ic_superior": 3444.2
+          },
+          {
+            "fecha": "2026-07-20",
+            "valor_central": 2004.2,
+            "ic_inferior": 586.1,
+            "ic_superior": 3422.3
+          },
+          {
+            "fecha": "2026-07-27",
+            "valor_central": 1993.9,
+            "ic_inferior": 570.6,
+            "ic_superior": 3417.2
+          },
+          {
+            "fecha": "2026-08-03",
+            "valor_central": 1992.9,
+            "ic_inferior": 564.3,
+            "ic_superior": 3421.4
+          },
+          {
+            "fecha": "2026-08-10",
+            "valor_central": 1981.9,
+            "ic_inferior": 548.1,
+            "ic_superior": 3415.6
+          },
+          {
+            "fecha": "2026-08-17",
+            "valor_central": 2006.6,
+            "ic_inferior": 567.7,
+            "ic_superior": 3445.6
+          },
+          {
+            "fecha": "2026-08-24",
+            "valor_central": 1935.4,
+            "ic_inferior": 491.3,
+            "ic_superior": 3379.5
+          },
+          {
+            "fecha": "2026-08-31",
+            "valor_central": 1990.4,
+            "ic_inferior": 541.1,
+            "ic_superior": 3439.6
+          },
+          {
+            "fecha": "2026-09-07",
+            "valor_central": 1960.6,
+            "ic_inferior": 506.2,
+            "ic_superior": 3414.9
+          },
+          {
+            "fecha": "2026-09-14",
+            "valor_central": 1955.7,
+            "ic_inferior": 496.2,
+            "ic_superior": 3415.2
+          },
+          {
+            "fecha": "2026-09-21",
+            "valor_central": 1888.6,
+            "ic_inferior": 424.1,
+            "ic_superior": 3353.2
+          },
+          {
+            "fecha": "2026-09-28",
+            "valor_central": 1928.4,
+            "ic_inferior": 458.7,
+            "ic_superior": 3398.0
+          },
+          {
+            "fecha": "2026-10-05",
+            "valor_central": 1934.3,
+            "ic_inferior": 459.6,
+            "ic_superior": 3409.1
+          },
+          {
+            "fecha": "2026-10-12",
+            "valor_central": 1981.4,
+            "ic_inferior": 501.7,
+            "ic_superior": 3461.2
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor_central": 1889.0,
+            "ic_inferior": 404.2,
+            "ic_superior": 3373.8
+          },
+          {
+            "fecha": "2026-10-26",
+            "valor_central": 1939.8,
+            "ic_inferior": 450.0,
+            "ic_superior": 3429.6
+          },
+          {
+            "fecha": "2026-11-02",
+            "valor_central": 2030.8,
+            "ic_inferior": 536.0,
+            "ic_superior": 3525.5
+          },
+          {
+            "fecha": "2026-11-09",
+            "valor_central": 1968.4,
+            "ic_inferior": 468.7,
+            "ic_superior": 3468.2
+          },
+          {
+            "fecha": "2026-11-16",
+            "valor_central": 2016.5,
+            "ic_inferior": 511.8,
+            "ic_superior": 3521.2
+          },
+          {
+            "fecha": "2026-11-23",
+            "valor_central": 2035.7,
+            "ic_inferior": 526.1,
+            "ic_superior": 3545.4
+          },
+          {
+            "fecha": "2026-11-30",
+            "valor_central": 2028.9,
+            "ic_inferior": 514.4,
+            "ic_superior": 3543.5
+          },
+          {
+            "fecha": "2026-12-07",
+            "valor_central": 2052.8,
+            "ic_inferior": 533.4,
+            "ic_superior": 3572.3
+          },
+          {
+            "fecha": "2026-12-14",
+            "valor_central": 2071.1,
+            "ic_inferior": 546.7,
+            "ic_superior": 3595.4
+          },
+          {
+            "fecha": "2026-12-21",
+            "valor_central": 2156.6,
+            "ic_inferior": 627.4,
+            "ic_superior": 3685.9
+          },
+          {
+            "fecha": "2026-12-28",
+            "valor_central": 2189.3,
+            "ic_inferior": 655.2,
+            "ic_superior": 3723.4
+          },
+          {
+            "fecha": "2027-01-04",
+            "valor_central": 2160.6,
+            "ic_inferior": 621.6,
+            "ic_superior": 3699.5
+          },
+          {
+            "fecha": "2027-01-11",
+            "valor_central": 2167.0,
+            "ic_inferior": 623.2,
+            "ic_superior": 3710.8
+          },
+          {
+            "fecha": "2027-01-18",
+            "valor_central": 2224.1,
+            "ic_inferior": 675.5,
+            "ic_superior": 3772.7
+          },
+          {
+            "fecha": "2027-01-25",
+            "valor_central": 2260.8,
+            "ic_inferior": 707.4,
+            "ic_superior": 3814.2
+          },
+          {
+            "fecha": "2027-02-01",
+            "valor_central": 2298.8,
+            "ic_inferior": 740.7,
+            "ic_superior": 3857.0
+          },
+          {
+            "fecha": "2027-02-08",
+            "valor_central": 2287.3,
+            "ic_inferior": 724.4,
+            "ic_superior": 3850.3
+          },
+          {
+            "fecha": "2027-02-15",
+            "valor_central": 2271.9,
+            "ic_inferior": 704.2,
+            "ic_superior": 3839.7
+          },
+          {
+            "fecha": "2027-02-22",
+            "valor_central": 2328.3,
+            "ic_inferior": 755.8,
+            "ic_superior": 3900.7
+          },
+          {
+            "fecha": "2027-03-01",
+            "valor_central": 2293.2,
+            "ic_inferior": 716.0,
+            "ic_superior": 3870.4
+          },
+          {
+            "fecha": "2027-03-08",
+            "valor_central": 2307.3,
+            "ic_inferior": 725.4,
+            "ic_superior": 3889.2
+          },
+          {
+            "fecha": "2027-03-15",
+            "valor_central": 2260.0,
+            "ic_inferior": 673.3,
+            "ic_superior": 3846.6
+          },
+          {
+            "fecha": "2027-03-22",
+            "valor_central": 2296.7,
+            "ic_inferior": 705.4,
+            "ic_superior": 3888.0
+          },
+          {
+            "fecha": "2027-03-29",
+            "valor_central": 2284.8,
+            "ic_inferior": 688.8,
+            "ic_superior": 3880.7
+          },
+          {
+            "fecha": "2027-04-05",
+            "valor_central": 2283.8,
+            "ic_inferior": 683.1,
+            "ic_superior": 3884.4
+          },
+          {
+            "fecha": "2027-04-12",
+            "valor_central": 2299.1,
+            "ic_inferior": 693.8,
+            "ic_superior": 3904.4
+          },
+          {
+            "fecha": "2027-04-19",
+            "valor_central": 2317.1,
+            "ic_inferior": 707.2,
+            "ic_superior": 3927.0
+          },
+          {
+            "fecha": "2027-04-26",
+            "valor_central": 2289.5,
+            "ic_inferior": 675.0,
+            "ic_superior": 3904.0
+          },
+          {
+            "fecha": "2027-05-03",
+            "valor_central": 2237.1,
+            "ic_inferior": 618.0,
+            "ic_superior": 3856.3
+          },
+          {
+            "fecha": "2027-05-10",
+            "valor_central": 2242.9,
+            "ic_inferior": 619.2,
+            "ic_superior": 3866.7
+          },
+          {
+            "fecha": "2027-05-17",
+            "valor_central": 2225.5,
+            "ic_inferior": 597.2,
+            "ic_superior": 3853.9
+          },
+          {
+            "fecha": "2027-05-24",
+            "valor_central": 2199.6,
+            "ic_inferior": 566.7,
+            "ic_superior": 3832.5
+          },
+          {
+            "fecha": "2027-05-31",
+            "valor_central": 2158.8,
+            "ic_inferior": 521.4,
+            "ic_superior": 3796.3
+          },
+          {
+            "fecha": "2027-06-07",
+            "valor_central": 2189.8,
+            "ic_inferior": 547.8,
+            "ic_superior": 3831.8
+          },
+          {
+            "fecha": "2027-06-14",
+            "valor_central": 2178.1,
+            "ic_inferior": 531.6,
+            "ic_superior": 3824.6
+          },
+          {
+            "fecha": "2027-06-21",
+            "valor_central": 2120.5,
+            "ic_inferior": 469.5,
+            "ic_superior": 3771.6
+          },
+          {
+            "fecha": "2027-06-28",
+            "valor_central": 2069.6,
+            "ic_inferior": 414.0,
+            "ic_superior": 3725.1
+          },
+          {
+            "fecha": "2027-07-05",
+            "valor_central": 2052.1,
+            "ic_inferior": 392.1,
+            "ic_superior": 3712.1
+          },
+          {
+            "fecha": "2027-07-12",
+            "valor_central": 2056.7,
+            "ic_inferior": 392.2,
+            "ic_superior": 3721.2
+          },
+          {
+            "fecha": "2027-07-19",
+            "valor_central": 2029.3,
+            "ic_inferior": 360.4,
+            "ic_superior": 3698.3
+          },
+          {
+            "fecha": "2027-07-26",
+            "valor_central": 2018.9,
+            "ic_inferior": 345.5,
+            "ic_superior": 3692.3
+          },
+          {
+            "fecha": "2027-08-02",
+            "valor_central": 2017.8,
+            "ic_inferior": 339.9,
+            "ic_superior": 3695.6
+          },
+          {
+            "fecha": "2027-08-09",
+            "valor_central": 2006.6,
+            "ic_inferior": 324.3,
+            "ic_superior": 3689.0
+          },
+          {
+            "fecha": "2027-08-16",
+            "valor_central": 2031.3,
+            "ic_inferior": 344.6,
+            "ic_superior": 3718.0
+          },
+          {
+            "fecha": "2027-08-23",
+            "valor_central": 1959.9,
+            "ic_inferior": 268.8,
+            "ic_superior": 3651.0
+          },
+          {
+            "fecha": "2027-08-30",
+            "valor_central": 2014.8,
+            "ic_inferior": 319.2,
+            "ic_superior": 3710.3
+          },
+          {
+            "fecha": "2027-09-06",
+            "valor_central": 1984.8,
+            "ic_inferior": 284.9,
+            "ic_superior": 3684.8
+          },
+          {
+            "fecha": "2027-09-13",
+            "valor_central": 1979.8,
+            "ic_inferior": 275.5,
+            "ic_superior": 3684.1
+          },
+          {
+            "fecha": "2027-09-20",
+            "valor_central": 1912.7,
+            "ic_inferior": 204.0,
+            "ic_superior": 3621.3
+          },
+          {
+            "fecha": "2027-09-27",
+            "valor_central": 1952.3,
+            "ic_inferior": 239.3,
+            "ic_superior": 3665.3
+          },
+          {
+            "fecha": "2027-10-04",
+            "valor_central": 1958.1,
+            "ic_inferior": 240.8,
+            "ic_superior": 3675.5
+          },
+          {
+            "fecha": "2027-10-11",
+            "valor_central": 2005.1,
+            "ic_inferior": 283.4,
+            "ic_superior": 3726.8
+          },
+          {
+            "fecha": "2027-10-18",
+            "valor_central": 1912.5,
+            "ic_inferior": 186.5,
+            "ic_superior": 3638.5
+          },
+          {
+            "fecha": "2027-10-25",
+            "valor_central": 1963.2,
+            "ic_inferior": 232.9,
+            "ic_superior": 3693.5
+          },
+          {
+            "fecha": "2027-11-01",
+            "valor_central": 2054.1,
+            "ic_inferior": 319.5,
+            "ic_superior": 3788.7
+          },
+          {
+            "fecha": "2027-11-08",
+            "valor_central": 1991.6,
+            "ic_inferior": 252.7,
+            "ic_superior": 3730.5
+          },
+          {
+            "fecha": "2027-11-15",
+            "valor_central": 2039.5,
+            "ic_inferior": 296.4,
+            "ic_superior": 3782.7
+          },
+          {
+            "fecha": "2027-11-22",
+            "valor_central": 2058.7,
+            "ic_inferior": 311.3,
+            "ic_superior": 3806.2
+          },
+          {
+            "fecha": "2027-11-29",
+            "valor_central": 2051.8,
+            "ic_inferior": 300.1,
+            "ic_superior": 3803.5
+          },
+          {
+            "fecha": "2027-12-06",
+            "valor_central": 2075.6,
+            "ic_inferior": 319.6,
+            "ic_superior": 3831.5
+          },
+          {
+            "fecha": "2027-12-13",
+            "valor_central": 2093.7,
+            "ic_inferior": 333.5,
+            "ic_superior": 3853.9
+          },
+          {
+            "fecha": "2027-12-20",
+            "valor_central": 2179.1,
+            "ic_inferior": 414.7,
+            "ic_superior": 3943.5
+          },
+          {
+            "fecha": "2027-12-27",
+            "valor_central": 2211.7,
+            "ic_inferior": 443.1,
+            "ic_superior": 3980.4
+          },
+          {
+            "fecha": "2028-01-03",
+            "valor_central": 2182.9,
+            "ic_inferior": 410.0,
+            "ic_superior": 3955.7
+          },
+          {
+            "fecha": "2028-01-10",
+            "valor_central": 2189.2,
+            "ic_inferior": 412.1,
+            "ic_superior": 3966.2
+          },
+          {
+            "fecha": "2028-01-17",
+            "valor_central": 2246.2,
+            "ic_inferior": 464.9,
+            "ic_superior": 4027.4
+          },
+          {
+            "fecha": "2028-01-24",
+            "valor_central": 2282.7,
+            "ic_inferior": 497.3,
+            "ic_superior": 4068.1
+          },
+          {
+            "fecha": "2028-01-31",
+            "valor_central": 2320.7,
+            "ic_inferior": 531.1,
+            "ic_superior": 4110.3
+          },
+          {
+            "fecha": "2028-02-07",
+            "valor_central": 2309.1,
+            "ic_inferior": 515.4,
+            "ic_superior": 4102.8
+          },
+          {
+            "fecha": "2028-02-14",
+            "valor_central": 2293.5,
+            "ic_inferior": 495.7,
+            "ic_superior": 4091.4
+          },
+          {
+            "fecha": "2028-02-21",
+            "valor_central": 2349.8,
+            "ic_inferior": 547.8,
+            "ic_superior": 4151.8
+          },
+          {
+            "fecha": "2028-02-28",
+            "valor_central": 2314.6,
+            "ic_inferior": 508.5,
+            "ic_superior": 4120.8
+          },
+          {
+            "fecha": "2028-03-06",
+            "valor_central": 2328.6,
+            "ic_inferior": 518.4,
+            "ic_superior": 4138.9
+          },
+          {
+            "fecha": "2028-03-13",
+            "valor_central": 2281.2,
+            "ic_inferior": 466.8,
+            "ic_superior": 4095.5
+          },
+          {
+            "fecha": "2028-03-20",
+            "valor_central": 2317.8,
+            "ic_inferior": 499.3,
+            "ic_superior": 4136.2
+          },
+          {
+            "fecha": "2028-03-27",
+            "valor_central": 2305.8,
+            "ic_inferior": 483.2,
+            "ic_superior": 4128.3
+          },
+          {
+            "fecha": "2028-04-03",
+            "valor_central": 2304.6,
+            "ic_inferior": 478.0,
+            "ic_superior": 4131.3
+          },
+          {
+            "fecha": "2028-04-10",
+            "valor_central": 2319.9,
+            "ic_inferior": 489.2,
+            "ic_superior": 4150.6
+          },
+          {
+            "fecha": "2028-04-17",
+            "valor_central": 2337.8,
+            "ic_inferior": 503.0,
+            "ic_superior": 4172.6
+          },
+          {
+            "fecha": "2028-04-24",
+            "valor_central": 2310.1,
+            "ic_inferior": 471.2,
+            "ic_superior": 4148.9
+          },
+          {
+            "fecha": "2028-05-01",
+            "valor_central": 2257.6,
+            "ic_inferior": 414.7,
+            "ic_superior": 4100.5
+          },
+          {
+            "fecha": "2028-05-08",
+            "valor_central": 2263.3,
+            "ic_inferior": 416.4,
+            "ic_superior": 4110.2
+          },
+          {
+            "fecha": "2028-05-15",
+            "valor_central": 2245.8,
+            "ic_inferior": 394.9,
+            "ic_superior": 4096.7
+          },
+          {
+            "fecha": "2028-05-22",
+            "valor_central": 2219.8,
+            "ic_inferior": 364.8,
+            "ic_superior": 4074.7
+          },
+          {
+            "fecha": "2028-05-29",
+            "valor_central": 2178.9,
+            "ic_inferior": 319.9,
+            "ic_superior": 4037.9
+          },
+          {
+            "fecha": "2028-06-05",
+            "valor_central": 2209.8,
+            "ic_inferior": 346.8,
+            "ic_superior": 4072.7
+          },
+          {
+            "fecha": "2028-06-12",
+            "valor_central": 2198.0,
+            "ic_inferior": 331.0,
+            "ic_superior": 4065.0
+          },
+          {
+            "fecha": "2028-06-19",
+            "valor_central": 2140.3,
+            "ic_inferior": 269.3,
+            "ic_superior": 4011.3
+          },
+          {
+            "fecha": "2028-06-26",
+            "valor_central": 2089.2,
+            "ic_inferior": 214.3,
+            "ic_superior": 3964.2
+          },
+          {
+            "fecha": "2028-07-03",
+            "valor_central": 2071.7,
+            "ic_inferior": 192.8,
+            "ic_superior": 3950.5
+          },
+          {
+            "fecha": "2028-07-10",
+            "valor_central": 2076.2,
+            "ic_inferior": 193.3,
+            "ic_superior": 3959.0
+          },
+          {
+            "fecha": "2028-07-17",
+            "valor_central": 2048.7,
+            "ic_inferior": 161.9,
+            "ic_superior": 3935.5
+          },
+          {
+            "fecha": "2028-07-24",
+            "valor_central": 2038.2,
+            "ic_inferior": 147.4,
+            "ic_superior": 3928.9
+          },
+          {
+            "fecha": "2028-07-31",
+            "valor_central": 2036.9,
+            "ic_inferior": 142.2,
+            "ic_superior": 3931.6
+          },
+          {
+            "fecha": "2028-08-07",
+            "valor_central": 2025.7,
+            "ic_inferior": 127.1,
+            "ic_superior": 3924.3
+          },
+          {
+            "fecha": "2028-08-14",
+            "valor_central": 2050.3,
+            "ic_inferior": 147.7,
+            "ic_superior": 3952.8
+          },
+          {
+            "fecha": "2028-08-21",
+            "valor_central": 1978.8,
+            "ic_inferior": 72.3,
+            "ic_superior": 3885.2
+          },
+          {
+            "fecha": "2028-08-28",
+            "valor_central": 2033.6,
+            "ic_inferior": 123.2,
+            "ic_superior": 3943.9
+          },
+          {
+            "fecha": "2028-09-04",
+            "valor_central": 2003.5,
+            "ic_inferior": 89.3,
+            "ic_superior": 3917.8
+          },
+          {
+            "fecha": "2028-09-11",
+            "valor_central": 1998.4,
+            "ic_inferior": 80.3,
+            "ic_superior": 3916.6
+          },
+          {
+            "fecha": "2028-09-18",
+            "valor_central": 1931.2,
+            "ic_inferior": 9.2,
+            "ic_superior": 3853.2
+          },
+          {
+            "fecha": "2028-09-25",
+            "valor_central": 1970.7,
+            "ic_inferior": 44.8,
+            "ic_superior": 3896.6
+          },
+          {
+            "fecha": "2028-10-02",
+            "valor_central": 1976.5,
+            "ic_inferior": 46.7,
+            "ic_superior": 3906.2
+          },
+          {
+            "fecha": "2028-10-09",
+            "valor_central": 2023.3,
+            "ic_inferior": 89.7,
+            "ic_superior": 3956.9
+          },
+          {
+            "fecha": "2028-10-16",
+            "valor_central": 1930.7,
+            "ic_inferior": -6.8,
+            "ic_superior": 3868.1
+          },
+          {
+            "fecha": "2028-10-23",
+            "valor_central": 1981.3,
+            "ic_inferior": 40.0,
+            "ic_superior": 3922.6
+          },
+          {
+            "fecha": "2028-10-30",
+            "valor_central": 2072.0,
+            "ic_inferior": 126.9,
+            "ic_superior": 4017.2
+          },
+          {
+            "fecha": "2028-11-06",
+            "valor_central": 2009.5,
+            "ic_inferior": 60.6,
+            "ic_superior": 3958.5
+          },
+          {
+            "fecha": "2028-11-13",
+            "valor_central": 2057.3,
+            "ic_inferior": 104.6,
+            "ic_superior": 4010.1
+          },
+          {
+            "fecha": "2028-11-20",
+            "valor_central": 2076.4,
+            "ic_inferior": 119.8,
+            "ic_superior": 4033.0
+          },
+          {
+            "fecha": "2028-11-27",
+            "valor_central": 2069.4,
+            "ic_inferior": 109.0,
+            "ic_superior": 4029.8
+          },
+          {
+            "fecha": "2028-12-04",
+            "valor_central": 2093.1,
+            "ic_inferior": 128.9,
+            "ic_superior": 4057.3
+          },
+          {
+            "fecha": "2028-12-11",
+            "valor_central": 2111.1,
+            "ic_inferior": 143.2,
+            "ic_superior": 4079.1
+          },
+          {
+            "fecha": "2028-12-18",
+            "valor_central": 2196.5,
+            "ic_inferior": 224.7,
+            "ic_superior": 4168.2
+          },
+          {
+            "fecha": "2028-12-25",
+            "valor_central": 2229.0,
+            "ic_inferior": 253.5,
+            "ic_superior": 4204.5
+          },
+          {
+            "fecha": "2029-01-01",
+            "valor_central": 2200.0,
+            "ic_inferior": 220.8,
+            "ic_superior": 4179.3
+          },
+          {
+            "fecha": "2029-01-08",
+            "valor_central": 2206.3,
+            "ic_inferior": 223.2,
+            "ic_superior": 4189.3
+          },
+          {
+            "fecha": "2029-01-15",
+            "valor_central": 2263.2,
+            "ic_inferior": 276.4,
+            "ic_superior": 4249.9
+          },
+          {
+            "fecha": "2029-01-22",
+            "valor_central": 2299.6,
+            "ic_inferior": 309.1,
+            "ic_superior": 4290.2
+          },
+          {
+            "fecha": "2029-01-29",
+            "valor_central": 2337.5,
+            "ic_inferior": 343.3,
+            "ic_superior": 4331.8
+          },
+          {
+            "fecha": "2029-02-05",
+            "valor_central": 2325.8,
+            "ic_inferior": 327.8,
+            "ic_superior": 4323.8
+          },
+          {
+            "fecha": "2029-02-12",
+            "valor_central": 2310.2,
+            "ic_inferior": 308.5,
+            "ic_superior": 4311.9
+          },
+          {
+            "fecha": "2029-02-19",
+            "valor_central": 2366.4,
+            "ic_inferior": 360.9,
+            "ic_superior": 4371.8
+          },
+          {
+            "fecha": "2029-02-26",
+            "valor_central": 2331.1,
+            "ic_inferior": 322.0,
+            "ic_superior": 4340.3
+          },
+          {
+            "fecha": "2029-03-05",
+            "valor_central": 2345.0,
+            "ic_inferior": 332.2,
+            "ic_superior": 4357.9
+          },
+          {
+            "fecha": "2029-03-12",
+            "valor_central": 2297.5,
+            "ic_inferior": 280.9,
+            "ic_superior": 4314.1
+          },
+          {
+            "fecha": "2029-03-19",
+            "valor_central": 2334.0,
+            "ic_inferior": 313.8,
+            "ic_superior": 4354.3
+          },
+          {
+            "fecha": "2029-03-26",
+            "valor_central": 2321.9,
+            "ic_inferior": 298.0,
+            "ic_superior": 4345.9
+          },
+          {
+            "fecha": "2029-04-02",
+            "valor_central": 2320.7,
+            "ic_inferior": 293.1,
+            "ic_superior": 4348.3
+          },
+          {
+            "fecha": "2029-04-09",
+            "valor_central": 2335.9,
+            "ic_inferior": 304.6,
+            "ic_superior": 4367.2
+          },
+          {
+            "fecha": "2029-04-16",
+            "valor_central": 2353.7,
+            "ic_inferior": 318.8,
+            "ic_superior": 4388.6
+          },
+          {
+            "fecha": "2029-04-23",
+            "valor_central": 2325.9,
+            "ic_inferior": 287.3,
+            "ic_superior": 4364.5
+          },
+          {
+            "fecha": "2029-04-30",
+            "valor_central": 2273.4,
+            "ic_inferior": 231.1,
+            "ic_superior": 4315.6
+          },
+          {
+            "fecha": "2029-05-07",
+            "valor_central": 2279.0,
+            "ic_inferior": 233.1,
+            "ic_superior": 4324.9
+          },
+          {
+            "fecha": "2029-05-14",
+            "valor_central": 2261.4,
+            "ic_inferior": 211.9,
+            "ic_superior": 4310.9
+          },
+          {
+            "fecha": "2029-05-21",
+            "valor_central": 2235.3,
+            "ic_inferior": 182.1,
+            "ic_superior": 4288.4
+          },
+          {
+            "fecha": "2029-05-28",
+            "valor_central": 2194.3,
+            "ic_inferior": 137.6,
+            "ic_superior": 4251.1
+          },
+          {
+            "fecha": "2029-06-04",
+            "valor_central": 2225.2,
+            "ic_inferior": 164.8,
+            "ic_superior": 4285.6
+          },
+          {
+            "fecha": "2029-06-11",
+            "valor_central": 2213.3,
+            "ic_inferior": 149.3,
+            "ic_superior": 4277.3
+          },
+          {
+            "fecha": "2029-06-18",
+            "valor_central": 2155.5,
+            "ic_inferior": 87.9,
+            "ic_superior": 4223.1
+          },
+          {
+            "fecha": "2029-06-25",
+            "valor_central": 2104.4,
+            "ic_inferior": 33.2,
+            "ic_superior": 4175.6
+          },
+          {
+            "fecha": "2029-07-02",
+            "valor_central": 2086.7,
+            "ic_inferior": 11.9,
+            "ic_superior": 4161.5
+          },
+          {
+            "fecha": "2029-07-09",
+            "valor_central": 2091.2,
+            "ic_inferior": 12.8,
+            "ic_superior": 4169.6
+          },
+          {
+            "fecha": "2029-07-16",
+            "valor_central": 2063.6,
+            "ic_inferior": -18.3,
+            "ic_superior": 4145.6
+          },
+          {
+            "fecha": "2029-07-23",
+            "valor_central": 2053.0,
+            "ic_inferior": -32.5,
+            "ic_superior": 4138.6
+          },
+          {
+            "fecha": "2029-07-30",
+            "valor_central": 2051.7,
+            "ic_inferior": -37.4,
+            "ic_superior": 4140.8
+          },
+          {
+            "fecha": "2029-08-06",
+            "valor_central": 2040.4,
+            "ic_inferior": -52.3,
+            "ic_superior": 4133.1
+          },
+          {
+            "fecha": "2029-08-13",
+            "valor_central": 2064.9,
+            "ic_inferior": -31.3,
+            "ic_superior": 4161.1
+          },
+          {
+            "fecha": "2029-08-20",
+            "valor_central": 1993.3,
+            "ic_inferior": -106.4,
+            "ic_superior": 4093.1
+          },
+          {
+            "fecha": "2029-08-27",
+            "valor_central": 2048.0,
+            "ic_inferior": -55.3,
+            "ic_superior": 4151.4
+          },
+          {
+            "fecha": "2029-09-03",
+            "valor_central": 2017.9,
+            "ic_inferior": -88.9,
+            "ic_superior": 4124.8
+          },
+          {
+            "fecha": "2029-09-10",
+            "valor_central": 2012.8,
+            "ic_inferior": -97.6,
+            "ic_superior": 4123.2
+          },
+          {
+            "fecha": "2029-09-17",
+            "valor_central": 1945.4,
+            "ic_inferior": -168.5,
+            "ic_superior": 4059.4
+          },
+          {
+            "fecha": "2029-09-24",
+            "valor_central": 1984.9,
+            "ic_inferior": -132.5,
+            "ic_superior": 4102.4
+          },
+          {
+            "fecha": "2029-10-01",
+            "valor_central": 1990.6,
+            "ic_inferior": -130.4,
+            "ic_superior": 4111.5
+          },
+          {
+            "fecha": "2029-10-08",
+            "valor_central": 2037.4,
+            "ic_inferior": -87.1,
+            "ic_superior": 4161.9
+          },
+          {
+            "fecha": "2029-10-15",
+            "valor_central": 1944.7,
+            "ic_inferior": -183.3,
+            "ic_superior": 4072.6
+          },
+          {
+            "fecha": "2029-10-22",
+            "valor_central": 1995.2,
+            "ic_inferior": -136.3,
+            "ic_superior": 4126.7
+          },
+          {
+            "fecha": "2029-10-29",
+            "valor_central": 2085.9,
+            "ic_inferior": -49.1,
+            "ic_superior": 4220.9
+          },
+          {
+            "fecha": "2029-11-05",
+            "valor_central": 2023.3,
+            "ic_inferior": -115.2,
+            "ic_superior": 4161.7
+          },
+          {
+            "fecha": "2029-11-12",
+            "valor_central": 2071.0,
+            "ic_inferior": -70.9,
+            "ic_superior": 4213.0
+          },
+          {
+            "fecha": "2029-11-19",
+            "valor_central": 2090.0,
+            "ic_inferior": -55.4,
+            "ic_superior": 4235.4
+          },
+          {
+            "fecha": "2029-11-26",
+            "valor_central": 2083.0,
+            "ic_inferior": -65.9,
+            "ic_superior": 4231.8
+          },
+          {
+            "fecha": "2029-12-03",
+            "valor_central": 2106.6,
+            "ic_inferior": -45.7,
+            "ic_superior": 4258.9
+          },
+          {
+            "fecha": "2029-12-10",
+            "valor_central": 2124.6,
+            "ic_inferior": -31.2,
+            "ic_superior": 4280.3
+          },
+          {
+            "fecha": "2029-12-17",
+            "valor_central": 2209.8,
+            "ic_inferior": 50.6,
+            "ic_superior": 4369.1
+          },
+          {
+            "fecha": "2029-12-24",
+            "valor_central": 2242.3,
+            "ic_inferior": 79.6,
+            "ic_superior": 4405.0
+          },
+          {
+            "fecha": "2029-12-31",
+            "valor_central": 2213.3,
+            "ic_inferior": 47.1,
+            "ic_superior": 4379.4
+          },
+          {
+            "fecha": "2030-01-07",
+            "valor_central": 2219.4,
+            "ic_inferior": 49.9,
+            "ic_superior": 4389.0
+          },
+          {
+            "fecha": "2030-01-14",
+            "valor_central": 2276.3,
+            "ic_inferior": 103.3,
+            "ic_superior": 4449.2
+          },
+          {
+            "fecha": "2030-01-21",
+            "valor_central": 2312.7,
+            "ic_inferior": 136.3,
+            "ic_superior": 4489.1
+          },
+          {
+            "fecha": "2030-01-28",
+            "valor_central": 2350.5,
+            "ic_inferior": 170.7,
+            "ic_superior": 4530.3
+          },
+          {
+            "fecha": "2030-02-04",
+            "valor_central": 2338.7,
+            "ic_inferior": 155.5,
+            "ic_superior": 4522.0
+          },
+          {
+            "fecha": "2030-02-11",
+            "valor_central": 2323.1,
+            "ic_inferior": 136.4,
+            "ic_superior": 4509.7
+          },
+          {
+            "fecha": "2030-02-18",
+            "valor_central": 2379.1,
+            "ic_inferior": 189.1,
+            "ic_superior": 4569.2
+          },
+          {
+            "fecha": "2030-02-25",
+            "valor_central": 2343.8,
+            "ic_inferior": 150.4,
+            "ic_superior": 4537.3
+          },
+          {
+            "fecha": "2030-03-04",
+            "valor_central": 2357.7,
+            "ic_inferior": 160.8,
+            "ic_superior": 4554.5
+          },
+          {
+            "fecha": "2030-03-11",
+            "valor_central": 2310.1,
+            "ic_inferior": 109.8,
+            "ic_superior": 4510.3
+          },
+          {
+            "fecha": "2030-03-18",
+            "valor_central": 2346.5,
+            "ic_inferior": 142.9,
+            "ic_superior": 4550.2
+          },
+          {
+            "fecha": "2030-03-25",
+            "valor_central": 2334.4,
+            "ic_inferior": 127.4,
+            "ic_superior": 4541.4
+          },
+          {
+            "fecha": "2030-04-01",
+            "valor_central": 2333.1,
+            "ic_inferior": 122.8,
+            "ic_superior": 4543.5
+          },
+          {
+            "fecha": "2030-04-08",
+            "valor_central": 2348.2,
+            "ic_inferior": 134.5,
+            "ic_superior": 4562.0
+          },
+          {
+            "fecha": "2030-04-15",
+            "valor_central": 2366.0,
+            "ic_inferior": 148.9,
+            "ic_superior": 4583.1
+          },
+          {
+            "fecha": "2030-04-22",
+            "valor_central": 2338.1,
+            "ic_inferior": 117.7,
+            "ic_superior": 4558.6
+          },
+          {
+            "fecha": "2030-04-29",
+            "valor_central": 2285.5,
+            "ic_inferior": 61.7,
+            "ic_superior": 4509.3
+          },
+          {
+            "fecha": "2030-05-06",
+            "valor_central": 2291.1,
+            "ic_inferior": 63.9,
+            "ic_superior": 4518.3
+          },
+          {
+            "fecha": "2030-05-13",
+            "valor_central": 2273.4,
+            "ic_inferior": 42.9,
+            "ic_superior": 4503.9
+          },
+          {
+            "fecha": "2030-05-20",
+            "valor_central": 2247.3,
+            "ic_inferior": 13.4,
+            "ic_superior": 4481.1
+          },
+          {
+            "fecha": "2030-05-27",
+            "valor_central": 2206.2,
+            "ic_inferior": -30.9,
+            "ic_superior": 4443.4
+          },
+          {
+            "fecha": "2030-06-03",
+            "valor_central": 2237.0,
+            "ic_inferior": -3.5,
+            "ic_superior": 4477.5
+          },
+          {
+            "fecha": "2030-06-10",
+            "valor_central": 2225.1,
+            "ic_inferior": -18.7,
+            "ic_superior": 4468.9
+          },
+          {
+            "fecha": "2030-06-17",
+            "valor_central": 2167.3,
+            "ic_inferior": -79.9,
+            "ic_superior": 4414.4
+          },
+          {
+            "fecha": "2030-06-24",
+            "valor_central": 2116.1,
+            "ic_inferior": -134.4,
+            "ic_superior": 4366.5
+          },
+          {
+            "fecha": "2030-07-01",
+            "valor_central": 2098.3,
+            "ic_inferior": -155.4,
+            "ic_superior": 4352.1
+          },
+          {
+            "fecha": "2030-07-08",
+            "valor_central": 2102.7,
+            "ic_inferior": -154.3,
+            "ic_superior": 4359.8
+          },
+          {
+            "fecha": "2030-07-15",
+            "valor_central": 2075.1,
+            "ic_inferior": -185.2,
+            "ic_superior": 4335.5
+          },
+          {
+            "fecha": "2030-07-22",
+            "valor_central": 2064.5,
+            "ic_inferior": -199.2,
+            "ic_superior": 4328.1
+          },
+          {
+            "fecha": "2030-07-29",
+            "valor_central": 2063.1,
+            "ic_inferior": -203.8,
+            "ic_superior": 4330.0
+          },
+          {
+            "fecha": "2030-08-05",
+            "valor_central": 2051.8,
+            "ic_inferior": -218.5,
+            "ic_superior": 4322.0
+          },
+          {
+            "fecha": "2030-08-12",
+            "valor_central": 2076.2,
+            "ic_inferior": -197.3,
+            "ic_superior": 4349.7
+          },
+          {
+            "fecha": "2030-08-19",
+            "valor_central": 2004.6,
+            "ic_inferior": -272.2,
+            "ic_superior": 4281.3
+          },
+          {
+            "fecha": "2030-08-26",
+            "valor_central": 2059.2,
+            "ic_inferior": -220.8,
+            "ic_superior": 4339.2
+          },
+          {
+            "fecha": "2030-09-02",
+            "valor_central": 2029.0,
+            "ic_inferior": -254.3,
+            "ic_superior": 4312.3
+          },
+          {
+            "fecha": "2030-09-09",
+            "valor_central": 2023.8,
+            "ic_inferior": -262.7,
+            "ic_superior": 4310.4
+          },
+          {
+            "fecha": "2030-09-16",
+            "valor_central": 1956.4,
+            "ic_inferior": -333.4,
+            "ic_superior": 4246.3
+          },
+          {
+            "fecha": "2030-09-23",
+            "valor_central": 1995.8,
+            "ic_inferior": -297.2,
+            "ic_superior": 4288.9
+          },
+          {
+            "fecha": "2030-09-30",
+            "valor_central": 2001.5,
+            "ic_inferior": -294.8,
+            "ic_superior": 4297.8
+          },
+          {
+            "fecha": "2030-10-07",
+            "valor_central": 2048.2,
+            "ic_inferior": -251.3,
+            "ic_superior": 4347.8
+          },
+          {
+            "fecha": "2030-10-14",
+            "valor_central": 1955.4,
+            "ic_inferior": -347.3,
+            "ic_superior": 4258.2
+          },
+          {
+            "fecha": "2030-10-21",
+            "valor_central": 2005.9,
+            "ic_inferior": -300.1,
+            "ic_superior": 4311.9
+          },
+          {
+            "fecha": "2030-10-28",
+            "valor_central": 2096.6,
+            "ic_inferior": -212.7,
+            "ic_superior": 4405.8
+          },
+          {
+            "fecha": "2030-11-04",
+            "valor_central": 2033.9,
+            "ic_inferior": -278.6,
+            "ic_superior": 4346.4
+          },
+          {
+            "fecha": "2030-11-11",
+            "valor_central": 2081.6,
+            "ic_inferior": -234.1,
+            "ic_superior": 4397.3
+          },
+          {
+            "fecha": "2030-11-18",
+            "valor_central": 2100.5,
+            "ic_inferior": -218.4,
+            "ic_superior": 4419.5
+          },
+          {
+            "fecha": "2030-11-25",
+            "valor_central": 2093.4,
+            "ic_inferior": -228.7,
+            "ic_superior": 4415.5
+          },
+          {
+            "fecha": "2030-12-02",
+            "valor_central": 2117.0,
+            "ic_inferior": -208.3,
+            "ic_superior": 4442.3
+          },
+          {
+            "fecha": "2030-12-09",
+            "valor_central": 2134.9,
+            "ic_inferior": -193.6,
+            "ic_superior": 4463.4
+          },
+          {
+            "fecha": "2030-12-16",
+            "valor_central": 2220.1,
+            "ic_inferior": -111.6,
+            "ic_superior": 4551.9
+          },
+          {
+            "fecha": "2030-12-23",
+            "valor_central": 2252.5,
+            "ic_inferior": -82.4,
+            "ic_superior": 4587.4
+          },
+          {
+            "fecha": "2030-12-30",
+            "valor_central": 2223.5,
+            "ic_inferior": -114.6,
+            "ic_superior": 4561.6
           }
         ],
         "residuals": [
@@ -6965,6 +9095,2136 @@
             "valor_central": 2195.7,
             "ic_inferior": 1747.7,
             "ic_superior": 2643.8
+          },
+          {
+            "fecha": "2024-03-18",
+            "valor_central": 2151.0,
+            "ic_inferior": 1684.7,
+            "ic_superior": 2617.4
+          },
+          {
+            "fecha": "2024-03-25",
+            "valor_central": 2181.5,
+            "ic_inferior": 1697.6,
+            "ic_superior": 2665.5
+          },
+          {
+            "fecha": "2024-04-01",
+            "valor_central": 2169.6,
+            "ic_inferior": 1668.6,
+            "ic_superior": 2670.5
+          },
+          {
+            "fecha": "2024-04-08",
+            "valor_central": 2183.3,
+            "ic_inferior": 1665.9,
+            "ic_superior": 2700.7
+          },
+          {
+            "fecha": "2024-04-15",
+            "valor_central": 2173.5,
+            "ic_inferior": 1640.2,
+            "ic_superior": 2706.7
+          },
+          {
+            "fecha": "2024-04-22",
+            "valor_central": 2212.9,
+            "ic_inferior": 1664.2,
+            "ic_superior": 2761.7
+          },
+          {
+            "fecha": "2024-04-29",
+            "valor_central": 2187.3,
+            "ic_inferior": 1623.5,
+            "ic_superior": 2751.1
+          },
+          {
+            "fecha": "2024-05-06",
+            "valor_central": 2151.4,
+            "ic_inferior": 1572.9,
+            "ic_superior": 2729.8
+          },
+          {
+            "fecha": "2024-05-13",
+            "valor_central": 2134.8,
+            "ic_inferior": 1542.1,
+            "ic_superior": 2727.6
+          },
+          {
+            "fecha": "2024-05-20",
+            "valor_central": 2122.0,
+            "ic_inferior": 1515.4,
+            "ic_superior": 2728.7
+          },
+          {
+            "fecha": "2024-05-27",
+            "valor_central": 2092.9,
+            "ic_inferior": 1472.6,
+            "ic_superior": 2713.2
+          },
+          {
+            "fecha": "2024-06-03",
+            "valor_central": 2051.7,
+            "ic_inferior": 1418.1,
+            "ic_superior": 2685.4
+          },
+          {
+            "fecha": "2024-06-10",
+            "valor_central": 2080.2,
+            "ic_inferior": 1433.5,
+            "ic_superior": 2726.9
+          },
+          {
+            "fecha": "2024-06-17",
+            "valor_central": 2075.0,
+            "ic_inferior": 1415.5,
+            "ic_superior": 2734.5
+          },
+          {
+            "fecha": "2024-06-24",
+            "valor_central": 2023.2,
+            "ic_inferior": 1351.1,
+            "ic_superior": 2695.2
+          },
+          {
+            "fecha": "2024-07-01",
+            "valor_central": 1967.7,
+            "ic_inferior": 1283.2,
+            "ic_superior": 2652.1
+          },
+          {
+            "fecha": "2024-07-08",
+            "valor_central": 1944.8,
+            "ic_inferior": 1248.3,
+            "ic_superior": 2641.4
+          },
+          {
+            "fecha": "2024-07-15",
+            "valor_central": 1951.8,
+            "ic_inferior": 1243.4,
+            "ic_superior": 2660.3
+          },
+          {
+            "fecha": "2024-07-22",
+            "valor_central": 1937.2,
+            "ic_inferior": 1217.0,
+            "ic_superior": 2657.3
+          },
+          {
+            "fecha": "2024-07-29",
+            "valor_central": 1917.5,
+            "ic_inferior": 1185.8,
+            "ic_superior": 2649.1
+          },
+          {
+            "fecha": "2024-08-05",
+            "valor_central": 1921.2,
+            "ic_inferior": 1178.2,
+            "ic_superior": 2664.2
+          },
+          {
+            "fecha": "2024-08-12",
+            "valor_central": 1913.0,
+            "ic_inferior": 1158.8,
+            "ic_superior": 2667.2
+          },
+          {
+            "fecha": "2024-08-19",
+            "valor_central": 1930.3,
+            "ic_inferior": 1165.1,
+            "ic_superior": 2695.5
+          },
+          {
+            "fecha": "2024-08-26",
+            "valor_central": 1855.6,
+            "ic_inferior": 1079.5,
+            "ic_superior": 2631.6
+          },
+          {
+            "fecha": "2024-09-02",
+            "valor_central": 1907.3,
+            "ic_inferior": 1120.5,
+            "ic_superior": 2694.0
+          },
+          {
+            "fecha": "2024-09-09",
+            "valor_central": 1884.7,
+            "ic_inferior": 1087.4,
+            "ic_superior": 2682.0
+          },
+          {
+            "fecha": "2024-09-16",
+            "valor_central": 1881.0,
+            "ic_inferior": 1073.2,
+            "ic_superior": 2688.7
+          },
+          {
+            "fecha": "2024-09-23",
+            "valor_central": 1814.8,
+            "ic_inferior": 996.8,
+            "ic_superior": 2632.9
+          },
+          {
+            "fecha": "2024-09-30",
+            "valor_central": 1855.0,
+            "ic_inferior": 1026.8,
+            "ic_superior": 2683.2
+          },
+          {
+            "fecha": "2024-10-07",
+            "valor_central": 1855.6,
+            "ic_inferior": 1017.3,
+            "ic_superior": 2693.8
+          },
+          {
+            "fecha": "2024-10-14",
+            "valor_central": 1916.4,
+            "ic_inferior": 1068.3,
+            "ic_superior": 2764.6
+          },
+          {
+            "fecha": "2024-10-21",
+            "valor_central": 1815.7,
+            "ic_inferior": 957.7,
+            "ic_superior": 2673.6
+          },
+          {
+            "fecha": "2024-10-28",
+            "valor_central": 1837.4,
+            "ic_inferior": 969.8,
+            "ic_superior": 2705.1
+          },
+          {
+            "fecha": "2024-11-04",
+            "valor_central": 1961.8,
+            "ic_inferior": 1084.6,
+            "ic_superior": 2839.1
+          },
+          {
+            "fecha": "2024-11-11",
+            "valor_central": 1904.3,
+            "ic_inferior": 1017.6,
+            "ic_superior": 2791.0
+          },
+          {
+            "fecha": "2024-11-18",
+            "valor_central": 1940.6,
+            "ic_inferior": 1044.5,
+            "ic_superior": 2836.7
+          },
+          {
+            "fecha": "2024-11-25",
+            "valor_central": 1953.6,
+            "ic_inferior": 1048.2,
+            "ic_superior": 2859.0
+          },
+          {
+            "fecha": "2024-12-02",
+            "valor_central": 1938.4,
+            "ic_inferior": 1023.8,
+            "ic_superior": 2853.0
+          },
+          {
+            "fecha": "2024-12-09",
+            "valor_central": 1961.9,
+            "ic_inferior": 1038.2,
+            "ic_superior": 2885.6
+          },
+          {
+            "fecha": "2024-12-16",
+            "valor_central": 1976.3,
+            "ic_inferior": 1043.6,
+            "ic_superior": 2909.0
+          },
+          {
+            "fecha": "2024-12-23",
+            "valor_central": 2087.1,
+            "ic_inferior": 1145.4,
+            "ic_superior": 3028.7
+          },
+          {
+            "fecha": "2024-12-30",
+            "valor_central": 2119.7,
+            "ic_inferior": 1169.3,
+            "ic_superior": 3070.2
+          },
+          {
+            "fecha": "2025-01-06",
+            "valor_central": 2091.5,
+            "ic_inferior": 1132.2,
+            "ic_superior": 3050.7
+          },
+          {
+            "fecha": "2025-01-13",
+            "valor_central": 2093.5,
+            "ic_inferior": 1125.6,
+            "ic_superior": 3061.4
+          },
+          {
+            "fecha": "2025-01-20",
+            "valor_central": 2150.5,
+            "ic_inferior": 1174.0,
+            "ic_superior": 3127.0
+          },
+          {
+            "fecha": "2025-01-27",
+            "valor_central": 2183.1,
+            "ic_inferior": 1198.0,
+            "ic_superior": 3168.1
+          },
+          {
+            "fecha": "2025-02-03",
+            "valor_central": 2227.9,
+            "ic_inferior": 1234.4,
+            "ic_superior": 3221.4
+          },
+          {
+            "fecha": "2025-02-10",
+            "valor_central": 2226.2,
+            "ic_inferior": 1224.3,
+            "ic_superior": 3228.0
+          },
+          {
+            "fecha": "2025-02-17",
+            "valor_central": 2199.6,
+            "ic_inferior": 1189.4,
+            "ic_superior": 3209.8
+          },
+          {
+            "fecha": "2025-02-24",
+            "valor_central": 2261.9,
+            "ic_inferior": 1243.5,
+            "ic_superior": 3280.4
+          },
+          {
+            "fecha": "2025-03-03",
+            "valor_central": 2236.1,
+            "ic_inferior": 1209.5,
+            "ic_superior": 3262.7
+          },
+          {
+            "fecha": "2025-03-10",
+            "valor_central": 2240.6,
+            "ic_inferior": 1205.9,
+            "ic_superior": 3275.4
+          },
+          {
+            "fecha": "2025-03-17",
+            "valor_central": 2195.7,
+            "ic_inferior": 1153.0,
+            "ic_superior": 3238.5
+          },
+          {
+            "fecha": "2025-03-24",
+            "valor_central": 2226.0,
+            "ic_inferior": 1175.3,
+            "ic_superior": 3276.8
+          },
+          {
+            "fecha": "2025-03-31",
+            "valor_central": 2213.8,
+            "ic_inferior": 1155.1,
+            "ic_superior": 3272.5
+          },
+          {
+            "fecha": "2025-04-07",
+            "valor_central": 2227.3,
+            "ic_inferior": 1160.8,
+            "ic_superior": 3293.9
+          },
+          {
+            "fecha": "2025-04-14",
+            "valor_central": 2217.3,
+            "ic_inferior": 1142.9,
+            "ic_superior": 3291.7
+          },
+          {
+            "fecha": "2025-04-21",
+            "valor_central": 2256.5,
+            "ic_inferior": 1174.4,
+            "ic_superior": 3338.7
+          },
+          {
+            "fecha": "2025-04-28",
+            "valor_central": 2230.7,
+            "ic_inferior": 1140.8,
+            "ic_superior": 3320.6
+          },
+          {
+            "fecha": "2025-05-05",
+            "valor_central": 2194.5,
+            "ic_inferior": 1097.0,
+            "ic_superior": 3292.0
+          },
+          {
+            "fecha": "2025-05-12",
+            "valor_central": 2177.8,
+            "ic_inferior": 1072.7,
+            "ic_superior": 3282.9
+          },
+          {
+            "fecha": "2025-05-19",
+            "valor_central": 2164.8,
+            "ic_inferior": 1052.1,
+            "ic_superior": 3277.4
+          },
+          {
+            "fecha": "2025-05-26",
+            "valor_central": 2135.4,
+            "ic_inferior": 1015.3,
+            "ic_superior": 3255.5
+          },
+          {
+            "fecha": "2025-06-02",
+            "valor_central": 2094.0,
+            "ic_inferior": 966.5,
+            "ic_superior": 3221.6
+          },
+          {
+            "fecha": "2025-06-09",
+            "valor_central": 2122.3,
+            "ic_inferior": 987.3,
+            "ic_superior": 3257.3
+          },
+          {
+            "fecha": "2025-06-16",
+            "valor_central": 2116.9,
+            "ic_inferior": 974.5,
+            "ic_superior": 3259.2
+          },
+          {
+            "fecha": "2025-06-23",
+            "valor_central": 2064.8,
+            "ic_inferior": 915.2,
+            "ic_superior": 3214.5
+          },
+          {
+            "fecha": "2025-06-30",
+            "valor_central": 2009.1,
+            "ic_inferior": 852.3,
+            "ic_superior": 3166.0
+          },
+          {
+            "fecha": "2025-07-07",
+            "valor_central": 1986.1,
+            "ic_inferior": 822.0,
+            "ic_superior": 3150.2
+          },
+          {
+            "fecha": "2025-07-14",
+            "valor_central": 1992.9,
+            "ic_inferior": 821.6,
+            "ic_superior": 3164.1
+          },
+          {
+            "fecha": "2025-07-21",
+            "valor_central": 1978.0,
+            "ic_inferior": 799.7,
+            "ic_superior": 3156.4
+          },
+          {
+            "fecha": "2025-07-28",
+            "valor_central": 1958.1,
+            "ic_inferior": 772.7,
+            "ic_superior": 3143.5
+          },
+          {
+            "fecha": "2025-08-04",
+            "valor_central": 1961.6,
+            "ic_inferior": 769.1,
+            "ic_superior": 3154.1
+          },
+          {
+            "fecha": "2025-08-11",
+            "valor_central": 1953.2,
+            "ic_inferior": 753.7,
+            "ic_superior": 3152.7
+          },
+          {
+            "fecha": "2025-08-18",
+            "valor_central": 1970.3,
+            "ic_inferior": 763.9,
+            "ic_superior": 3176.7
+          },
+          {
+            "fecha": "2025-08-25",
+            "valor_central": 1895.4,
+            "ic_inferior": 682.1,
+            "ic_superior": 3108.7
+          },
+          {
+            "fecha": "2025-09-01",
+            "valor_central": 1946.9,
+            "ic_inferior": 726.7,
+            "ic_superior": 3167.1
+          },
+          {
+            "fecha": "2025-09-08",
+            "valor_central": 1924.2,
+            "ic_inferior": 697.1,
+            "ic_superior": 3151.2
+          },
+          {
+            "fecha": "2025-09-15",
+            "valor_central": 1920.2,
+            "ic_inferior": 686.4,
+            "ic_superior": 3154.1
+          },
+          {
+            "fecha": "2025-09-22",
+            "valor_central": 1853.9,
+            "ic_inferior": 613.3,
+            "ic_superior": 3094.5
+          },
+          {
+            "fecha": "2025-09-29",
+            "valor_central": 1893.8,
+            "ic_inferior": 646.5,
+            "ic_superior": 3141.2
+          },
+          {
+            "fecha": "2025-10-06",
+            "valor_central": 1894.2,
+            "ic_inferior": 640.2,
+            "ic_superior": 3148.2
+          },
+          {
+            "fecha": "2025-10-13",
+            "valor_central": 1954.9,
+            "ic_inferior": 694.2,
+            "ic_superior": 3215.6
+          },
+          {
+            "fecha": "2025-10-20",
+            "valor_central": 1853.9,
+            "ic_inferior": 586.7,
+            "ic_superior": 3121.2
+          },
+          {
+            "fecha": "2025-10-27",
+            "valor_central": 1875.5,
+            "ic_inferior": 601.7,
+            "ic_superior": 3149.4
+          },
+          {
+            "fecha": "2025-11-03",
+            "valor_central": 1999.7,
+            "ic_inferior": 719.3,
+            "ic_superior": 3280.1
+          },
+          {
+            "fecha": "2025-11-10",
+            "valor_central": 1942.0,
+            "ic_inferior": 655.0,
+            "ic_superior": 3228.9
+          },
+          {
+            "fecha": "2025-11-17",
+            "valor_central": 1978.1,
+            "ic_inferior": 684.7,
+            "ic_superior": 3271.5
+          },
+          {
+            "fecha": "2025-11-24",
+            "valor_central": 1991.0,
+            "ic_inferior": 691.1,
+            "ic_superior": 3290.8
+          },
+          {
+            "fecha": "2025-12-01",
+            "valor_central": 1975.6,
+            "ic_inferior": 669.3,
+            "ic_superior": 3281.9
+          },
+          {
+            "fecha": "2025-12-08",
+            "valor_central": 1998.9,
+            "ic_inferior": 686.2,
+            "ic_superior": 3311.6
+          },
+          {
+            "fecha": "2025-12-15",
+            "valor_central": 2013.1,
+            "ic_inferior": 694.0,
+            "ic_superior": 3332.1
+          },
+          {
+            "fecha": "2025-12-22",
+            "valor_central": 2123.6,
+            "ic_inferior": 798.3,
+            "ic_superior": 3449.0
+          },
+          {
+            "fecha": "2025-12-29",
+            "valor_central": 2156.1,
+            "ic_inferior": 824.5,
+            "ic_superior": 3487.8
+          },
+          {
+            "fecha": "2026-01-05",
+            "valor_central": 2127.7,
+            "ic_inferior": 789.7,
+            "ic_superior": 3465.6
+          },
+          {
+            "fecha": "2026-01-12",
+            "valor_central": 2129.5,
+            "ic_inferior": 785.4,
+            "ic_superior": 3473.7
+          },
+          {
+            "fecha": "2026-01-19",
+            "valor_central": 2186.4,
+            "ic_inferior": 836.0,
+            "ic_superior": 3536.7
+          },
+          {
+            "fecha": "2026-01-26",
+            "valor_central": 2218.7,
+            "ic_inferior": 862.2,
+            "ic_superior": 3575.3
+          },
+          {
+            "fecha": "2026-02-02",
+            "valor_central": 2263.4,
+            "ic_inferior": 900.7,
+            "ic_superior": 3626.1
+          },
+          {
+            "fecha": "2026-02-09",
+            "valor_central": 2261.5,
+            "ic_inferior": 892.7,
+            "ic_superior": 3630.3
+          },
+          {
+            "fecha": "2026-02-16",
+            "valor_central": 2234.7,
+            "ic_inferior": 859.8,
+            "ic_superior": 3609.6
+          },
+          {
+            "fecha": "2026-02-23",
+            "valor_central": 2296.9,
+            "ic_inferior": 915.9,
+            "ic_superior": 3677.9
+          },
+          {
+            "fecha": "2026-03-02",
+            "valor_central": 2270.9,
+            "ic_inferior": 883.8,
+            "ic_superior": 3657.9
+          },
+          {
+            "fecha": "2026-03-09",
+            "valor_central": 2275.3,
+            "ic_inferior": 882.2,
+            "ic_superior": 3668.3
+          },
+          {
+            "fecha": "2026-03-16",
+            "valor_central": 2230.2,
+            "ic_inferior": 831.1,
+            "ic_superior": 3629.2
+          },
+          {
+            "fecha": "2026-03-23",
+            "valor_central": 2260.3,
+            "ic_inferior": 855.3,
+            "ic_superior": 3665.3
+          },
+          {
+            "fecha": "2026-03-30",
+            "valor_central": 2247.9,
+            "ic_inferior": 837.0,
+            "ic_superior": 3658.9
+          },
+          {
+            "fecha": "2026-04-06",
+            "valor_central": 2261.3,
+            "ic_inferior": 844.4,
+            "ic_superior": 3678.1
+          },
+          {
+            "fecha": "2026-04-13",
+            "valor_central": 2251.0,
+            "ic_inferior": 828.3,
+            "ic_superior": 3673.8
+          },
+          {
+            "fecha": "2026-04-20",
+            "valor_central": 2290.1,
+            "ic_inferior": 861.5,
+            "ic_superior": 3718.7
+          },
+          {
+            "fecha": "2026-04-27",
+            "valor_central": 2264.1,
+            "ic_inferior": 829.7,
+            "ic_superior": 3698.6
+          },
+          {
+            "fecha": "2026-05-04",
+            "valor_central": 2227.8,
+            "ic_inferior": 787.5,
+            "ic_superior": 3668.1
+          },
+          {
+            "fecha": "2026-05-11",
+            "valor_central": 2210.9,
+            "ic_inferior": 764.8,
+            "ic_superior": 3657.0
+          },
+          {
+            "fecha": "2026-05-18",
+            "valor_central": 2197.7,
+            "ic_inferior": 745.8,
+            "ic_superior": 3649.6
+          },
+          {
+            "fecha": "2026-05-25",
+            "valor_central": 2168.2,
+            "ic_inferior": 710.6,
+            "ic_superior": 3625.8
+          },
+          {
+            "fecha": "2026-06-01",
+            "valor_central": 2126.6,
+            "ic_inferior": 663.3,
+            "ic_superior": 3590.0
+          },
+          {
+            "fecha": "2026-06-08",
+            "valor_central": 2154.8,
+            "ic_inferior": 685.7,
+            "ic_superior": 3623.8
+          },
+          {
+            "fecha": "2026-06-15",
+            "valor_central": 2149.1,
+            "ic_inferior": 674.4,
+            "ic_superior": 3623.9
+          },
+          {
+            "fecha": "2026-06-22",
+            "valor_central": 2097.0,
+            "ic_inferior": 616.6,
+            "ic_superior": 3577.3
+          },
+          {
+            "fecha": "2026-06-29",
+            "valor_central": 2041.1,
+            "ic_inferior": 555.1,
+            "ic_superior": 3527.1
+          },
+          {
+            "fecha": "2026-07-06",
+            "valor_central": 2017.9,
+            "ic_inferior": 526.3,
+            "ic_superior": 3509.5
+          },
+          {
+            "fecha": "2026-07-13",
+            "valor_central": 2024.5,
+            "ic_inferior": 527.3,
+            "ic_superior": 3521.8
+          },
+          {
+            "fecha": "2026-07-20",
+            "valor_central": 2009.5,
+            "ic_inferior": 506.7,
+            "ic_superior": 3512.3
+          },
+          {
+            "fecha": "2026-07-27",
+            "valor_central": 1989.4,
+            "ic_inferior": 481.1,
+            "ic_superior": 3497.8
+          },
+          {
+            "fecha": "2026-08-03",
+            "valor_central": 1992.8,
+            "ic_inferior": 478.9,
+            "ic_superior": 3506.7
+          },
+          {
+            "fecha": "2026-08-10",
+            "valor_central": 1984.2,
+            "ic_inferior": 464.8,
+            "ic_superior": 3503.6
+          },
+          {
+            "fecha": "2026-08-17",
+            "valor_central": 2001.1,
+            "ic_inferior": 476.2,
+            "ic_superior": 3526.1
+          },
+          {
+            "fecha": "2026-08-24",
+            "valor_central": 1926.1,
+            "ic_inferior": 395.7,
+            "ic_superior": 3456.5
+          },
+          {
+            "fecha": "2026-08-31",
+            "valor_central": 1977.4,
+            "ic_inferior": 441.6,
+            "ic_superior": 3513.3
+          },
+          {
+            "fecha": "2026-09-07",
+            "valor_central": 1954.6,
+            "ic_inferior": 413.3,
+            "ic_superior": 3495.8
+          },
+          {
+            "fecha": "2026-09-14",
+            "valor_central": 1950.5,
+            "ic_inferior": 403.8,
+            "ic_superior": 3497.2
+          },
+          {
+            "fecha": "2026-09-21",
+            "valor_central": 1884.0,
+            "ic_inferior": 331.9,
+            "ic_superior": 3436.1
+          },
+          {
+            "fecha": "2026-09-28",
+            "valor_central": 1923.8,
+            "ic_inferior": 366.3,
+            "ic_superior": 3481.3
+          },
+          {
+            "fecha": "2026-10-05",
+            "valor_central": 1924.0,
+            "ic_inferior": 361.2,
+            "ic_superior": 3486.8
+          },
+          {
+            "fecha": "2026-10-12",
+            "valor_central": 1984.5,
+            "ic_inferior": 416.4,
+            "ic_superior": 3552.7
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor_central": 1883.4,
+            "ic_inferior": 309.9,
+            "ic_superior": 3456.9
+          },
+          {
+            "fecha": "2026-10-26",
+            "valor_central": 1904.9,
+            "ic_inferior": 326.1,
+            "ic_superior": 3483.7
+          },
+          {
+            "fecha": "2026-11-02",
+            "valor_central": 2028.9,
+            "ic_inferior": 444.8,
+            "ic_superior": 3613.0
+          },
+          {
+            "fecha": "2026-11-09",
+            "valor_central": 1971.0,
+            "ic_inferior": 381.7,
+            "ic_superior": 3560.4
+          },
+          {
+            "fecha": "2026-11-16",
+            "valor_central": 2007.0,
+            "ic_inferior": 412.4,
+            "ic_superior": 3601.6
+          },
+          {
+            "fecha": "2026-11-23",
+            "valor_central": 2019.7,
+            "ic_inferior": 419.9,
+            "ic_superior": 3619.6
+          },
+          {
+            "fecha": "2026-11-30",
+            "valor_central": 2004.2,
+            "ic_inferior": 399.1,
+            "ic_superior": 3609.3
+          },
+          {
+            "fecha": "2026-12-07",
+            "valor_central": 2027.4,
+            "ic_inferior": 417.1,
+            "ic_superior": 3637.6
+          },
+          {
+            "fecha": "2026-12-14",
+            "valor_central": 2041.4,
+            "ic_inferior": 425.9,
+            "ic_superior": 3656.9
+          },
+          {
+            "fecha": "2026-12-21",
+            "valor_central": 2151.8,
+            "ic_inferior": 531.2,
+            "ic_superior": 3772.5
+          },
+          {
+            "fecha": "2026-12-28",
+            "valor_central": 2184.2,
+            "ic_inferior": 558.4,
+            "ic_superior": 3810.0
+          },
+          {
+            "fecha": "2027-01-04",
+            "valor_central": 2155.6,
+            "ic_inferior": 524.6,
+            "ic_superior": 3786.5
+          },
+          {
+            "fecha": "2027-01-11",
+            "valor_central": 2157.3,
+            "ic_inferior": 521.2,
+            "ic_superior": 3793.4
+          },
+          {
+            "fecha": "2027-01-18",
+            "valor_central": 2214.0,
+            "ic_inferior": 572.8,
+            "ic_superior": 3855.2
+          },
+          {
+            "fecha": "2027-01-25",
+            "valor_central": 2246.2,
+            "ic_inferior": 600.0,
+            "ic_superior": 3892.5
+          },
+          {
+            "fecha": "2027-02-01",
+            "valor_central": 2290.8,
+            "ic_inferior": 639.5,
+            "ic_superior": 3942.1
+          },
+          {
+            "fecha": "2027-02-08",
+            "valor_central": 2288.7,
+            "ic_inferior": 632.3,
+            "ic_superior": 3945.1
+          },
+          {
+            "fecha": "2027-02-15",
+            "valor_central": 2261.8,
+            "ic_inferior": 600.4,
+            "ic_superior": 3923.2
+          },
+          {
+            "fecha": "2027-02-22",
+            "valor_central": 2323.9,
+            "ic_inferior": 657.4,
+            "ic_superior": 3990.3
+          },
+          {
+            "fecha": "2027-03-01",
+            "valor_central": 2297.7,
+            "ic_inferior": 626.2,
+            "ic_superior": 3969.2
+          },
+          {
+            "fecha": "2027-03-08",
+            "valor_central": 2301.9,
+            "ic_inferior": 625.5,
+            "ic_superior": 3978.4
+          },
+          {
+            "fecha": "2027-03-15",
+            "valor_central": 2256.7,
+            "ic_inferior": 575.3,
+            "ic_superior": 3938.2
+          },
+          {
+            "fecha": "2027-03-22",
+            "valor_central": 2286.7,
+            "ic_inferior": 600.3,
+            "ic_superior": 3973.1
+          },
+          {
+            "fecha": "2027-03-29",
+            "valor_central": 2274.2,
+            "ic_inferior": 582.9,
+            "ic_superior": 3965.6
+          },
+          {
+            "fecha": "2027-04-05",
+            "valor_central": 2287.4,
+            "ic_inferior": 591.1,
+            "ic_superior": 3983.7
+          },
+          {
+            "fecha": "2027-04-12",
+            "valor_central": 2277.1,
+            "ic_inferior": 575.8,
+            "ic_superior": 3978.3
+          },
+          {
+            "fecha": "2027-04-19",
+            "valor_central": 2316.0,
+            "ic_inferior": 609.9,
+            "ic_superior": 4022.1
+          },
+          {
+            "fecha": "2027-04-26",
+            "valor_central": 2289.9,
+            "ic_inferior": 578.9,
+            "ic_superior": 4000.9
+          },
+          {
+            "fecha": "2027-05-03",
+            "valor_central": 2253.4,
+            "ic_inferior": 537.5,
+            "ic_superior": 3969.3
+          },
+          {
+            "fecha": "2027-05-10",
+            "valor_central": 2236.4,
+            "ic_inferior": 515.6,
+            "ic_superior": 3957.2
+          },
+          {
+            "fecha": "2027-05-17",
+            "valor_central": 2223.1,
+            "ic_inferior": 497.4,
+            "ic_superior": 3948.7
+          },
+          {
+            "fecha": "2027-05-24",
+            "valor_central": 2193.4,
+            "ic_inferior": 462.9,
+            "ic_superior": 3923.9
+          },
+          {
+            "fecha": "2027-05-31",
+            "valor_central": 2151.8,
+            "ic_inferior": 416.5,
+            "ic_superior": 3887.1
+          },
+          {
+            "fecha": "2027-06-07",
+            "valor_central": 2179.7,
+            "ic_inferior": 439.6,
+            "ic_superior": 3919.9
+          },
+          {
+            "fecha": "2027-06-14",
+            "valor_central": 2174.0,
+            "ic_inferior": 429.1,
+            "ic_superior": 3918.9
+          },
+          {
+            "fecha": "2027-06-21",
+            "valor_central": 2121.7,
+            "ic_inferior": 372.0,
+            "ic_superior": 3871.4
+          },
+          {
+            "fecha": "2027-06-28",
+            "valor_central": 2065.7,
+            "ic_inferior": 311.2,
+            "ic_superior": 3820.2
+          },
+          {
+            "fecha": "2027-07-05",
+            "valor_central": 2042.4,
+            "ic_inferior": 283.2,
+            "ic_superior": 3801.6
+          },
+          {
+            "fecha": "2027-07-12",
+            "valor_central": 2048.9,
+            "ic_inferior": 284.9,
+            "ic_superior": 3812.9
+          },
+          {
+            "fecha": "2027-07-19",
+            "valor_central": 2033.8,
+            "ic_inferior": 265.0,
+            "ic_superior": 3802.5
+          },
+          {
+            "fecha": "2027-07-26",
+            "valor_central": 2013.6,
+            "ic_inferior": 240.1,
+            "ic_superior": 3787.0
+          },
+          {
+            "fecha": "2027-08-02",
+            "valor_central": 2016.8,
+            "ic_inferior": 238.6,
+            "ic_superior": 3794.9
+          },
+          {
+            "fecha": "2027-08-09",
+            "valor_central": 2008.1,
+            "ic_inferior": 225.2,
+            "ic_superior": 3791.0
+          },
+          {
+            "fecha": "2027-08-16",
+            "valor_central": 2024.9,
+            "ic_inferior": 237.4,
+            "ic_superior": 3812.5
+          },
+          {
+            "fecha": "2027-08-23",
+            "valor_central": 1949.7,
+            "ic_inferior": 157.5,
+            "ic_superior": 3742.0
+          },
+          {
+            "fecha": "2027-08-30",
+            "valor_central": 2001.0,
+            "ic_inferior": 204.1,
+            "ic_superior": 3797.9
+          },
+          {
+            "fecha": "2027-09-06",
+            "valor_central": 1978.0,
+            "ic_inferior": 176.4,
+            "ic_superior": 3779.5
+          },
+          {
+            "fecha": "2027-09-13",
+            "valor_central": 1973.8,
+            "ic_inferior": 167.6,
+            "ic_superior": 3779.9
+          },
+          {
+            "fecha": "2027-09-20",
+            "valor_central": 1907.2,
+            "ic_inferior": 96.4,
+            "ic_superior": 3717.9
+          },
+          {
+            "fecha": "2027-09-27",
+            "valor_central": 1946.8,
+            "ic_inferior": 131.4,
+            "ic_superior": 3762.2
+          },
+          {
+            "fecha": "2027-10-04",
+            "valor_central": 1946.9,
+            "ic_inferior": 126.9,
+            "ic_superior": 3766.9
+          },
+          {
+            "fecha": "2027-10-11",
+            "valor_central": 2007.4,
+            "ic_inferior": 182.8,
+            "ic_superior": 3832.0
+          },
+          {
+            "fecha": "2027-10-18",
+            "valor_central": 1906.2,
+            "ic_inferior": 77.0,
+            "ic_superior": 3735.3
+          },
+          {
+            "fecha": "2027-10-25",
+            "valor_central": 1927.5,
+            "ic_inferior": 93.7,
+            "ic_superior": 3761.2
+          },
+          {
+            "fecha": "2027-11-01",
+            "valor_central": 2051.4,
+            "ic_inferior": 213.1,
+            "ic_superior": 3889.7
+          },
+          {
+            "fecha": "2027-11-08",
+            "valor_central": 1993.4,
+            "ic_inferior": 150.6,
+            "ic_superior": 3836.3
+          },
+          {
+            "fecha": "2027-11-15",
+            "valor_central": 2029.3,
+            "ic_inferior": 181.9,
+            "ic_superior": 3876.6
+          },
+          {
+            "fecha": "2027-11-22",
+            "valor_central": 2041.9,
+            "ic_inferior": 190.0,
+            "ic_superior": 3893.8
+          },
+          {
+            "fecha": "2027-11-29",
+            "valor_central": 2026.2,
+            "ic_inferior": 169.8,
+            "ic_superior": 3882.6
+          },
+          {
+            "fecha": "2027-12-06",
+            "valor_central": 2049.3,
+            "ic_inferior": 188.4,
+            "ic_superior": 3910.2
+          },
+          {
+            "fecha": "2027-12-13",
+            "valor_central": 2063.2,
+            "ic_inferior": 197.8,
+            "ic_superior": 3928.6
+          },
+          {
+            "fecha": "2027-12-20",
+            "valor_central": 2173.5,
+            "ic_inferior": 303.7,
+            "ic_superior": 4043.4
+          },
+          {
+            "fecha": "2027-12-27",
+            "valor_central": 2205.8,
+            "ic_inferior": 331.4,
+            "ic_superior": 4080.1
+          },
+          {
+            "fecha": "2028-01-03",
+            "valor_central": 2177.1,
+            "ic_inferior": 298.3,
+            "ic_superior": 4055.9
+          },
+          {
+            "fecha": "2028-01-10",
+            "valor_central": 2178.7,
+            "ic_inferior": 295.5,
+            "ic_superior": 4061.9
+          },
+          {
+            "fecha": "2028-01-17",
+            "valor_central": 2235.3,
+            "ic_inferior": 347.6,
+            "ic_superior": 4123.0
+          },
+          {
+            "fecha": "2028-01-24",
+            "valor_central": 2267.4,
+            "ic_inferior": 375.3,
+            "ic_superior": 4159.5
+          },
+          {
+            "fecha": "2028-01-31",
+            "valor_central": 2311.9,
+            "ic_inferior": 415.3,
+            "ic_superior": 4208.4
+          },
+          {
+            "fecha": "2028-02-07",
+            "valor_central": 2309.7,
+            "ic_inferior": 408.7,
+            "ic_superior": 4210.6
+          },
+          {
+            "fecha": "2028-02-14",
+            "valor_central": 2282.7,
+            "ic_inferior": 377.3,
+            "ic_superior": 4188.0
+          },
+          {
+            "fecha": "2028-02-21",
+            "valor_central": 2344.6,
+            "ic_inferior": 434.9,
+            "ic_superior": 4254.3
+          },
+          {
+            "fecha": "2028-02-28",
+            "valor_central": 2318.3,
+            "ic_inferior": 404.3,
+            "ic_superior": 4232.4
+          },
+          {
+            "fecha": "2028-03-06",
+            "valor_central": 2322.5,
+            "ic_inferior": 404.0,
+            "ic_superior": 4240.9
+          },
+          {
+            "fecha": "2028-03-13",
+            "valor_central": 2277.2,
+            "ic_inferior": 354.4,
+            "ic_superior": 4200.0
+          },
+          {
+            "fecha": "2028-03-20",
+            "valor_central": 2307.1,
+            "ic_inferior": 379.9,
+            "ic_superior": 4234.2
+          },
+          {
+            "fecha": "2028-03-27",
+            "valor_central": 2294.5,
+            "ic_inferior": 363.0,
+            "ic_superior": 4226.0
+          },
+          {
+            "fecha": "2028-04-03",
+            "valor_central": 2307.6,
+            "ic_inferior": 371.8,
+            "ic_superior": 4243.4
+          },
+          {
+            "fecha": "2028-04-10",
+            "valor_central": 2297.1,
+            "ic_inferior": 357.0,
+            "ic_superior": 4237.2
+          },
+          {
+            "fecha": "2028-04-17",
+            "valor_central": 2335.9,
+            "ic_inferior": 391.5,
+            "ic_superior": 4280.4
+          },
+          {
+            "fecha": "2028-04-24",
+            "valor_central": 2309.7,
+            "ic_inferior": 361.0,
+            "ic_superior": 4258.5
+          },
+          {
+            "fecha": "2028-05-01",
+            "valor_central": 2273.2,
+            "ic_inferior": 320.1,
+            "ic_superior": 4226.2
+          },
+          {
+            "fecha": "2028-05-08",
+            "valor_central": 2256.0,
+            "ic_inferior": 298.7,
+            "ic_superior": 4213.3
+          },
+          {
+            "fecha": "2028-05-15",
+            "valor_central": 2242.6,
+            "ic_inferior": 281.1,
+            "ic_superior": 4204.2
+          },
+          {
+            "fecha": "2028-05-22",
+            "valor_central": 2212.9,
+            "ic_inferior": 247.1,
+            "ic_superior": 4178.7
+          },
+          {
+            "fecha": "2028-05-29",
+            "valor_central": 2171.1,
+            "ic_inferior": 201.0,
+            "ic_superior": 4141.2
+          },
+          {
+            "fecha": "2028-06-05",
+            "valor_central": 2199.0,
+            "ic_inferior": 224.7,
+            "ic_superior": 4173.3
+          },
+          {
+            "fecha": "2028-06-12",
+            "valor_central": 2193.2,
+            "ic_inferior": 214.6,
+            "ic_superior": 4171.7
+          },
+          {
+            "fecha": "2028-06-19",
+            "valor_central": 2140.8,
+            "ic_inferior": 158.0,
+            "ic_superior": 4123.5
+          },
+          {
+            "fecha": "2028-06-26",
+            "valor_central": 2084.7,
+            "ic_inferior": 97.7,
+            "ic_superior": 4071.7
+          },
+          {
+            "fecha": "2028-07-03",
+            "valor_central": 2061.3,
+            "ic_inferior": 70.1,
+            "ic_superior": 4052.5
+          },
+          {
+            "fecha": "2028-07-10",
+            "valor_central": 2067.7,
+            "ic_inferior": 72.3,
+            "ic_superior": 4063.1
+          },
+          {
+            "fecha": "2028-07-17",
+            "valor_central": 2052.4,
+            "ic_inferior": 52.9,
+            "ic_superior": 4052.0
+          },
+          {
+            "fecha": "2028-07-24",
+            "valor_central": 2032.2,
+            "ic_inferior": 28.4,
+            "ic_superior": 4035.9
+          },
+          {
+            "fecha": "2028-07-31",
+            "valor_central": 2035.3,
+            "ic_inferior": 27.4,
+            "ic_superior": 4043.2
+          },
+          {
+            "fecha": "2028-08-07",
+            "valor_central": 2026.5,
+            "ic_inferior": 14.4,
+            "ic_superior": 4038.6
+          },
+          {
+            "fecha": "2028-08-14",
+            "valor_central": 2043.2,
+            "ic_inferior": 27.0,
+            "ic_superior": 4059.5
+          },
+          {
+            "fecha": "2028-08-21",
+            "valor_central": 1968.0,
+            "ic_inferior": -52.4,
+            "ic_superior": 3988.4
+          },
+          {
+            "fecha": "2028-08-28",
+            "valor_central": 2019.1,
+            "ic_inferior": -5.4,
+            "ic_superior": 4043.6
+          },
+          {
+            "fecha": "2028-09-04",
+            "valor_central": 1996.0,
+            "ic_inferior": -32.6,
+            "ic_superior": 4024.7
+          },
+          {
+            "fecha": "2028-09-11",
+            "valor_central": 1991.7,
+            "ic_inferior": -41.0,
+            "ic_superior": 4024.5
+          },
+          {
+            "fecha": "2028-09-18",
+            "valor_central": 1925.0,
+            "ic_inferior": -111.9,
+            "ic_superior": 3961.9
+          },
+          {
+            "fecha": "2028-09-25",
+            "valor_central": 1964.6,
+            "ic_inferior": -76.4,
+            "ic_superior": 4005.6
+          },
+          {
+            "fecha": "2028-10-02",
+            "valor_central": 1964.6,
+            "ic_inferior": -80.4,
+            "ic_superior": 4009.7
+          },
+          {
+            "fecha": "2028-10-09",
+            "valor_central": 2025.0,
+            "ic_inferior": -24.2,
+            "ic_superior": 4074.1
+          },
+          {
+            "fecha": "2028-10-16",
+            "valor_central": 1923.7,
+            "ic_inferior": -129.6,
+            "ic_superior": 3976.9
+          },
+          {
+            "fecha": "2028-10-23",
+            "valor_central": 1944.9,
+            "ic_inferior": -112.4,
+            "ic_superior": 4002.2
+          },
+          {
+            "fecha": "2028-10-30",
+            "valor_central": 2068.7,
+            "ic_inferior": 7.4,
+            "ic_superior": 4130.1
+          },
+          {
+            "fecha": "2028-11-06",
+            "valor_central": 2010.7,
+            "ic_inferior": -54.8,
+            "ic_superior": 4076.1
+          },
+          {
+            "fecha": "2028-11-13",
+            "valor_central": 2046.4,
+            "ic_inferior": -23.0,
+            "ic_superior": 4115.9
+          },
+          {
+            "fecha": "2028-11-20",
+            "valor_central": 2059.0,
+            "ic_inferior": -14.5,
+            "ic_superior": 4132.5
+          },
+          {
+            "fecha": "2028-11-27",
+            "valor_central": 2043.2,
+            "ic_inferior": -34.3,
+            "ic_superior": 4120.8
+          },
+          {
+            "fecha": "2028-12-04",
+            "valor_central": 2066.2,
+            "ic_inferior": -15.4,
+            "ic_superior": 4147.8
+          },
+          {
+            "fecha": "2028-12-11",
+            "valor_central": 2080.0,
+            "ic_inferior": -5.5,
+            "ic_superior": 4165.6
+          },
+          {
+            "fecha": "2028-12-18",
+            "valor_central": 2190.3,
+            "ic_inferior": 100.7,
+            "ic_superior": 4279.9
+          },
+          {
+            "fecha": "2028-12-25",
+            "valor_central": 2222.4,
+            "ic_inferior": 128.9,
+            "ic_superior": 4316.0
+          },
+          {
+            "fecha": "2029-01-01",
+            "valor_central": 2193.7,
+            "ic_inferior": 96.1,
+            "ic_superior": 4291.2
+          },
+          {
+            "fecha": "2029-01-08",
+            "valor_central": 2195.2,
+            "ic_inferior": 93.6,
+            "ic_superior": 4296.7
+          },
+          {
+            "fecha": "2029-01-15",
+            "valor_central": 2251.7,
+            "ic_inferior": 146.2,
+            "ic_superior": 4357.2
+          },
+          {
+            "fecha": "2029-01-22",
+            "valor_central": 2283.7,
+            "ic_inferior": 174.2,
+            "ic_superior": 4393.2
+          },
+          {
+            "fecha": "2029-01-29",
+            "valor_central": 2328.1,
+            "ic_inferior": 214.6,
+            "ic_superior": 4441.6
+          },
+          {
+            "fecha": "2029-02-05",
+            "valor_central": 2325.8,
+            "ic_inferior": 208.4,
+            "ic_superior": 4443.3
+          },
+          {
+            "fecha": "2029-02-12",
+            "valor_central": 2298.7,
+            "ic_inferior": 177.4,
+            "ic_superior": 4420.1
+          },
+          {
+            "fecha": "2029-02-19",
+            "valor_central": 2360.6,
+            "ic_inferior": 235.3,
+            "ic_superior": 4485.9
+          },
+          {
+            "fecha": "2029-02-26",
+            "valor_central": 2334.3,
+            "ic_inferior": 205.0,
+            "ic_superior": 4463.5
+          },
+          {
+            "fecha": "2029-03-05",
+            "valor_central": 2338.3,
+            "ic_inferior": 205.2,
+            "ic_superior": 4471.5
+          },
+          {
+            "fecha": "2029-03-12",
+            "valor_central": 2292.9,
+            "ic_inferior": 155.9,
+            "ic_superior": 4430.0
+          },
+          {
+            "fecha": "2029-03-19",
+            "valor_central": 2322.8,
+            "ic_inferior": 181.8,
+            "ic_superior": 4463.7
+          },
+          {
+            "fecha": "2029-03-26",
+            "valor_central": 2310.1,
+            "ic_inferior": 165.2,
+            "ic_superior": 4455.0
+          },
+          {
+            "fecha": "2029-04-02",
+            "valor_central": 2323.1,
+            "ic_inferior": 174.3,
+            "ic_superior": 4471.9
+          },
+          {
+            "fecha": "2029-04-09",
+            "valor_central": 2312.6,
+            "ic_inferior": 159.9,
+            "ic_superior": 4465.2
+          },
+          {
+            "fecha": "2029-04-16",
+            "valor_central": 2351.3,
+            "ic_inferior": 194.8,
+            "ic_superior": 4507.9
+          },
+          {
+            "fecha": "2029-04-23",
+            "valor_central": 2325.0,
+            "ic_inferior": 164.6,
+            "ic_superior": 4485.5
+          },
+          {
+            "fecha": "2029-04-30",
+            "valor_central": 2288.4,
+            "ic_inferior": 124.1,
+            "ic_superior": 4452.7
+          },
+          {
+            "fecha": "2029-05-07",
+            "valor_central": 2271.2,
+            "ic_inferior": 103.0,
+            "ic_superior": 4439.3
+          },
+          {
+            "fecha": "2029-05-14",
+            "valor_central": 2257.7,
+            "ic_inferior": 85.7,
+            "ic_superior": 4429.7
+          },
+          {
+            "fecha": "2029-05-21",
+            "valor_central": 2227.9,
+            "ic_inferior": 52.0,
+            "ic_superior": 4403.7
+          },
+          {
+            "fecha": "2029-05-28",
+            "valor_central": 2186.0,
+            "ic_inferior": 6.3,
+            "ic_superior": 4365.7
+          },
+          {
+            "fecha": "2029-06-04",
+            "valor_central": 2213.8,
+            "ic_inferior": 30.3,
+            "ic_superior": 4397.4
+          },
+          {
+            "fecha": "2029-06-11",
+            "valor_central": 2207.9,
+            "ic_inferior": 20.6,
+            "ic_superior": 4395.3
+          },
+          {
+            "fecha": "2029-06-18",
+            "valor_central": 2155.5,
+            "ic_inferior": -35.7,
+            "ic_superior": 4346.6
+          },
+          {
+            "fecha": "2029-06-25",
+            "valor_central": 2099.3,
+            "ic_inferior": -95.7,
+            "ic_superior": 4294.3
+          },
+          {
+            "fecha": "2029-07-02",
+            "valor_central": 2075.8,
+            "ic_inferior": -123.0,
+            "ic_superior": 4274.6
+          },
+          {
+            "fecha": "2029-07-09",
+            "valor_central": 2082.2,
+            "ic_inferior": -120.5,
+            "ic_superior": 4284.8
+          },
+          {
+            "fecha": "2029-07-16",
+            "valor_central": 2066.8,
+            "ic_inferior": -139.6,
+            "ic_superior": 4273.3
+          },
+          {
+            "fecha": "2029-07-23",
+            "valor_central": 2046.5,
+            "ic_inferior": -163.7,
+            "ic_superior": 4256.7
+          },
+          {
+            "fecha": "2029-07-30",
+            "valor_central": 2049.5,
+            "ic_inferior": -164.4,
+            "ic_superior": 4263.5
+          },
+          {
+            "fecha": "2029-08-06",
+            "valor_central": 2040.7,
+            "ic_inferior": -177.1,
+            "ic_superior": 4258.5
+          },
+          {
+            "fecha": "2029-08-13",
+            "valor_central": 2057.4,
+            "ic_inferior": -164.2,
+            "ic_superior": 4278.9
+          },
+          {
+            "fecha": "2029-08-20",
+            "valor_central": 1982.0,
+            "ic_inferior": -243.3,
+            "ic_superior": 4207.3
+          },
+          {
+            "fecha": "2029-08-27",
+            "valor_central": 2033.1,
+            "ic_inferior": -195.9,
+            "ic_superior": 4262.1
+          },
+          {
+            "fecha": "2029-09-03",
+            "valor_central": 2009.9,
+            "ic_inferior": -222.9,
+            "ic_superior": 4242.7
+          },
+          {
+            "fecha": "2029-09-10",
+            "valor_central": 2005.6,
+            "ic_inferior": -231.0,
+            "ic_superior": 4242.1
+          },
+          {
+            "fecha": "2029-09-17",
+            "valor_central": 1938.8,
+            "ic_inferior": -301.5,
+            "ic_superior": 4179.1
+          },
+          {
+            "fecha": "2029-09-24",
+            "valor_central": 1978.3,
+            "ic_inferior": -265.7,
+            "ic_superior": 4222.3
+          },
+          {
+            "fecha": "2029-10-01",
+            "valor_central": 1978.3,
+            "ic_inferior": -269.5,
+            "ic_superior": 4226.0
+          },
+          {
+            "fecha": "2029-10-08",
+            "valor_central": 2038.5,
+            "ic_inferior": -212.9,
+            "ic_superior": 4290.0
+          },
+          {
+            "fecha": "2029-10-15",
+            "valor_central": 1937.2,
+            "ic_inferior": -318.0,
+            "ic_superior": 4192.3
+          },
+          {
+            "fecha": "2029-10-22",
+            "valor_central": 1958.3,
+            "ic_inferior": -300.5,
+            "ic_superior": 4217.2
+          },
+          {
+            "fecha": "2029-10-29",
+            "valor_central": 2082.1,
+            "ic_inferior": -180.5,
+            "ic_superior": 4344.6
+          },
+          {
+            "fecha": "2029-11-05",
+            "valor_central": 2024.0,
+            "ic_inferior": -242.3,
+            "ic_superior": 4290.2
+          },
+          {
+            "fecha": "2029-11-12",
+            "valor_central": 2059.6,
+            "ic_inferior": -210.3,
+            "ic_superior": 4329.6
+          },
+          {
+            "fecha": "2029-11-19",
+            "valor_central": 2072.1,
+            "ic_inferior": -201.5,
+            "ic_superior": 4345.7
+          },
+          {
+            "fecha": "2029-11-26",
+            "valor_central": 2056.3,
+            "ic_inferior": -221.0,
+            "ic_superior": 4333.6
+          },
+          {
+            "fecha": "2029-12-03",
+            "valor_central": 2079.2,
+            "ic_inferior": -201.7,
+            "ic_superior": 4360.2
+          },
+          {
+            "fecha": "2029-12-10",
+            "valor_central": 2093.0,
+            "ic_inferior": -191.6,
+            "ic_superior": 4377.6
+          },
+          {
+            "fecha": "2029-12-17",
+            "valor_central": 2203.2,
+            "ic_inferior": -85.1,
+            "ic_superior": 4491.5
+          },
+          {
+            "fecha": "2029-12-24",
+            "valor_central": 2235.3,
+            "ic_inferior": -56.7,
+            "ic_superior": 4527.2
+          },
+          {
+            "fecha": "2029-12-31",
+            "valor_central": 2206.4,
+            "ic_inferior": -89.2,
+            "ic_superior": 4502.0
+          },
+          {
+            "fecha": "2030-01-07",
+            "valor_central": 2207.9,
+            "ic_inferior": -91.3,
+            "ic_superior": 4507.1
+          },
+          {
+            "fecha": "2030-01-14",
+            "valor_central": 2264.3,
+            "ic_inferior": -38.5,
+            "ic_superior": 4567.2
+          },
+          {
+            "fecha": "2030-01-21",
+            "valor_central": 2296.3,
+            "ic_inferior": -10.2,
+            "ic_superior": 4602.8
+          },
+          {
+            "fecha": "2030-01-28",
+            "valor_central": 2340.6,
+            "ic_inferior": 30.5,
+            "ic_superior": 4650.7
+          },
+          {
+            "fecha": "2030-02-04",
+            "valor_central": 2338.3,
+            "ic_inferior": 24.6,
+            "ic_superior": 4652.0
+          },
+          {
+            "fecha": "2030-02-11",
+            "valor_central": 2311.1,
+            "ic_inferior": -6.2,
+            "ic_superior": 4628.5
+          },
+          {
+            "fecha": "2030-02-18",
+            "valor_central": 2372.9,
+            "ic_inferior": 52.0,
+            "ic_superior": 4693.9
+          },
+          {
+            "fecha": "2030-02-25",
+            "valor_central": 2346.5,
+            "ic_inferior": 22.0,
+            "ic_superior": 4671.1
+          },
+          {
+            "fecha": "2030-03-04",
+            "valor_central": 2350.5,
+            "ic_inferior": 22.4,
+            "ic_superior": 4678.7
+          },
+          {
+            "fecha": "2030-03-11",
+            "valor_central": 2305.1,
+            "ic_inferior": -26.7,
+            "ic_superior": 4636.8
+          },
+          {
+            "fecha": "2030-03-18",
+            "valor_central": 2334.8,
+            "ic_inferior": -0.5,
+            "ic_superior": 4670.2
+          },
+          {
+            "fecha": "2030-03-25",
+            "valor_central": 2322.1,
+            "ic_inferior": -16.8,
+            "ic_superior": 4661.0
+          },
+          {
+            "fecha": "2030-04-01",
+            "valor_central": 2335.1,
+            "ic_inferior": -7.4,
+            "ic_superior": 4677.5
+          },
+          {
+            "fecha": "2030-04-08",
+            "valor_central": 2324.5,
+            "ic_inferior": -21.6,
+            "ic_superior": 4670.5
+          },
+          {
+            "fecha": "2030-04-15",
+            "valor_central": 2363.2,
+            "ic_inferior": 13.6,
+            "ic_superior": 4712.8
+          },
+          {
+            "fecha": "2030-04-22",
+            "valor_central": 2336.8,
+            "ic_inferior": -16.4,
+            "ic_superior": 4690.0
+          },
+          {
+            "fecha": "2030-04-29",
+            "valor_central": 2300.1,
+            "ic_inferior": -56.6,
+            "ic_superior": 4656.8
+          },
+          {
+            "fecha": "2030-05-06",
+            "valor_central": 2282.8,
+            "ic_inferior": -77.4,
+            "ic_superior": 4643.1
+          },
+          {
+            "fecha": "2030-05-13",
+            "valor_central": 2269.3,
+            "ic_inferior": -94.5,
+            "ic_superior": 4633.1
+          },
+          {
+            "fecha": "2030-05-20",
+            "valor_central": 2239.4,
+            "ic_inferior": -127.9,
+            "ic_superior": 4606.8
+          },
+          {
+            "fecha": "2030-05-27",
+            "valor_central": 2197.5,
+            "ic_inferior": -173.3,
+            "ic_superior": 4568.4
+          },
+          {
+            "fecha": "2030-06-03",
+            "valor_central": 2225.3,
+            "ic_inferior": -149.1,
+            "ic_superior": 4599.7
+          },
+          {
+            "fecha": "2030-06-10",
+            "valor_central": 2219.3,
+            "ic_inferior": -158.6,
+            "ic_superior": 4597.2
+          },
+          {
+            "fecha": "2030-06-17",
+            "valor_central": 2166.8,
+            "ic_inferior": -214.7,
+            "ic_superior": 4548.2
+          },
+          {
+            "fecha": "2030-06-24",
+            "valor_central": 2110.6,
+            "ic_inferior": -274.4,
+            "ic_superior": 4495.5
+          },
+          {
+            "fecha": "2030-07-01",
+            "valor_central": 2087.0,
+            "ic_inferior": -301.4,
+            "ic_superior": 4475.5
+          },
+          {
+            "fecha": "2030-07-08",
+            "valor_central": 2093.3,
+            "ic_inferior": -298.6,
+            "ic_superior": 4485.3
+          },
+          {
+            "fecha": "2030-07-15",
+            "valor_central": 2077.9,
+            "ic_inferior": -317.5,
+            "ic_superior": 4473.4
+          },
+          {
+            "fecha": "2030-07-22",
+            "valor_central": 2057.5,
+            "ic_inferior": -341.4,
+            "ic_superior": 4456.5
+          },
+          {
+            "fecha": "2030-07-29",
+            "valor_central": 2060.5,
+            "ic_inferior": -341.9,
+            "ic_superior": 4463.0
+          },
+          {
+            "fecha": "2030-08-05",
+            "valor_central": 2051.6,
+            "ic_inferior": -354.3,
+            "ic_superior": 4457.5
+          },
+          {
+            "fecha": "2030-08-12",
+            "valor_central": 2068.2,
+            "ic_inferior": -341.1,
+            "ic_superior": 4477.6
+          },
+          {
+            "fecha": "2030-08-19",
+            "valor_central": 1992.8,
+            "ic_inferior": -420.0,
+            "ic_superior": 4405.7
+          },
+          {
+            "fecha": "2030-08-26",
+            "valor_central": 2043.9,
+            "ic_inferior": -372.4,
+            "ic_superior": 4460.2
+          },
+          {
+            "fecha": "2030-09-02",
+            "valor_central": 2020.6,
+            "ic_inferior": -399.1,
+            "ic_superior": 4440.4
+          },
+          {
+            "fecha": "2030-09-09",
+            "valor_central": 2016.2,
+            "ic_inferior": -407.0,
+            "ic_superior": 4439.4
+          },
+          {
+            "fecha": "2030-09-16",
+            "valor_central": 1949.4,
+            "ic_inferior": -477.3,
+            "ic_superior": 4376.1
+          },
+          {
+            "fecha": "2030-09-23",
+            "valor_central": 1988.9,
+            "ic_inferior": -441.2,
+            "ic_superior": 4419.0
+          },
+          {
+            "fecha": "2030-09-30",
+            "valor_central": 1988.8,
+            "ic_inferior": -444.8,
+            "ic_superior": 4422.3
+          },
+          {
+            "fecha": "2030-10-07",
+            "valor_central": 2049.0,
+            "ic_inferior": -388.0,
+            "ic_superior": 4486.0
+          },
+          {
+            "fecha": "2030-10-14",
+            "valor_central": 1947.6,
+            "ic_inferior": -492.9,
+            "ic_superior": 4388.0
+          },
+          {
+            "fecha": "2030-10-21",
+            "valor_central": 1968.7,
+            "ic_inferior": -475.2,
+            "ic_superior": 4412.5
+          },
+          {
+            "fecha": "2030-10-28",
+            "valor_central": 2092.4,
+            "ic_inferior": -354.9,
+            "ic_superior": 4539.6
+          },
+          {
+            "fecha": "2030-11-04",
+            "valor_central": 2034.2,
+            "ic_inferior": -416.5,
+            "ic_superior": 4484.9
+          },
+          {
+            "fecha": "2030-11-11",
+            "valor_central": 2069.8,
+            "ic_inferior": -384.3,
+            "ic_superior": 4523.9
+          },
+          {
+            "fecha": "2030-11-18",
+            "valor_central": 2082.3,
+            "ic_inferior": -375.2,
+            "ic_superior": 4539.8
+          },
+          {
+            "fecha": "2030-11-25",
+            "valor_central": 2066.4,
+            "ic_inferior": -394.5,
+            "ic_superior": 4527.3
+          },
+          {
+            "fecha": "2030-12-02",
+            "valor_central": 2089.3,
+            "ic_inferior": -375.0,
+            "ic_superior": 4553.6
+          },
+          {
+            "fecha": "2030-12-09",
+            "valor_central": 2103.0,
+            "ic_inferior": -364.7,
+            "ic_superior": 4570.7
+          },
+          {
+            "fecha": "2030-12-16",
+            "valor_central": 2213.1,
+            "ic_inferior": -258.0,
+            "ic_superior": 4684.2
+          },
+          {
+            "fecha": "2030-12-23",
+            "valor_central": 2245.2,
+            "ic_inferior": -229.3,
+            "ic_superior": 4719.6
+          },
+          {
+            "fecha": "2030-12-30",
+            "valor_central": 2216.3,
+            "ic_inferior": -261.6,
+            "ic_superior": 4694.1
           }
         ],
         "residuals": [
@@ -8679,6 +12939,2136 @@
             "valor_central": 2151.2,
             "ic_inferior": 1298.4,
             "ic_superior": 3004.0
+          },
+          {
+            "fecha": "2024-03-18",
+            "valor_central": 2152.0,
+            "ic_inferior": 1264.4,
+            "ic_superior": 3039.6
+          },
+          {
+            "fecha": "2024-03-25",
+            "valor_central": 2150.5,
+            "ic_inferior": 1229.4,
+            "ic_superior": 3071.7
+          },
+          {
+            "fecha": "2024-04-01",
+            "valor_central": 2146.9,
+            "ic_inferior": 1193.4,
+            "ic_superior": 3100.3
+          },
+          {
+            "fecha": "2024-04-08",
+            "valor_central": 2141.1,
+            "ic_inferior": 1156.4,
+            "ic_superior": 3125.9
+          },
+          {
+            "fecha": "2024-04-15",
+            "valor_central": 2133.3,
+            "ic_inferior": 1118.2,
+            "ic_superior": 3148.3
+          },
+          {
+            "fecha": "2024-04-22",
+            "valor_central": 2123.2,
+            "ic_inferior": 1078.7,
+            "ic_superior": 3167.6
+          },
+          {
+            "fecha": "2024-04-29",
+            "valor_central": 2110.7,
+            "ic_inferior": 1037.6,
+            "ic_superior": 3183.8
+          },
+          {
+            "fecha": "2024-05-06",
+            "valor_central": 2095.7,
+            "ic_inferior": 994.8,
+            "ic_superior": 3196.7
+          },
+          {
+            "fecha": "2024-05-13",
+            "valor_central": 2078.3,
+            "ic_inferior": 950.2,
+            "ic_superior": 3206.5
+          },
+          {
+            "fecha": "2024-05-20",
+            "valor_central": 2058.6,
+            "ic_inferior": 903.9,
+            "ic_superior": 3213.3
+          },
+          {
+            "fecha": "2024-05-27",
+            "valor_central": 2036.8,
+            "ic_inferior": 856.1,
+            "ic_superior": 3217.4
+          },
+          {
+            "fecha": "2024-06-03",
+            "valor_central": 2013.5,
+            "ic_inferior": 807.4,
+            "ic_superior": 3219.5
+          },
+          {
+            "fecha": "2024-06-10",
+            "valor_central": 1989.2,
+            "ic_inferior": 758.3,
+            "ic_superior": 3220.1
+          },
+          {
+            "fecha": "2024-06-17",
+            "valor_central": 1964.8,
+            "ic_inferior": 709.5,
+            "ic_superior": 3220.1
+          },
+          {
+            "fecha": "2024-06-24",
+            "valor_central": 1941.0,
+            "ic_inferior": 661.8,
+            "ic_superior": 3220.2
+          },
+          {
+            "fecha": "2024-07-01",
+            "valor_central": 1918.6,
+            "ic_inferior": 615.9,
+            "ic_superior": 3221.3
+          },
+          {
+            "fecha": "2024-07-08",
+            "valor_central": 1898.3,
+            "ic_inferior": 572.6,
+            "ic_superior": 3224.1
+          },
+          {
+            "fecha": "2024-07-15",
+            "valor_central": 1880.7,
+            "ic_inferior": 532.3,
+            "ic_superior": 3229.1
+          },
+          {
+            "fecha": "2024-07-22",
+            "valor_central": 1865.9,
+            "ic_inferior": 495.3,
+            "ic_superior": 3236.6
+          },
+          {
+            "fecha": "2024-07-29",
+            "valor_central": 1854.2,
+            "ic_inferior": 461.6,
+            "ic_superior": 3246.8
+          },
+          {
+            "fecha": "2024-08-05",
+            "valor_central": 1845.4,
+            "ic_inferior": 431.1,
+            "ic_superior": 3259.6
+          },
+          {
+            "fecha": "2024-08-12",
+            "valor_central": 1839.0,
+            "ic_inferior": 403.5,
+            "ic_superior": 3274.4
+          },
+          {
+            "fecha": "2024-08-19",
+            "valor_central": 1834.6,
+            "ic_inferior": 378.1,
+            "ic_superior": 3291.0
+          },
+          {
+            "fecha": "2024-08-26",
+            "valor_central": 1831.5,
+            "ic_inferior": 354.4,
+            "ic_superior": 3308.6
+          },
+          {
+            "fecha": "2024-09-02",
+            "valor_central": 1829.3,
+            "ic_inferior": 331.9,
+            "ic_superior": 3326.8
+          },
+          {
+            "fecha": "2024-09-09",
+            "valor_central": 1827.5,
+            "ic_inferior": 309.9,
+            "ic_superior": 3345.1
+          },
+          {
+            "fecha": "2024-09-16",
+            "valor_central": 1825.7,
+            "ic_inferior": 288.3,
+            "ic_superior": 3363.1
+          },
+          {
+            "fecha": "2024-09-23",
+            "valor_central": 1823.9,
+            "ic_inferior": 266.9,
+            "ic_superior": 3380.9
+          },
+          {
+            "fecha": "2024-09-30",
+            "valor_central": 1822.2,
+            "ic_inferior": 245.9,
+            "ic_superior": 3398.6
+          },
+          {
+            "fecha": "2024-10-07",
+            "valor_central": 1821.1,
+            "ic_inferior": 225.7,
+            "ic_superior": 3416.6
+          },
+          {
+            "fecha": "2024-10-14",
+            "valor_central": 1821.1,
+            "ic_inferior": 206.8,
+            "ic_superior": 3435.4
+          },
+          {
+            "fecha": "2024-10-21",
+            "valor_central": 1823.0,
+            "ic_inferior": 190.0,
+            "ic_superior": 3456.0
+          },
+          {
+            "fecha": "2024-10-28",
+            "valor_central": 1827.5,
+            "ic_inferior": 176.1,
+            "ic_superior": 3478.9
+          },
+          {
+            "fecha": "2024-11-04",
+            "valor_central": 1835.4,
+            "ic_inferior": 165.7,
+            "ic_superior": 3505.1
+          },
+          {
+            "fecha": "2024-11-11",
+            "valor_central": 1847.2,
+            "ic_inferior": 159.4,
+            "ic_superior": 3534.9
+          },
+          {
+            "fecha": "2024-11-18",
+            "valor_central": 1863.3,
+            "ic_inferior": 157.7,
+            "ic_superior": 3568.9
+          },
+          {
+            "fecha": "2024-11-25",
+            "valor_central": 1883.7,
+            "ic_inferior": 160.4,
+            "ic_superior": 3607.0
+          },
+          {
+            "fecha": "2024-12-02",
+            "valor_central": 1908.3,
+            "ic_inferior": 167.5,
+            "ic_superior": 3649.0
+          },
+          {
+            "fecha": "2024-12-09",
+            "valor_central": 1936.4,
+            "ic_inferior": 178.3,
+            "ic_superior": 3694.5
+          },
+          {
+            "fecha": "2024-12-16",
+            "valor_central": 1967.3,
+            "ic_inferior": 192.0,
+            "ic_superior": 3742.5
+          },
+          {
+            "fecha": "2024-12-23",
+            "valor_central": 1999.9,
+            "ic_inferior": 207.6,
+            "ic_superior": 3792.1
+          },
+          {
+            "fecha": "2024-12-30",
+            "valor_central": 2033.1,
+            "ic_inferior": 224.0,
+            "ic_superior": 3842.2
+          },
+          {
+            "fecha": "2025-01-06",
+            "valor_central": 2065.8,
+            "ic_inferior": 240.1,
+            "ic_superior": 3891.5
+          },
+          {
+            "fecha": "2025-01-13",
+            "valor_central": 2096.8,
+            "ic_inferior": 254.6,
+            "ic_superior": 3939.1
+          },
+          {
+            "fecha": "2025-01-20",
+            "valor_central": 2125.3,
+            "ic_inferior": 266.7,
+            "ic_superior": 3984.0
+          },
+          {
+            "fecha": "2025-01-27",
+            "valor_central": 2150.6,
+            "ic_inferior": 275.7,
+            "ic_superior": 4025.4
+          },
+          {
+            "fecha": "2025-02-03",
+            "valor_central": 2172.1,
+            "ic_inferior": 281.1,
+            "ic_superior": 4063.0
+          },
+          {
+            "fecha": "2025-02-10",
+            "valor_central": 2189.6,
+            "ic_inferior": 282.7,
+            "ic_superior": 4096.5
+          },
+          {
+            "fecha": "2025-02-17",
+            "valor_central": 2203.2,
+            "ic_inferior": 280.5,
+            "ic_superior": 4126.0
+          },
+          {
+            "fecha": "2025-02-24",
+            "valor_central": 2213.1,
+            "ic_inferior": 274.7,
+            "ic_superior": 4151.6
+          },
+          {
+            "fecha": "2025-03-03",
+            "valor_central": 2219.6,
+            "ic_inferior": 265.6,
+            "ic_superior": 4173.6
+          },
+          {
+            "fecha": "2025-03-10",
+            "valor_central": 2223.1,
+            "ic_inferior": 253.7,
+            "ic_superior": 4192.6
+          },
+          {
+            "fecha": "2025-03-17",
+            "valor_central": 2224.0,
+            "ic_inferior": 239.2,
+            "ic_superior": 4208.8
+          },
+          {
+            "fecha": "2025-03-24",
+            "valor_central": 2222.5,
+            "ic_inferior": 222.5,
+            "ic_superior": 4222.5
+          },
+          {
+            "fecha": "2025-03-31",
+            "valor_central": 2218.9,
+            "ic_inferior": 203.8,
+            "ic_superior": 4234.0
+          },
+          {
+            "fecha": "2025-04-07",
+            "valor_central": 2213.1,
+            "ic_inferior": 183.1,
+            "ic_superior": 4243.2
+          },
+          {
+            "fecha": "2025-04-14",
+            "valor_central": 2205.3,
+            "ic_inferior": 160.3,
+            "ic_superior": 4250.2
+          },
+          {
+            "fecha": "2025-04-21",
+            "valor_central": 2195.2,
+            "ic_inferior": 135.5,
+            "ic_superior": 4254.9
+          },
+          {
+            "fecha": "2025-04-28",
+            "valor_central": 2182.7,
+            "ic_inferior": 108.3,
+            "ic_superior": 4257.0
+          },
+          {
+            "fecha": "2025-05-05",
+            "valor_central": 2167.7,
+            "ic_inferior": 78.8,
+            "ic_superior": 4256.7
+          },
+          {
+            "fecha": "2025-05-12",
+            "valor_central": 2150.3,
+            "ic_inferior": 46.9,
+            "ic_superior": 4253.7
+          },
+          {
+            "fecha": "2025-05-19",
+            "valor_central": 2130.6,
+            "ic_inferior": 12.8,
+            "ic_superior": 4248.3
+          },
+          {
+            "fecha": "2025-05-26",
+            "valor_central": 2108.8,
+            "ic_inferior": -23.2,
+            "ic_superior": 4240.8
+          },
+          {
+            "fecha": "2025-06-02",
+            "valor_central": 2085.4,
+            "ic_inferior": -60.7,
+            "ic_superior": 4231.6
+          },
+          {
+            "fecha": "2025-06-09",
+            "valor_central": 2061.2,
+            "ic_inferior": -99.0,
+            "ic_superior": 4221.4
+          },
+          {
+            "fecha": "2025-06-16",
+            "valor_central": 2036.8,
+            "ic_inferior": -137.5,
+            "ic_superior": 4211.0
+          },
+          {
+            "fecha": "2025-06-23",
+            "valor_central": 2013.0,
+            "ic_inferior": -175.1,
+            "ic_superior": 4201.1
+          },
+          {
+            "fecha": "2025-06-30",
+            "valor_central": 1990.6,
+            "ic_inferior": -211.3,
+            "ic_superior": 4192.5
+          },
+          {
+            "fecha": "2025-07-07",
+            "valor_central": 1970.3,
+            "ic_inferior": -245.3,
+            "ic_superior": 4186.0
+          },
+          {
+            "fecha": "2025-07-14",
+            "valor_central": 1952.7,
+            "ic_inferior": -276.6,
+            "ic_superior": 4181.9
+          },
+          {
+            "fecha": "2025-07-21",
+            "valor_central": 1937.9,
+            "ic_inferior": -304.9,
+            "ic_superior": 4180.8
+          },
+          {
+            "fecha": "2025-07-28",
+            "valor_central": 1926.2,
+            "ic_inferior": -330.1,
+            "ic_superior": 4182.5
+          },
+          {
+            "fecha": "2025-08-04",
+            "valor_central": 1917.3,
+            "ic_inferior": -352.3,
+            "ic_superior": 4187.0
+          },
+          {
+            "fecha": "2025-08-11",
+            "valor_central": 1911.0,
+            "ic_inferior": -372.0,
+            "ic_superior": 4194.0
+          },
+          {
+            "fecha": "2025-08-18",
+            "valor_central": 1906.5,
+            "ic_inferior": -389.7,
+            "ic_superior": 4202.8
+          },
+          {
+            "fecha": "2025-08-25",
+            "valor_central": 1903.5,
+            "ic_inferior": -405.9,
+            "ic_superior": 4212.9
+          },
+          {
+            "fecha": "2025-09-01",
+            "valor_central": 1901.3,
+            "ic_inferior": -421.1,
+            "ic_superior": 4223.8
+          },
+          {
+            "fecha": "2025-09-08",
+            "valor_central": 1899.5,
+            "ic_inferior": -436.0,
+            "ic_superior": 4235.0
+          },
+          {
+            "fecha": "2025-09-15",
+            "valor_central": 1897.7,
+            "ic_inferior": -450.7,
+            "ic_superior": 4246.1
+          },
+          {
+            "fecha": "2025-09-22",
+            "valor_central": 1895.9,
+            "ic_inferior": -465.4,
+            "ic_superior": 4257.2
+          },
+          {
+            "fecha": "2025-09-29",
+            "valor_central": 1894.2,
+            "ic_inferior": -479.9,
+            "ic_superior": 4268.3
+          },
+          {
+            "fecha": "2025-10-06",
+            "valor_central": 1893.1,
+            "ic_inferior": -493.7,
+            "ic_superior": 4279.9
+          },
+          {
+            "fecha": "2025-10-13",
+            "valor_central": 1893.1,
+            "ic_inferior": -506.4,
+            "ic_superior": 4292.6
+          },
+          {
+            "fecha": "2025-10-20",
+            "valor_central": 1895.0,
+            "ic_inferior": -517.1,
+            "ic_superior": 4307.1
+          },
+          {
+            "fecha": "2025-10-27",
+            "valor_central": 1899.5,
+            "ic_inferior": -525.1,
+            "ic_superior": 4324.1
+          },
+          {
+            "fecha": "2025-11-03",
+            "valor_central": 1907.4,
+            "ic_inferior": -529.7,
+            "ic_superior": 4344.4
+          },
+          {
+            "fecha": "2025-11-10",
+            "valor_central": 1919.2,
+            "ic_inferior": -530.3,
+            "ic_superior": 4368.6
+          },
+          {
+            "fecha": "2025-11-17",
+            "valor_central": 1935.2,
+            "ic_inferior": -526.6,
+            "ic_superior": 4397.1
+          },
+          {
+            "fecha": "2025-11-24",
+            "valor_central": 1955.7,
+            "ic_inferior": -518.4,
+            "ic_superior": 4429.8
+          },
+          {
+            "fecha": "2025-12-01",
+            "valor_central": 1980.2,
+            "ic_inferior": -506.1,
+            "ic_superior": 4466.6
+          },
+          {
+            "fecha": "2025-12-08",
+            "valor_central": 2008.4,
+            "ic_inferior": -490.1,
+            "ic_superior": 4506.8
+          },
+          {
+            "fecha": "2025-12-15",
+            "valor_central": 2039.2,
+            "ic_inferior": -471.3,
+            "ic_superior": 4549.8
+          },
+          {
+            "fecha": "2025-12-22",
+            "valor_central": 2071.9,
+            "ic_inferior": -450.7,
+            "ic_superior": 4594.5
+          },
+          {
+            "fecha": "2025-12-29",
+            "valor_central": 2105.1,
+            "ic_inferior": -429.5,
+            "ic_superior": 4639.7
+          },
+          {
+            "fecha": "2026-01-05",
+            "valor_central": 2137.8,
+            "ic_inferior": -408.7,
+            "ic_superior": 4684.3
+          },
+          {
+            "fecha": "2026-01-12",
+            "valor_central": 2168.8,
+            "ic_inferior": -389.6,
+            "ic_superior": 4727.2
+          },
+          {
+            "fecha": "2026-01-19",
+            "valor_central": 2197.3,
+            "ic_inferior": -372.9,
+            "ic_superior": 4767.5
+          },
+          {
+            "fecha": "2026-01-26",
+            "valor_central": 2222.6,
+            "ic_inferior": -359.4,
+            "ic_superior": 4804.5
+          },
+          {
+            "fecha": "2026-02-02",
+            "valor_central": 2244.1,
+            "ic_inferior": -349.6,
+            "ic_superior": 4837.7
+          },
+          {
+            "fecha": "2026-02-09",
+            "valor_central": 2261.6,
+            "ic_inferior": -343.7,
+            "ic_superior": 4866.9
+          },
+          {
+            "fecha": "2026-02-16",
+            "valor_central": 2275.2,
+            "ic_inferior": -341.7,
+            "ic_superior": 4892.2
+          },
+          {
+            "fecha": "2026-02-23",
+            "valor_central": 2285.1,
+            "ic_inferior": -343.4,
+            "ic_superior": 4913.6
+          },
+          {
+            "fecha": "2026-03-02",
+            "valor_central": 2291.6,
+            "ic_inferior": -348.4,
+            "ic_superior": 4931.6
+          },
+          {
+            "fecha": "2026-03-09",
+            "valor_central": 2295.1,
+            "ic_inferior": -356.3,
+            "ic_superior": 4946.6
+          },
+          {
+            "fecha": "2026-03-16",
+            "valor_central": 2296.0,
+            "ic_inferior": -366.9,
+            "ic_superior": 4958.9
+          },
+          {
+            "fecha": "2026-03-23",
+            "valor_central": 2294.5,
+            "ic_inferior": -379.7,
+            "ic_superior": 4968.7
+          },
+          {
+            "fecha": "2026-03-30",
+            "valor_central": 2290.9,
+            "ic_inferior": -394.7,
+            "ic_superior": 4976.4
+          },
+          {
+            "fecha": "2026-04-06",
+            "valor_central": 2285.1,
+            "ic_inferior": -411.7,
+            "ic_superior": 4981.9
+          },
+          {
+            "fecha": "2026-04-13",
+            "valor_central": 2277.3,
+            "ic_inferior": -430.7,
+            "ic_superior": 4985.3
+          },
+          {
+            "fecha": "2026-04-20",
+            "valor_central": 2267.2,
+            "ic_inferior": -452.0,
+            "ic_superior": 4986.3
+          },
+          {
+            "fecha": "2026-04-27",
+            "valor_central": 2254.7,
+            "ic_inferior": -475.6,
+            "ic_superior": 4985.0
+          },
+          {
+            "fecha": "2026-05-04",
+            "valor_central": 2239.7,
+            "ic_inferior": -501.6,
+            "ic_superior": 4981.1
+          },
+          {
+            "fecha": "2026-05-11",
+            "valor_central": 2222.3,
+            "ic_inferior": -530.1,
+            "ic_superior": 4974.7
+          },
+          {
+            "fecha": "2026-05-18",
+            "valor_central": 2202.6,
+            "ic_inferior": -560.8,
+            "ic_superior": 4965.9
+          },
+          {
+            "fecha": "2026-05-25",
+            "valor_central": 2180.8,
+            "ic_inferior": -593.6,
+            "ic_superior": 4955.1
+          },
+          {
+            "fecha": "2026-06-01",
+            "valor_central": 2157.4,
+            "ic_inferior": -627.8,
+            "ic_superior": 4942.7
+          },
+          {
+            "fecha": "2026-06-08",
+            "valor_central": 2133.2,
+            "ic_inferior": -662.9,
+            "ic_superior": 4929.3
+          },
+          {
+            "fecha": "2026-06-15",
+            "valor_central": 2108.8,
+            "ic_inferior": -698.1,
+            "ic_superior": 4915.7
+          },
+          {
+            "fecha": "2026-06-22",
+            "valor_central": 2085.0,
+            "ic_inferior": -732.7,
+            "ic_superior": 4902.6
+          },
+          {
+            "fecha": "2026-06-29",
+            "valor_central": 2062.6,
+            "ic_inferior": -765.8,
+            "ic_superior": 4891.0
+          },
+          {
+            "fecha": "2026-07-06",
+            "valor_central": 2042.3,
+            "ic_inferior": -796.8,
+            "ic_superior": 4881.4
+          },
+          {
+            "fecha": "2026-07-13",
+            "valor_central": 2024.7,
+            "ic_inferior": -825.1,
+            "ic_superior": 4874.4
+          },
+          {
+            "fecha": "2026-07-20",
+            "valor_central": 2009.9,
+            "ic_inferior": -850.4,
+            "ic_superior": 4870.3
+          },
+          {
+            "fecha": "2026-07-27",
+            "valor_central": 1998.2,
+            "ic_inferior": -872.7,
+            "ic_superior": 4869.2
+          },
+          {
+            "fecha": "2026-08-03",
+            "valor_central": 1989.3,
+            "ic_inferior": -892.1,
+            "ic_superior": 4870.8
+          },
+          {
+            "fecha": "2026-08-10",
+            "valor_central": 1982.9,
+            "ic_inferior": -909.0,
+            "ic_superior": 4874.9
+          },
+          {
+            "fecha": "2026-08-17",
+            "valor_central": 1978.5,
+            "ic_inferior": -923.9,
+            "ic_superior": 4881.0
+          },
+          {
+            "fecha": "2026-08-24",
+            "valor_central": 1975.5,
+            "ic_inferior": -937.3,
+            "ic_superior": 4888.4
+          },
+          {
+            "fecha": "2026-08-31",
+            "valor_central": 1973.3,
+            "ic_inferior": -949.9,
+            "ic_superior": 4896.6
+          },
+          {
+            "fecha": "2026-09-07",
+            "valor_central": 1971.5,
+            "ic_inferior": -962.1,
+            "ic_superior": 4905.1
+          },
+          {
+            "fecha": "2026-09-14",
+            "valor_central": 1969.7,
+            "ic_inferior": -974.2,
+            "ic_superior": 4913.6
+          },
+          {
+            "fecha": "2026-09-21",
+            "valor_central": 1967.9,
+            "ic_inferior": -986.3,
+            "ic_superior": 4922.1
+          },
+          {
+            "fecha": "2026-09-28",
+            "valor_central": 1966.2,
+            "ic_inferior": -998.2,
+            "ic_superior": 4930.6
+          },
+          {
+            "fecha": "2026-10-05",
+            "valor_central": 1965.1,
+            "ic_inferior": -1009.5,
+            "ic_superior": 4939.7
+          },
+          {
+            "fecha": "2026-10-12",
+            "valor_central": 1965.1,
+            "ic_inferior": -1019.7,
+            "ic_superior": 4949.9
+          },
+          {
+            "fecha": "2026-10-19",
+            "valor_central": 1967.0,
+            "ic_inferior": -1027.9,
+            "ic_superior": 4961.9
+          },
+          {
+            "fecha": "2026-10-26",
+            "valor_central": 1971.5,
+            "ic_inferior": -1033.5,
+            "ic_superior": 4976.5
+          },
+          {
+            "fecha": "2026-11-02",
+            "valor_central": 1979.4,
+            "ic_inferior": -1035.7,
+            "ic_superior": 4994.5
+          },
+          {
+            "fecha": "2026-11-09",
+            "valor_central": 1991.2,
+            "ic_inferior": -1034.0,
+            "ic_superior": 5016.3
+          },
+          {
+            "fecha": "2026-11-16",
+            "valor_central": 2007.2,
+            "ic_inferior": -1027.9,
+            "ic_superior": 5042.4
+          },
+          {
+            "fecha": "2026-11-23",
+            "valor_central": 2027.7,
+            "ic_inferior": -1017.4,
+            "ic_superior": 5072.8
+          },
+          {
+            "fecha": "2026-11-30",
+            "valor_central": 2052.2,
+            "ic_inferior": -1002.8,
+            "ic_superior": 5107.3
+          },
+          {
+            "fecha": "2026-12-07",
+            "valor_central": 2080.4,
+            "ic_inferior": -984.6,
+            "ic_superior": 5145.3
+          },
+          {
+            "fecha": "2026-12-14",
+            "valor_central": 2111.2,
+            "ic_inferior": -963.6,
+            "ic_superior": 5186.0
+          },
+          {
+            "fecha": "2026-12-21",
+            "valor_central": 2143.9,
+            "ic_inferior": -940.8,
+            "ic_superior": 5228.5
+          },
+          {
+            "fecha": "2026-12-28",
+            "valor_central": 2177.1,
+            "ic_inferior": -917.4,
+            "ic_superior": 5271.5
+          },
+          {
+            "fecha": "2027-01-04",
+            "valor_central": 2209.8,
+            "ic_inferior": -894.5,
+            "ic_superior": 5314.0
+          },
+          {
+            "fecha": "2027-01-11",
+            "valor_central": 2240.8,
+            "ic_inferior": -873.2,
+            "ic_superior": 5354.8
+          },
+          {
+            "fecha": "2027-01-18",
+            "valor_central": 2269.3,
+            "ic_inferior": -854.4,
+            "ic_superior": 5393.0
+          },
+          {
+            "fecha": "2027-01-25",
+            "valor_central": 2294.6,
+            "ic_inferior": -838.8,
+            "ic_superior": 5427.9
+          },
+          {
+            "fecha": "2027-02-01",
+            "valor_central": 2316.0,
+            "ic_inferior": -827.0,
+            "ic_superior": 5459.1
+          },
+          {
+            "fecha": "2027-02-08",
+            "valor_central": 2333.6,
+            "ic_inferior": -819.1,
+            "ic_superior": 5486.2
+          },
+          {
+            "fecha": "2027-02-15",
+            "valor_central": 2347.2,
+            "ic_inferior": -815.1,
+            "ic_superior": 5509.5
+          },
+          {
+            "fecha": "2027-02-22",
+            "valor_central": 2357.1,
+            "ic_inferior": -814.7,
+            "ic_superior": 5528.9
+          },
+          {
+            "fecha": "2027-03-01",
+            "valor_central": 2363.6,
+            "ic_inferior": -817.7,
+            "ic_superior": 5545.0
+          },
+          {
+            "fecha": "2027-03-08",
+            "valor_central": 2367.1,
+            "ic_inferior": -823.8,
+            "ic_superior": 5558.0
+          },
+          {
+            "fecha": "2027-03-15",
+            "valor_central": 2368.0,
+            "ic_inferior": -832.4,
+            "ic_superior": 5568.4
+          },
+          {
+            "fecha": "2027-03-22",
+            "valor_central": 2366.5,
+            "ic_inferior": -843.3,
+            "ic_superior": 5576.3
+          },
+          {
+            "fecha": "2027-03-29",
+            "valor_central": 2362.9,
+            "ic_inferior": -856.4,
+            "ic_superior": 5582.1
+          },
+          {
+            "fecha": "2027-04-05",
+            "valor_central": 2357.1,
+            "ic_inferior": -871.5,
+            "ic_superior": 5585.8
+          },
+          {
+            "fecha": "2027-04-12",
+            "valor_central": 2349.3,
+            "ic_inferior": -888.8,
+            "ic_superior": 5587.3
+          },
+          {
+            "fecha": "2027-04-19",
+            "valor_central": 2339.1,
+            "ic_inferior": -908.2,
+            "ic_superior": 5586.5
+          },
+          {
+            "fecha": "2027-04-26",
+            "valor_central": 2326.7,
+            "ic_inferior": -930.0,
+            "ic_superior": 5583.3
+          },
+          {
+            "fecha": "2027-05-03",
+            "valor_central": 2311.7,
+            "ic_inferior": -954.3,
+            "ic_superior": 5577.7
+          },
+          {
+            "fecha": "2027-05-10",
+            "valor_central": 2294.3,
+            "ic_inferior": -980.9,
+            "ic_superior": 5569.5
+          },
+          {
+            "fecha": "2027-05-17",
+            "valor_central": 2274.5,
+            "ic_inferior": -1009.9,
+            "ic_superior": 5559.0
+          },
+          {
+            "fecha": "2027-05-24",
+            "valor_central": 2252.8,
+            "ic_inferior": -1040.9,
+            "ic_superior": 5546.4
+          },
+          {
+            "fecha": "2027-05-31",
+            "valor_central": 2229.4,
+            "ic_inferior": -1073.5,
+            "ic_superior": 5532.3
+          },
+          {
+            "fecha": "2027-06-07",
+            "valor_central": 2205.2,
+            "ic_inferior": -1106.9,
+            "ic_superior": 5517.2
+          },
+          {
+            "fecha": "2027-06-14",
+            "valor_central": 2180.7,
+            "ic_inferior": -1140.4,
+            "ic_superior": 5501.9
+          },
+          {
+            "fecha": "2027-06-21",
+            "valor_central": 2157.0,
+            "ic_inferior": -1173.3,
+            "ic_superior": 5487.2
+          },
+          {
+            "fecha": "2027-06-28",
+            "valor_central": 2134.6,
+            "ic_inferior": -1204.8,
+            "ic_superior": 5473.9
+          },
+          {
+            "fecha": "2027-07-05",
+            "valor_central": 2114.3,
+            "ic_inferior": -1234.1,
+            "ic_superior": 5462.7
+          },
+          {
+            "fecha": "2027-07-12",
+            "valor_central": 2096.6,
+            "ic_inferior": -1260.8,
+            "ic_superior": 5454.1
+          },
+          {
+            "fecha": "2027-07-19",
+            "valor_central": 2081.9,
+            "ic_inferior": -1284.6,
+            "ic_superior": 5448.4
+          },
+          {
+            "fecha": "2027-07-26",
+            "valor_central": 2070.2,
+            "ic_inferior": -1305.3,
+            "ic_superior": 5445.7
+          },
+          {
+            "fecha": "2027-08-02",
+            "valor_central": 2061.3,
+            "ic_inferior": -1323.1,
+            "ic_superior": 5445.8
+          },
+          {
+            "fecha": "2027-08-09",
+            "valor_central": 2054.9,
+            "ic_inferior": -1338.4,
+            "ic_superior": 5448.3
+          },
+          {
+            "fecha": "2027-08-16",
+            "valor_central": 2050.5,
+            "ic_inferior": -1351.8,
+            "ic_superior": 5452.8
+          },
+          {
+            "fecha": "2027-08-23",
+            "valor_central": 2047.5,
+            "ic_inferior": -1363.7,
+            "ic_superior": 5458.7
+          },
+          {
+            "fecha": "2027-08-30",
+            "valor_central": 2045.3,
+            "ic_inferior": -1374.7,
+            "ic_superior": 5465.4
+          },
+          {
+            "fecha": "2027-09-06",
+            "valor_central": 2043.5,
+            "ic_inferior": -1385.4,
+            "ic_superior": 5472.4
+          },
+          {
+            "fecha": "2027-09-13",
+            "valor_central": 2041.7,
+            "ic_inferior": -1396.0,
+            "ic_superior": 5479.4
+          },
+          {
+            "fecha": "2027-09-20",
+            "valor_central": 2039.9,
+            "ic_inferior": -1406.7,
+            "ic_superior": 5486.4
+          },
+          {
+            "fecha": "2027-09-27",
+            "valor_central": 2038.2,
+            "ic_inferior": -1417.1,
+            "ic_superior": 5493.5
+          },
+          {
+            "fecha": "2027-10-04",
+            "valor_central": 2037.1,
+            "ic_inferior": -1427.0,
+            "ic_superior": 5501.2
+          },
+          {
+            "fecha": "2027-10-11",
+            "valor_central": 2037.1,
+            "ic_inferior": -1435.7,
+            "ic_superior": 5509.9
+          },
+          {
+            "fecha": "2027-10-18",
+            "valor_central": 2039.0,
+            "ic_inferior": -1442.6,
+            "ic_superior": 5520.5
+          },
+          {
+            "fecha": "2027-10-25",
+            "valor_central": 2043.5,
+            "ic_inferior": -1446.7,
+            "ic_superior": 5533.7
+          },
+          {
+            "fecha": "2027-11-01",
+            "valor_central": 2051.3,
+            "ic_inferior": -1447.6,
+            "ic_superior": 5550.2
+          },
+          {
+            "fecha": "2027-11-08",
+            "valor_central": 2063.1,
+            "ic_inferior": -1444.4,
+            "ic_superior": 5570.7
+          },
+          {
+            "fecha": "2027-11-15",
+            "valor_central": 2079.2,
+            "ic_inferior": -1436.9,
+            "ic_superior": 5595.4
+          },
+          {
+            "fecha": "2027-11-22",
+            "valor_central": 2099.7,
+            "ic_inferior": -1425.1,
+            "ic_superior": 5624.5
+          },
+          {
+            "fecha": "2027-11-29",
+            "valor_central": 2124.2,
+            "ic_inferior": -1409.1,
+            "ic_superior": 5657.6
+          },
+          {
+            "fecha": "2027-12-06",
+            "valor_central": 2152.3,
+            "ic_inferior": -1389.6,
+            "ic_superior": 5694.3
+          },
+          {
+            "fecha": "2027-12-13",
+            "valor_central": 2183.2,
+            "ic_inferior": -1367.3,
+            "ic_superior": 5733.7
+          },
+          {
+            "fecha": "2027-12-20",
+            "valor_central": 2215.8,
+            "ic_inferior": -1343.2,
+            "ic_superior": 5774.9
+          },
+          {
+            "fecha": "2027-12-27",
+            "valor_central": 2249.1,
+            "ic_inferior": -1318.4,
+            "ic_superior": 5816.6
+          },
+          {
+            "fecha": "2028-01-03",
+            "valor_central": 2281.8,
+            "ic_inferior": -1294.2,
+            "ic_superior": 5857.8
+          },
+          {
+            "fecha": "2028-01-10",
+            "valor_central": 2312.8,
+            "ic_inferior": -1271.6,
+            "ic_superior": 5897.3
+          },
+          {
+            "fecha": "2028-01-17",
+            "valor_central": 2341.3,
+            "ic_inferior": -1251.6,
+            "ic_superior": 5934.2
+          },
+          {
+            "fecha": "2028-01-24",
+            "valor_central": 2366.5,
+            "ic_inferior": -1234.8,
+            "ic_superior": 5967.9
+          },
+          {
+            "fecha": "2028-01-31",
+            "valor_central": 2388.0,
+            "ic_inferior": -1221.7,
+            "ic_superior": 5997.8
+          },
+          {
+            "fecha": "2028-02-07",
+            "valor_central": 2405.6,
+            "ic_inferior": -1212.5,
+            "ic_superior": 6023.7
+          },
+          {
+            "fecha": "2028-02-14",
+            "valor_central": 2419.2,
+            "ic_inferior": -1207.3,
+            "ic_superior": 6045.7
+          },
+          {
+            "fecha": "2028-02-21",
+            "valor_central": 2429.1,
+            "ic_inferior": -1205.7,
+            "ic_superior": 6063.9
+          },
+          {
+            "fecha": "2028-02-28",
+            "valor_central": 2435.6,
+            "ic_inferior": -1207.5,
+            "ic_superior": 6078.8
+          },
+          {
+            "fecha": "2028-03-06",
+            "valor_central": 2439.1,
+            "ic_inferior": -1212.3,
+            "ic_superior": 6090.6
+          },
+          {
+            "fecha": "2028-03-13",
+            "valor_central": 2440.0,
+            "ic_inferior": -1219.8,
+            "ic_superior": 6099.7
+          },
+          {
+            "fecha": "2028-03-20",
+            "valor_central": 2438.5,
+            "ic_inferior": -1229.5,
+            "ic_superior": 6106.5
+          },
+          {
+            "fecha": "2028-03-27",
+            "valor_central": 2434.8,
+            "ic_inferior": -1241.4,
+            "ic_superior": 6111.1
+          },
+          {
+            "fecha": "2028-04-03",
+            "valor_central": 2429.1,
+            "ic_inferior": -1255.4,
+            "ic_superior": 6113.6
+          },
+          {
+            "fecha": "2028-04-10",
+            "valor_central": 2421.2,
+            "ic_inferior": -1271.5,
+            "ic_superior": 6114.0
+          },
+          {
+            "fecha": "2028-04-17",
+            "valor_central": 2411.1,
+            "ic_inferior": -1289.8,
+            "ic_superior": 6112.1
+          },
+          {
+            "fecha": "2028-04-24",
+            "valor_central": 2398.7,
+            "ic_inferior": -1310.4,
+            "ic_superior": 6107.8
+          },
+          {
+            "fecha": "2028-05-01",
+            "valor_central": 2383.7,
+            "ic_inferior": -1333.6,
+            "ic_superior": 6101.0
+          },
+          {
+            "fecha": "2028-05-08",
+            "valor_central": 2366.3,
+            "ic_inferior": -1359.1,
+            "ic_superior": 6091.7
+          },
+          {
+            "fecha": "2028-05-15",
+            "valor_central": 2346.5,
+            "ic_inferior": -1387.0,
+            "ic_superior": 6080.1
+          },
+          {
+            "fecha": "2028-05-22",
+            "valor_central": 2324.7,
+            "ic_inferior": -1416.9,
+            "ic_superior": 6066.4
+          },
+          {
+            "fecha": "2028-05-29",
+            "valor_central": 2301.4,
+            "ic_inferior": -1448.3,
+            "ic_superior": 6051.1
+          },
+          {
+            "fecha": "2028-06-05",
+            "valor_central": 2277.2,
+            "ic_inferior": -1480.6,
+            "ic_superior": 6035.0
+          },
+          {
+            "fecha": "2028-06-12",
+            "valor_central": 2252.7,
+            "ic_inferior": -1513.1,
+            "ic_superior": 6018.6
+          },
+          {
+            "fecha": "2028-06-19",
+            "valor_central": 2228.9,
+            "ic_inferior": -1544.9,
+            "ic_superior": 6002.8
+          },
+          {
+            "fecha": "2028-06-26",
+            "valor_central": 2206.6,
+            "ic_inferior": -1575.3,
+            "ic_superior": 5988.5
+          },
+          {
+            "fecha": "2028-07-03",
+            "valor_central": 2186.3,
+            "ic_inferior": -1603.6,
+            "ic_superior": 5976.2
+          },
+          {
+            "fecha": "2028-07-10",
+            "valor_central": 2168.6,
+            "ic_inferior": -1629.3,
+            "ic_superior": 5966.5
+          },
+          {
+            "fecha": "2028-07-17",
+            "valor_central": 2153.9,
+            "ic_inferior": -1652.0,
+            "ic_superior": 5959.8
+          },
+          {
+            "fecha": "2028-07-24",
+            "valor_central": 2142.2,
+            "ic_inferior": -1671.6,
+            "ic_superior": 5956.0
+          },
+          {
+            "fecha": "2028-07-31",
+            "valor_central": 2133.3,
+            "ic_inferior": -1688.5,
+            "ic_superior": 5955.1
+          },
+          {
+            "fecha": "2028-08-07",
+            "valor_central": 2126.9,
+            "ic_inferior": -1702.8,
+            "ic_superior": 5956.6
+          },
+          {
+            "fecha": "2028-08-14",
+            "valor_central": 2122.5,
+            "ic_inferior": -1715.1,
+            "ic_superior": 5960.1
+          },
+          {
+            "fecha": "2028-08-21",
+            "valor_central": 2119.5,
+            "ic_inferior": -1726.0,
+            "ic_superior": 5965.0
+          },
+          {
+            "fecha": "2028-08-28",
+            "valor_central": 2117.3,
+            "ic_inferior": -1736.0,
+            "ic_superior": 5970.7
+          },
+          {
+            "fecha": "2028-09-04",
+            "valor_central": 2115.5,
+            "ic_inferior": -1745.7,
+            "ic_superior": 5976.7
+          },
+          {
+            "fecha": "2028-09-11",
+            "valor_central": 2113.7,
+            "ic_inferior": -1755.4,
+            "ic_superior": 5982.7
+          },
+          {
+            "fecha": "2028-09-18",
+            "valor_central": 2111.9,
+            "ic_inferior": -1765.0,
+            "ic_superior": 5988.7
+          },
+          {
+            "fecha": "2028-09-25",
+            "valor_central": 2110.2,
+            "ic_inferior": -1774.5,
+            "ic_superior": 5994.9
+          },
+          {
+            "fecha": "2028-10-02",
+            "valor_central": 2109.1,
+            "ic_inferior": -1783.4,
+            "ic_superior": 6001.6
+          },
+          {
+            "fecha": "2028-10-09",
+            "valor_central": 2109.1,
+            "ic_inferior": -1791.2,
+            "ic_superior": 6009.3
+          },
+          {
+            "fecha": "2028-10-16",
+            "valor_central": 2111.0,
+            "ic_inferior": -1797.1,
+            "ic_superior": 6019.0
+          },
+          {
+            "fecha": "2028-10-23",
+            "valor_central": 2115.5,
+            "ic_inferior": -1800.3,
+            "ic_superior": 6031.2
+          },
+          {
+            "fecha": "2028-10-30",
+            "valor_central": 2123.3,
+            "ic_inferior": -1800.2,
+            "ic_superior": 6046.8
+          },
+          {
+            "fecha": "2028-11-06",
+            "valor_central": 2135.1,
+            "ic_inferior": -1796.1,
+            "ic_superior": 6066.3
+          },
+          {
+            "fecha": "2028-11-13",
+            "valor_central": 2151.2,
+            "ic_inferior": -1787.7,
+            "ic_superior": 6090.1
+          },
+          {
+            "fecha": "2028-11-20",
+            "valor_central": 2171.7,
+            "ic_inferior": -1774.9,
+            "ic_superior": 6118.3
+          },
+          {
+            "fecha": "2028-11-27",
+            "valor_central": 2196.2,
+            "ic_inferior": -1758.1,
+            "ic_superior": 6150.5
+          },
+          {
+            "fecha": "2028-12-04",
+            "valor_central": 2224.3,
+            "ic_inferior": -1737.6,
+            "ic_superior": 6186.3
+          },
+          {
+            "fecha": "2028-12-11",
+            "valor_central": 2255.2,
+            "ic_inferior": -1714.3,
+            "ic_superior": 6224.8
+          },
+          {
+            "fecha": "2028-12-18",
+            "valor_central": 2287.8,
+            "ic_inferior": -1689.4,
+            "ic_superior": 6265.0
+          },
+          {
+            "fecha": "2028-12-25",
+            "valor_central": 2321.1,
+            "ic_inferior": -1663.7,
+            "ic_superior": 6305.9
+          },
+          {
+            "fecha": "2029-01-01",
+            "valor_central": 2353.8,
+            "ic_inferior": -1638.6,
+            "ic_superior": 6346.1
+          },
+          {
+            "fecha": "2029-01-08",
+            "valor_central": 2384.8,
+            "ic_inferior": -1615.2,
+            "ic_superior": 6384.8
+          },
+          {
+            "fecha": "2029-01-15",
+            "valor_central": 2413.3,
+            "ic_inferior": -1594.2,
+            "ic_superior": 6420.9
+          },
+          {
+            "fecha": "2029-01-22",
+            "valor_central": 2438.5,
+            "ic_inferior": -1576.6,
+            "ic_superior": 6453.6
+          },
+          {
+            "fecha": "2029-01-29",
+            "valor_central": 2460.0,
+            "ic_inferior": -1562.6,
+            "ic_superior": 6482.7
+          },
+          {
+            "fecha": "2029-02-05",
+            "valor_central": 2477.6,
+            "ic_inferior": -1552.6,
+            "ic_superior": 6507.7
+          },
+          {
+            "fecha": "2029-02-12",
+            "valor_central": 2491.2,
+            "ic_inferior": -1546.5,
+            "ic_superior": 6528.9
+          },
+          {
+            "fecha": "2029-02-19",
+            "valor_central": 2501.1,
+            "ic_inferior": -1544.1,
+            "ic_superior": 6546.3
+          },
+          {
+            "fecha": "2029-02-26",
+            "valor_central": 2507.6,
+            "ic_inferior": -1545.1,
+            "ic_superior": 6560.3
+          },
+          {
+            "fecha": "2029-03-05",
+            "valor_central": 2511.1,
+            "ic_inferior": -1549.0,
+            "ic_superior": 6571.2
+          },
+          {
+            "fecha": "2029-03-12",
+            "valor_central": 2512.0,
+            "ic_inferior": -1555.6,
+            "ic_superior": 6579.6
+          },
+          {
+            "fecha": "2029-03-19",
+            "valor_central": 2510.5,
+            "ic_inferior": -1564.5,
+            "ic_superior": 6585.5
+          },
+          {
+            "fecha": "2029-03-26",
+            "valor_central": 2506.8,
+            "ic_inferior": -1575.6,
+            "ic_superior": 6589.3
+          },
+          {
+            "fecha": "2029-04-02",
+            "valor_central": 2501.1,
+            "ic_inferior": -1588.8,
+            "ic_superior": 6591.0
+          },
+          {
+            "fecha": "2029-04-09",
+            "valor_central": 2493.2,
+            "ic_inferior": -1604.0,
+            "ic_superior": 6590.5
+          },
+          {
+            "fecha": "2029-04-16",
+            "valor_central": 2483.1,
+            "ic_inferior": -1621.5,
+            "ic_superior": 6587.8
+          },
+          {
+            "fecha": "2029-04-23",
+            "valor_central": 2470.6,
+            "ic_inferior": -1641.4,
+            "ic_superior": 6582.7
+          },
+          {
+            "fecha": "2029-04-30",
+            "valor_central": 2455.7,
+            "ic_inferior": -1663.7,
+            "ic_superior": 6575.1
+          },
+          {
+            "fecha": "2029-05-07",
+            "valor_central": 2438.3,
+            "ic_inferior": -1688.5,
+            "ic_superior": 6565.0
+          },
+          {
+            "fecha": "2029-05-14",
+            "valor_central": 2418.5,
+            "ic_inferior": -1715.6,
+            "ic_superior": 6552.6
+          },
+          {
+            "fecha": "2029-05-21",
+            "valor_central": 2396.7,
+            "ic_inferior": -1744.7,
+            "ic_superior": 6538.2
+          },
+          {
+            "fecha": "2029-05-28",
+            "valor_central": 2373.4,
+            "ic_inferior": -1775.3,
+            "ic_superior": 6522.1
+          },
+          {
+            "fecha": "2029-06-04",
+            "valor_central": 2349.1,
+            "ic_inferior": -1806.9,
+            "ic_superior": 6505.2
+          },
+          {
+            "fecha": "2029-06-11",
+            "valor_central": 2324.7,
+            "ic_inferior": -1838.6,
+            "ic_superior": 6488.0
+          },
+          {
+            "fecha": "2029-06-18",
+            "valor_central": 2300.9,
+            "ic_inferior": -1869.6,
+            "ic_superior": 6471.5
+          },
+          {
+            "fecha": "2029-06-25",
+            "valor_central": 2278.6,
+            "ic_inferior": -1899.3,
+            "ic_superior": 6456.4
+          },
+          {
+            "fecha": "2029-07-02",
+            "valor_central": 2258.3,
+            "ic_inferior": -1926.8,
+            "ic_superior": 6443.4
+          },
+          {
+            "fecha": "2029-07-09",
+            "valor_central": 2240.6,
+            "ic_inferior": -1951.7,
+            "ic_superior": 6432.9
+          },
+          {
+            "fecha": "2029-07-16",
+            "valor_central": 2225.9,
+            "ic_inferior": -1973.6,
+            "ic_superior": 6425.4
+          },
+          {
+            "fecha": "2029-07-23",
+            "valor_central": 2214.2,
+            "ic_inferior": -1992.6,
+            "ic_superior": 6420.9
+          },
+          {
+            "fecha": "2029-07-30",
+            "valor_central": 2205.3,
+            "ic_inferior": -2008.6,
+            "ic_superior": 6419.3
+          },
+          {
+            "fecha": "2029-08-06",
+            "valor_central": 2198.9,
+            "ic_inferior": -2022.2,
+            "ic_superior": 6420.1
+          },
+          {
+            "fecha": "2029-08-13",
+            "valor_central": 2194.5,
+            "ic_inferior": -2033.8,
+            "ic_superior": 6422.8
+          },
+          {
+            "fecha": "2029-08-20",
+            "valor_central": 2191.5,
+            "ic_inferior": -2044.0,
+            "ic_superior": 6427.0
+          },
+          {
+            "fecha": "2029-08-27",
+            "valor_central": 2189.3,
+            "ic_inferior": -2053.3,
+            "ic_superior": 6431.9
+          },
+          {
+            "fecha": "2029-09-03",
+            "valor_central": 2187.5,
+            "ic_inferior": -2062.3,
+            "ic_superior": 6437.2
+          },
+          {
+            "fecha": "2029-09-10",
+            "valor_central": 2185.7,
+            "ic_inferior": -2071.2,
+            "ic_superior": 6442.6
+          },
+          {
+            "fecha": "2029-09-17",
+            "valor_central": 2183.9,
+            "ic_inferior": -2080.1,
+            "ic_superior": 6447.9
+          },
+          {
+            "fecha": "2029-09-24",
+            "valor_central": 2182.2,
+            "ic_inferior": -2088.9,
+            "ic_superior": 6453.3
+          },
+          {
+            "fecha": "2029-10-01",
+            "valor_central": 2181.1,
+            "ic_inferior": -2097.1,
+            "ic_superior": 6459.2
+          },
+          {
+            "fecha": "2029-10-08",
+            "valor_central": 2181.1,
+            "ic_inferior": -2104.2,
+            "ic_superior": 6466.3
+          },
+          {
+            "fecha": "2029-10-15",
+            "valor_central": 2183.0,
+            "ic_inferior": -2109.4,
+            "ic_superior": 6475.3
+          },
+          {
+            "fecha": "2029-10-22",
+            "valor_central": 2187.5,
+            "ic_inferior": -2111.9,
+            "ic_superior": 6486.8
+          },
+          {
+            "fecha": "2029-10-29",
+            "valor_central": 2195.3,
+            "ic_inferior": -2111.1,
+            "ic_superior": 6501.7
+          },
+          {
+            "fecha": "2029-11-05",
+            "valor_central": 2207.1,
+            "ic_inferior": -2106.3,
+            "ic_superior": 6520.6
+          },
+          {
+            "fecha": "2029-11-12",
+            "valor_central": 2223.2,
+            "ic_inferior": -2097.3,
+            "ic_superior": 6543.7
+          },
+          {
+            "fecha": "2029-11-19",
+            "valor_central": 2243.6,
+            "ic_inferior": -2083.8,
+            "ic_superior": 6571.1
+          },
+          {
+            "fecha": "2029-11-26",
+            "valor_central": 2268.2,
+            "ic_inferior": -2066.3,
+            "ic_superior": 6602.7
+          },
+          {
+            "fecha": "2029-12-03",
+            "valor_central": 2296.3,
+            "ic_inferior": -2045.1,
+            "ic_superior": 6637.8
+          },
+          {
+            "fecha": "2029-12-10",
+            "valor_central": 2327.2,
+            "ic_inferior": -2021.2,
+            "ic_superior": 6675.6
+          },
+          {
+            "fecha": "2029-12-17",
+            "valor_central": 2359.8,
+            "ic_inferior": -1995.6,
+            "ic_superior": 6715.2
+          },
+          {
+            "fecha": "2029-12-24",
+            "valor_central": 2393.1,
+            "ic_inferior": -1969.3,
+            "ic_superior": 6755.4
+          },
+          {
+            "fecha": "2029-12-31",
+            "valor_central": 2425.7,
+            "ic_inferior": -1943.5,
+            "ic_superior": 6795.0
+          },
+          {
+            "fecha": "2030-01-07",
+            "valor_central": 2456.8,
+            "ic_inferior": -1919.4,
+            "ic_superior": 6833.0
+          },
+          {
+            "fecha": "2030-01-14",
+            "valor_central": 2485.3,
+            "ic_inferior": -1897.8,
+            "ic_superior": 6868.4
+          },
+          {
+            "fecha": "2030-01-21",
+            "valor_central": 2510.5,
+            "ic_inferior": -1879.5,
+            "ic_superior": 6900.6
+          },
+          {
+            "fecha": "2030-01-28",
+            "valor_central": 2532.0,
+            "ic_inferior": -1864.9,
+            "ic_superior": 6929.0
+          },
+          {
+            "fecha": "2030-02-04",
+            "valor_central": 2549.6,
+            "ic_inferior": -1854.3,
+            "ic_superior": 6953.4
+          },
+          {
+            "fecha": "2030-02-11",
+            "valor_central": 2563.2,
+            "ic_inferior": -1847.5,
+            "ic_superior": 6973.9
+          },
+          {
+            "fecha": "2030-02-18",
+            "valor_central": 2573.1,
+            "ic_inferior": -1844.5,
+            "ic_superior": 6990.6
+          },
+          {
+            "fecha": "2030-02-25",
+            "valor_central": 2579.6,
+            "ic_inferior": -1844.8,
+            "ic_superior": 7004.0
+          },
+          {
+            "fecha": "2030-03-04",
+            "valor_central": 2583.1,
+            "ic_inferior": -1848.2,
+            "ic_superior": 7014.4
+          },
+          {
+            "fecha": "2030-03-11",
+            "valor_central": 2584.0,
+            "ic_inferior": -1854.1,
+            "ic_superior": 7022.1
+          },
+          {
+            "fecha": "2030-03-18",
+            "valor_central": 2582.5,
+            "ic_inferior": -1862.4,
+            "ic_superior": 7027.4
+          },
+          {
+            "fecha": "2030-03-25",
+            "valor_central": 2578.8,
+            "ic_inferior": -1872.9,
+            "ic_superior": 7030.6
+          },
+          {
+            "fecha": "2030-04-01",
+            "valor_central": 2573.1,
+            "ic_inferior": -1885.4,
+            "ic_superior": 7031.6
+          },
+          {
+            "fecha": "2030-04-08",
+            "valor_central": 2565.2,
+            "ic_inferior": -1900.1,
+            "ic_superior": 7030.6
+          },
+          {
+            "fecha": "2030-04-15",
+            "valor_central": 2555.1,
+            "ic_inferior": -1917.0,
+            "ic_superior": 7027.2
+          },
+          {
+            "fecha": "2030-04-22",
+            "valor_central": 2542.6,
+            "ic_inferior": -1936.2,
+            "ic_superior": 7021.5
+          },
+          {
+            "fecha": "2030-04-29",
+            "valor_central": 2527.7,
+            "ic_inferior": -1958.0,
+            "ic_superior": 7013.3
+          },
+          {
+            "fecha": "2030-05-06",
+            "valor_central": 2510.3,
+            "ic_inferior": -1982.1,
+            "ic_superior": 7002.7
+          },
+          {
+            "fecha": "2030-05-13",
+            "valor_central": 2490.5,
+            "ic_inferior": -2008.6,
+            "ic_superior": 6989.6
+          },
+          {
+            "fecha": "2030-05-20",
+            "valor_central": 2468.7,
+            "ic_inferior": -2037.1,
+            "ic_superior": 6974.6
+          },
+          {
+            "fecha": "2030-05-27",
+            "valor_central": 2445.4,
+            "ic_inferior": -2067.2,
+            "ic_superior": 6958.0
+          },
+          {
+            "fecha": "2030-06-03",
+            "valor_central": 2421.1,
+            "ic_inferior": -2098.2,
+            "ic_superior": 6940.4
+          },
+          {
+            "fecha": "2030-06-10",
+            "valor_central": 2396.7,
+            "ic_inferior": -2129.3,
+            "ic_superior": 6922.7
+          },
+          {
+            "fecha": "2030-06-17",
+            "valor_central": 2372.9,
+            "ic_inferior": -2159.8,
+            "ic_superior": 6905.6
+          },
+          {
+            "fecha": "2030-06-24",
+            "valor_central": 2350.6,
+            "ic_inferior": -2188.8,
+            "ic_superior": 6889.9
+          },
+          {
+            "fecha": "2030-07-01",
+            "valor_central": 2330.3,
+            "ic_inferior": -2215.8,
+            "ic_superior": 6876.3
+          },
+          {
+            "fecha": "2030-07-08",
+            "valor_central": 2312.6,
+            "ic_inferior": -2240.1,
+            "ic_superior": 6865.3
+          },
+          {
+            "fecha": "2030-07-15",
+            "valor_central": 2297.9,
+            "ic_inferior": -2261.5,
+            "ic_superior": 6857.2
+          },
+          {
+            "fecha": "2030-07-22",
+            "valor_central": 2286.2,
+            "ic_inferior": -2279.8,
+            "ic_superior": 6852.2
+          },
+          {
+            "fecha": "2030-07-29",
+            "valor_central": 2277.3,
+            "ic_inferior": -2295.3,
+            "ic_superior": 6849.9
+          },
+          {
+            "fecha": "2030-08-05",
+            "valor_central": 2270.9,
+            "ic_inferior": -2308.3,
+            "ic_superior": 6850.2
+          },
+          {
+            "fecha": "2030-08-12",
+            "valor_central": 2266.5,
+            "ic_inferior": -2319.4,
+            "ic_superior": 6852.4
+          },
+          {
+            "fecha": "2030-08-19",
+            "valor_central": 2263.5,
+            "ic_inferior": -2329.0,
+            "ic_superior": 6855.9
+          },
+          {
+            "fecha": "2030-08-26",
+            "valor_central": 2261.3,
+            "ic_inferior": -2337.8,
+            "ic_superior": 6860.3
+          },
+          {
+            "fecha": "2030-09-02",
+            "valor_central": 2259.4,
+            "ic_inferior": -2346.2,
+            "ic_superior": 6865.1
+          },
+          {
+            "fecha": "2030-09-09",
+            "valor_central": 2257.7,
+            "ic_inferior": -2354.5,
+            "ic_superior": 6869.9
+          },
+          {
+            "fecha": "2030-09-16",
+            "valor_central": 2255.9,
+            "ic_inferior": -2362.9,
+            "ic_superior": 6874.6
+          },
+          {
+            "fecha": "2030-09-23",
+            "valor_central": 2254.2,
+            "ic_inferior": -2371.1,
+            "ic_superior": 6879.5
+          },
+          {
+            "fecha": "2030-09-30",
+            "valor_central": 2253.1,
+            "ic_inferior": -2378.8,
+            "ic_superior": 6884.9
+          },
+          {
+            "fecha": "2030-10-07",
+            "valor_central": 2253.1,
+            "ic_inferior": -2385.3,
+            "ic_superior": 6891.5
+          },
+          {
+            "fecha": "2030-10-14",
+            "valor_central": 2254.9,
+            "ic_inferior": -2390.0,
+            "ic_superior": 6899.9
+          },
+          {
+            "fecha": "2030-10-21",
+            "valor_central": 2259.5,
+            "ic_inferior": -2392.0,
+            "ic_superior": 6910.9
+          },
+          {
+            "fecha": "2030-10-28",
+            "valor_central": 2267.3,
+            "ic_inferior": -2390.7,
+            "ic_superior": 6925.3
+          },
+          {
+            "fecha": "2030-11-04",
+            "valor_central": 2279.1,
+            "ic_inferior": -2385.4,
+            "ic_superior": 6943.6
+          },
+          {
+            "fecha": "2030-11-11",
+            "valor_central": 2295.2,
+            "ic_inferior": -2375.8,
+            "ic_superior": 6966.2
+          },
+          {
+            "fecha": "2030-11-18",
+            "valor_central": 2315.6,
+            "ic_inferior": -2361.8,
+            "ic_superior": 6993.1
+          },
+          {
+            "fecha": "2030-11-25",
+            "valor_central": 2340.2,
+            "ic_inferior": -2343.7,
+            "ic_superior": 7024.1
+          },
+          {
+            "fecha": "2030-12-02",
+            "valor_central": 2368.3,
+            "ic_inferior": -2322.1,
+            "ic_superior": 7058.7
+          },
+          {
+            "fecha": "2030-12-09",
+            "valor_central": 2399.2,
+            "ic_inferior": -2297.7,
+            "ic_superior": 7096.0
+          },
+          {
+            "fecha": "2030-12-16",
+            "valor_central": 2431.8,
+            "ic_inferior": -2271.5,
+            "ic_superior": 7135.1
+          },
+          {
+            "fecha": "2030-12-23",
+            "valor_central": 2465.0,
+            "ic_inferior": -2244.7,
+            "ic_superior": 7174.8
+          },
+          {
+            "fecha": "2030-12-30",
+            "valor_central": 2497.7,
+            "ic_inferior": -2218.4,
+            "ic_superior": 7213.9
           }
         ],
         "residuals": [

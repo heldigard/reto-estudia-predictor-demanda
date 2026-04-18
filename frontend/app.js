@@ -3,7 +3,7 @@ const state = {
   catalog: [],
   currentSku: null,
   currentImputation: "seasonal_median",
-  currentHorizon: 12,
+  currentHorizon: 367,
   cache: new Map(),
   charts: {},
   meta: null,
@@ -113,11 +113,32 @@ function metricCard(label, value, note) {
   `;
 }
 
+function formatDateLabel(dateString, mode = "short") {
+  const date = new Date(`${dateString}T00:00:00`);
+  if (Number.isNaN(date.getTime())) {
+    return dateString;
+  }
+  if (mode === "year") {
+    return String(date.getUTCFullYear());
+  }
+  return new Intl.DateTimeFormat("es-CO", {
+    year: "numeric",
+    month: "short",
+  }).format(date);
+}
+
+function findForecastIndexForYear(forecastRows, year) {
+  const index = forecastRows.findIndex((row) => row.fecha.startsWith(String(year)));
+  return index >= 0 ? index + 1 : null;
+}
+
 function renderMetrics(payload, analysis) {
+  const forecastRows = analysis.best_run.forecast;
+  const forecastEnd = forecastRows.at(-1)?.fecha ?? "—";
   const metrics = [
     {
       label: "Mejor modelo",
-      value: analysis.best_model.replace("_", " "),
+      value: prettyModelName(analysis.best_model),
       note: `MAPE ${analysis.best_model_metrics.mape}%`,
     },
     {
@@ -138,7 +159,7 @@ function renderMetrics(payload, analysis) {
     {
       label: "Horizonte",
       value: `${state.currentHorizon}`,
-      note: "semanas proyectadas",
+      note: `semanas proyectadas · cierre ${forecastEnd}`,
     },
   ];
 
@@ -235,8 +256,23 @@ function renderSeriesChart(payload, analysis) {
       scales: {
         x: {
           ticks: {
-            maxTicksLimit: 12,
+            maxTicksLimit: labels.length > 200 ? 16 : 12,
             color: "#56616f",
+            callback: (value, index) => {
+              const label = labels[index];
+              if (!label) {
+                return "";
+              }
+              if (labels.length > 200) {
+                const date = new Date(`${label}T00:00:00`);
+                const isBoundary =
+                  index === 0 ||
+                  index === labels.length - 1 ||
+                  (date.getUTCMonth() === 0 && date.getUTCDate() <= 7);
+                return isBoundary ? String(date.getUTCFullYear()) : "";
+              }
+              return formatDateLabel(label);
+            },
           },
           grid: { color: "rgba(23, 32, 42, 0.08)" },
         },
@@ -345,6 +381,69 @@ function renderForecastTable(analysis) {
     </thead>
     <tbody>${rows}</tbody>
   `;
+
+  renderForecastInsights(analysis);
+}
+
+function renderForecastInsights(analysis) {
+  const forecastRows = analysis.best_run.forecast;
+  const container = qs("forecast-insights");
+  const chipContainer = qs("forecast-year-chips");
+  if (!container || !chipContainer || !forecastRows.length) {
+    return;
+  }
+
+  const first = forecastRows[0];
+  const last = forecastRows.at(-1);
+  const middle = forecastRows[Math.floor(forecastRows.length / 2)];
+  const lastWidth = (last.ic_superior - last.ic_inferior).toFixed(1);
+  const years = [...new Set(forecastRows.map((row) => row.fecha.slice(0, 4)))];
+
+  container.innerHTML = `
+    <article class="forecast-card">
+      <strong>Arranque forecast</strong>
+      <span>${first.valor_central}</span>
+      <small>${formatDateLabel(first.fecha)} · primer punto proyectado</small>
+    </article>
+    <article class="forecast-card">
+      <strong>Punto medio</strong>
+      <span>${middle.valor_central}</span>
+      <small>${formatDateLabel(middle.fecha)} · seguimiento del tramo largo</small>
+    </article>
+    <article class="forecast-card">
+      <strong>Cierre visible</strong>
+      <span>${last.valor_central}</span>
+      <small>${formatDateLabel(last.fecha)} · último valor visible</small>
+    </article>
+    <article class="forecast-card">
+      <strong>Incertidumbre final</strong>
+      <span>${lastWidth}</span>
+      <small>Ancho del intervalo en el último punto del forecast</small>
+    </article>
+  `;
+
+  chipContainer.innerHTML = years
+    .map((year) => {
+      const horizon = findForecastIndexForYear(forecastRows, Number(year));
+      const isActive = forecastRows.at(-1)?.fecha.startsWith(year);
+      return `
+        <button class="chip year-chip ${isActive ? "active" : ""}" type="button" data-horizon="${horizon}">
+          ver ${year}
+        </button>
+      `;
+    })
+    .join("");
+
+  chipContainer.querySelectorAll(".year-chip").forEach((button) => {
+    button.addEventListener("click", async () => {
+      state.currentHorizon = Number(button.dataset.horizon);
+      qs("horizon-range").value = String(state.currentHorizon);
+      if (state.apiBaseUrl) {
+        state.cache.clear();
+      }
+      await refreshView();
+    });
+  });
 }
 
 function renderResidualChart(analysis) {
@@ -426,7 +525,10 @@ async function refreshView() {
   const analysis = getCurrentAnalysis(payload);
 
   qs("chart-title").textContent = `${normalized.producto} · ${normalized.sku}`;
-  qs("horizon-label").textContent = `${state.currentHorizon} semanas`;
+  const forecastEnd = analysis.best_run.forecast.at(-1)?.fecha;
+  qs("horizon-label").textContent = forecastEnd
+    ? `${state.currentHorizon} semanas · hasta ${forecastEnd}`
+    : `${state.currentHorizon} semanas`;
 
   renderMetrics(normalized, analysis);
   renderSeriesChart(normalized, analysis);
@@ -460,6 +562,12 @@ function renderHeaderState() {
   if (liveStatus && state.apiBaseUrl) {
     liveStatus.textContent = "La proyección visible puede recalcularse en tiempo real para el producto seleccionado.";
   }
+  const horizonRange = qs("horizon-range");
+  horizonRange.max = String(state.meta.max_horizon);
+  if (state.currentHorizon > state.meta.max_horizon) {
+    state.currentHorizon = state.meta.max_horizon;
+  }
+  horizonRange.value = String(state.currentHorizon);
 }
 
 function attachEvents() {
@@ -519,6 +627,7 @@ async function bootstrap() {
       ? detectedApiBaseUrl
       : "";
     await loadCatalog();
+    state.currentHorizon = state.meta.max_horizon;
     populateCatalog();
     renderHeaderState();
     attachEvents();
